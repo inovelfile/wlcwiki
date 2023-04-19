@@ -859,36 +859,36 @@ footer p {
 }
 
 .single-container h1 {
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 .single-container h2 {
     font-size: 31px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 .single-container h3 {
     font-size: 26px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 .single-container h4 {
     font-size: 22px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 .single-container h5 {
     font-size: 18px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 .single-container h6 {
     font-size: 15px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 .single-container p {
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .single-container pre {
@@ -898,7 +898,7 @@ footer p {
     font-size: 15px;
     width:100%;
     overflow:auto;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     /* border: #FF8F1F solid 1px; */
     padding: 5px;
 }
@@ -913,7 +913,7 @@ footer p {
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .single-container button {
@@ -925,7 +925,7 @@ footer p {
     background-color: #FF8F1F;
     color: #fff;
     transition: 0.3s;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .single-container .long {
@@ -1047,7 +1047,7 @@ footer p {
     border-radius: 10px;
     width: 100%;
     border-left: 6px solid #006AE6;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .alert-info .isax {
@@ -1064,7 +1064,7 @@ footer p {
     border-radius: 10px;
     width: 100%;
     border-left: 6px solid #FDC500;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .alert-warning .isax {
@@ -1081,7 +1081,7 @@ footer p {
     border-radius: 10px;
     width: 100%;
     border-left: 6px solid #E50000;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .alert-danger .isax {
@@ -1098,7 +1098,7 @@ footer p {
     border-radius: 10px;
     width: 100%;
     border-left: 6px solid #00B468;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .alert-success .isax {
