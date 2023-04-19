@@ -1,0 +1,37 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'lumidoc'
+
+[params]
+    Description = 'Wheelcraft Wiki adalah Tempat di mana kamu bisa mencari informasi seputar Server Minecraft Wheelcraft Indonesia.'
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    
+[sitemap]
+    changefreq = 'daily'
+    filename = 'sitemap.xml'
+    priority = 0.5
+
+[related]
+    includeNewer = false
+    threshold = 80
+    toLower = false
+[[related.indices]]
+    name = 'keywords'
+    weight = 100
+[[related.indices]]
+    name = 'date'
+    weight = 10
+
+# Default site wide settings
+[build.processing]
+    skip_processing = true
+
+# Branch specific settings
+[context.branch-name.processing]
+    skip_processing = false
+[context.branch-name.processing.css]
+    bundle = false
+    minify = true
