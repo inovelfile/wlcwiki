@@ -37,7 +37,7 @@
 {{ end }}
 <meta property="og:url" content="{{.Permalink}}" />
 {{ if .IsHome }}
-<meta property="og:image" content="https://wlcwiki.netlify.app/img/logo.svg" />
+<meta property="og:image" content="https://wlcwiki.netlify.app/img/featured-image-default.svg" />
 {{ else }}
 <meta property="og:image" content="https://wlcwiki.netlify.app{{.Params.featured_image}}" />
 {{ end }}
@@ -54,7 +54,7 @@
 <meta name="twitter:description" content="{{ .Site.Params.Description }}" />
 {{ end }}
 {{ if .IsHome }}
-<meta name="twitter:image" content="https://wlcwiki.netlify.app/img/logo.svg" />
+<meta name="twitter:image" content="https://wlcwiki.netlify.app/img/featured-image-default.svg" />
 {{ else }}
 <meta name="twitter:image" content="https://wlcwiki.netlify.app{{.Params.featured_image}}" />
 {{ end }}
