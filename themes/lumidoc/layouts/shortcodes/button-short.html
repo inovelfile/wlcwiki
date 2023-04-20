@@ -1,0 +1,5 @@
+{{ $text := .Get 0 }}
+{{ $link := .Get 1 }}
+<a href="{{ $link }}" target="_blank">
+    <button>{{ $text }}</button>
+</a>

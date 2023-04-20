@@ -1,0 +1,7 @@
+{{ $text := .Get 0 }}
+{{ $link := .Get 1 }}
+<div class="btn-to-wiki">
+    <a href="{{ $link }}">
+        <button><i class="isax isax-document-forward4"></i>{{ $text }}</button>
+    </a>
+</div>
