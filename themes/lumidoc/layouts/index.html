@@ -42,46 +42,22 @@
                         </div>
                         <br>
                         <div class="card-container-uni">
-                            <a href="/page/markdown-syntax-guide/">
+                            {{ range first 8 (where .Site.RegularPages "Section" "update-information") }}
+                            <a href="{{.Permalink}}">
                                 <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2014/04/16/15/50/minecraft-325652_960_720.jpg" alt="Card Image 1" />
+                                    {{ if isset .Params "featured_image" }}
+                                    <img src="{{ .Params.featured_image }}" alt="{{.Title}}" />
+                                        {{ else }}
+                                        <img src="/img/featured-image-default.svg" alt="{{.Title}}" />
+                                    {{ end }}
                                     <div class="card-content">
-                                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui laboriosam quos atque rerum corporis numquam ullam temporibus quidem eius laudantium, voluptatibus ratione iste amet explicabo omnis provident? Commodi, ab recusandae!</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos aut praesentium voluptas voluptates ullam natus temporibus officia molestiae atque nisi, optio, vel nemo doloremque excepturi! Ut saepe itaque dolorem.</p>
-                                        <p class="date">5 April 2023</p>
+                                        <h3>{{.Title}}</h3>
+                                        <p>{{.Description}}</p>
+                                        <p class="date">{{.Date.Format "2 January 2006"}}</p>
                                     </div>
                                 </div>
                             </a>
-                            <a href="/page/markdown-syntax-guide/">
-                                <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2014/04/16/15/50/minecraft-325652_960_720.jpg" alt="Card Image 1" />
-                                    <div class="card-content">
-                                        <h3>Card Title 1</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos aut praesentium voluptas voluptates ullam natus temporibus officia molestiae atque nisi, optio, vel nemo doloremque excepturi! Ut saepe itaque dolorem.</p>
-                                        <p class="date">5 April 2023</p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="/page/markdown-syntax-guide/">
-                                <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2014/04/16/15/50/minecraft-325652_960_720.jpg" alt="Card Image 1" />
-                                    <div class="card-content">
-                                        <h3>Card Title 1</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos aut praesentium voluptas voluptates ullam natus temporibus officia molestiae atque nisi, optio, vel nemo doloremque excepturi! Ut saepe itaque dolorem.</p>
-                                        <p class="date">5 April 2023</p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="/page/markdown-syntax-guide/">
-                                <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2014/04/16/15/50/minecraft-325652_960_720.jpg" alt="Card Image 1" />
-                                    <div class="card-content">
-                                        <h3>Card Title 1</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos aut praesentium voluptas voluptates ullam natus temporibus officia molestiae atque nisi, optio, vel nemo doloremque excepturi! Ut saepe itaque dolorem.</p>
-                                        <p class="date">5 April 2023</p>
-                                    </div>
-                                </div>
-                            </a>
+                            {{ end }}
                         </div>
                     </div>
 
