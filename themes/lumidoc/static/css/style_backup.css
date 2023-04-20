@@ -895,15 +895,20 @@ footer p {
 }
 
 .single-container pre {
-    display: block;
-    font-family: monospace;
-    white-space: pre;
-    font-size: 15px;
-    width:100%;
-    overflow:auto;
-    margin-bottom: 14px;
-    /* border: #FF8F1F solid 1px; */
-    padding: 5px;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 1.5em;
+    white-space: pre-wrap;
+    border-radius: 10px;
+    margin-top: -5px;
+    margin-bottom: 18px;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
 }
 
 .single-container img {

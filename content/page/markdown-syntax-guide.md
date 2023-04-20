@@ -6,20 +6,36 @@ description:
 featured_image: "/img/featured-image-default.svg"
 ---
 
-# Ini adalah H1
-## Ini adalah H2
-### Ini adalah H3
-#### Ini adalah H4
-##### Ini adalah H5
-###### Ini adalah H6
+{{< alert-info >}}
+Semua penulisan Wiki menggunakan Markdown Basic dan Markdown Custom. Kamu bisa membaca penulisan markdown dasar di sini > https://www.markdownguide.org/basic-syntax/
+{{< /alert-info >}}
 
-{{< pre >}}
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit inventore atque ullam vel eveniet fuga, id nam, qui doloribus culpa enim. Animi, unde voluptatum. Iusto eaque voluptatum eius accusamus unde!
-{{< /pre >}}
+#### Berikut adalah Basic Syntax Markdown & Custom:
+
+**
+
+# Ini adalah H1
+{{< code >}}# Ini adalah H1{{< /code >}}
+
+## Ini adalah H2
+{{< code >}}## Ini adalah H2{{< /code >}}
+
+### Ini adalah H3
+{{< code >}}### Ini adalah H3{{< /code >}}
+
+#### Ini adalah H4
+{{< code >}}#### Ini adalah H4{{< /code >}}
+
+##### Ini adalah H5
+{{< code >}}##### Ini adalah H5{{< /code >}}
+
+###### Ini adalah H6
+{{< code >}}###### Ini adalah H6{{< /code >}}
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, eius? Ratione veniam accusantium, ipsum atque corporis ut doloribus quos sint consequatur ex ad amet totam adipisci quibusdam quisquam eum. Laborum?
+{{< code >}}paragraf biasa tidak perlu menggunakan apa-apa, langsung tulis kek gini.{{< /code >}}
 
 {{< alert-info >}}
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quod reiciendis soluta.
