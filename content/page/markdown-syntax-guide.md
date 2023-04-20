@@ -73,15 +73,10 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*
 
 # Dimulai dari sini menggunakan Custom Markdown:
 
-{{< alert-danger >}}
-Penting! Ubah simbol "=" dan "+" menjadi "<" dan ">" karena kalau saya tulis dengan benar maka penulisan codenya akan di-render menjadi tampilan aslinya.
-{{< /alert-danger >}}
-
-**
-
 {{< button-wiki "Button untuk ke page wiki lain" "#" >}}
 
 {{< button-short "Short Button" "#" >}}
+
 
 {{< button-long "Long Button" "#" >}}
 
