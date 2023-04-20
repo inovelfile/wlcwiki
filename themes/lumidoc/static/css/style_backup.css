@@ -862,36 +862,36 @@ footer p {
 }
 
 .single-container h1 {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .single-container h2 {
     font-size: 31px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .single-container h3 {
     font-size: 26px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .single-container h4 {
     font-size: 22px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .single-container h5 {
     font-size: 18px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .single-container h6 {
     font-size: 15px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .single-container p {
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
 .single-container pre {
@@ -921,7 +921,7 @@ code {
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
 .single-container button {
@@ -933,7 +933,7 @@ code {
     background-color: #FF8F1F;
     color: #fff;
     transition: 0.3s;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
 .single-container .long {
@@ -1069,7 +1069,7 @@ code {
     border-radius: 10px;
     width: 100%;
     border-left: 6px solid #006AE6;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 .alert-info .isax {
@@ -1086,7 +1086,7 @@ code {
     border-radius: 10px;
     width: 100%;
     border-left: 6px solid #FDC500;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 .alert-warning .isax {
@@ -1103,7 +1103,7 @@ code {
     border-radius: 10px;
     width: 100%;
     border-left: 6px solid #E50000;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 .alert-danger .isax {
@@ -1120,7 +1120,7 @@ code {
     border-radius: 10px;
     width: 100%;
     border-left: 6px solid #00B468;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 .alert-success .isax {
@@ -1135,6 +1135,7 @@ code {
     line-height: 1.5;
     color: #2b2b2b;
     padding-left: 8px;
+    font-weight: 500;
 }
 
 .single-container .not-found {

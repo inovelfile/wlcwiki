@@ -37,6 +37,54 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, eius? Ratione veniam accusantium, ipsum atque corporis ut doloribus quos sint consequatur ex ad amet totam adipisci quibusdam quisquam eum. Laborum?
 {{< code >}}paragraf biasa tidak perlu menggunakan apa-apa, langsung tulis kek gini.{{< /code >}}
 
+- First item
+- Second item
+- Third item
+- Fourth item
+
+{{< code >}}- First item
+- Second item
+- Third item
+- Fourth item{{< /code >}}
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+{{< code >}}1. First item
+2. Second item
+3. Third item
+4. Fourth item{{< /code >}}
+
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com)
+{{< code >}}My favorite search engine is [Duck Duck Go](https://duckduckgo.com){{< /code >}}
+
+I love supporting the **[EFF](https://eff.org)**
+{{< code >}}I love supporting the **[EFF](https://eff.org)**{{< /code >}}
+
+This is the *[Markdown Guide](https://www.markdownguide.org)*
+{{< code >}}This is the *[Markdown Guide](https://www.markdownguide.org)*{{< /code >}}
+
+![The San Juan Mountains are beautiful!](https://www.cityoflondonschool.org.uk/images/stories/flexicontent/l_fld19_success-adobestock_82256170-web.jpg "San Juan Mountains")
+{{< code >}}![The San Juan Mountains are beautiful!](https://www.cityoflondonschool.org.uk/images/stories/flexicontent/l_fld19_success-adobestock_82256170-web.jpg "San Juan Mountains"){{< /code >}}
+
+**
+
+# Dimulai dari sini menggunakan Custom Markdown:
+
+{{< alert-danger >}}
+Penting! Ubah simbol "=" dan "+" menjadi "<" dan ">" karena kalau saya tulis dengan benar maka penulisan codenya akan di-render menjadi tampilan aslinya.
+{{< /alert-danger >}}
+
+**
+
+{{< button-wiki "Button untuk ke page wiki lain" "#" >}}
+
+{{< button-short "Short Button" "#" >}}
+
+{{< button-long "Long Button" "#" >}}
+
 {{< alert-info >}}
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quod reiciendis soluta.
 {{< /alert-info >}}
@@ -53,34 +101,4 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quod rei
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quod reiciendis soluta.
 {{< /alert-success >}}
 
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
-- First item
-- Second item
-- Third item
-- Fourth item
-
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-
-<https://www.markdownguide.org>
-
-<fake@example.com>
-
-I love supporting the **[EFF](https://eff.org)**.
-
-This is the *[Markdown Guide](https://www.markdownguide.org)*.
-
-See the section on [`code`](#code).
-
-![The San Juan Mountains are beautiful!](https://www.cityoflondonschool.org.uk/images/stories/flexicontent/l_fld19_success-adobestock_82256170-web.jpg "San Juan Mountains")
-
 [![An old rock in the desert](https://www.cityoflondonschool.org.uk/images/stories/flexicontent/l_fld19_success-adobestock_82256170-web.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.cityoflondonschool.org.uk/images/stories/flexicontent/l_fld19_success-adobestock_82256170-web.jpg)
-
-{{< button-wiki "Button untuk ke page wiki lain" "#" >}}
-
-{{< button-short "Short Button" "#" >}}
-
-{{< button-long "Long Button" "#" >}}
