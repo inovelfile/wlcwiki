@@ -104,6 +104,8 @@ header p {
     background-color: #fff;
     overflow-x: hidden;
 	transition: 0.3s;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .closebtn {
@@ -142,6 +144,7 @@ header p {
 
 .sidenav::-webkit-scrollbar {
     width: 2px;
+    display: none;
 }
 
 .sidenav::-webkit-scrollbar-thumb {

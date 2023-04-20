@@ -22,59 +22,93 @@
                 </li>
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
-                        <i class="isax isax-airpod"></i>
-                        <span class="text nav-text">Wiki Dua</span>
+                        <i class="isax isax-medal-star"></i>
+                        <span class="text nav-text">Battlepass</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        <a href="#">Tentang satu dalam dua belas umrid</a>
-                        <a href="#">Tentang dua singkat</a>
-                        <a href="#">Tentang kisah gadis berkerudung merah memutuskan untuk di baptis</a>
-                        <a href="#">Tentang empat</a>
+                        {{ range where .Site.RegularPages "Section" "battlepass" }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
                     </div>
                 </li>
                 <li>
-                    <a href="#" class="dropdown-btn" onclick="iconanimated(this)">
-                        <i class="isax isax-buy-crypto"></i>
-                        <span class="text nav-text">Wiki Tiga</span>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-dcube"></i>
+                        <span class="text nav-text">Crates</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
+                    <div class="dropdown-container">
+                        {{ range where .Site.RegularPages "Section" "crates" }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
                 </li>
                 <li>
-                    <a href="#" onclick="iconanimated(this)">
-                        <i class="isax isax-broom"></i>
-                        <span class="text nav-text">Wiki Empat</span>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-ghost"></i>
+                        <span class="text nav-text">Dungeon</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
+                    <div class="dropdown-container">
+                        {{ range where .Site.RegularPages "Section" "dungeon" }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
                 </li>
                 <li>
-                    <a href="#" onclick="iconanimated(this)">
-                        <i class="isax isax-building"></i>
-                        <span class="text nav-text">Wiki Lima</span>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-magicpen"></i>
+                        <span class="text nav-text">RPG Items</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
+                    <div class="dropdown-container">
+                        {{ range where .Site.RegularPages "Section" "rpg-items" }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
                 </li>
                 <li>
-                    <a href="#" onclick="iconanimated(this)">
-                        <i class="isax isax-chart-21"></i>
-                        <span class="text nav-text">Wiki Enam</span>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-bank"></i>
+                        <span class="text nav-text">Clan</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
+                    <div class="dropdown-container">
+                        {{ range where .Site.RegularPages "Section" "clan" }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
+                </li>
+                <li>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-profile-2user"></i>
+                        <span class="text nav-text">Party</span>
+
+                        <div class="icon-animated">
+                            <i class="isax isax-arrow-right-34"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-container">
+                        {{ range where .Site.RegularPages "Section" "party" }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
                 </li>
             </ul>
         </div>
