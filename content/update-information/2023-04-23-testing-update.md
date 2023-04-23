@@ -5,10 +5,10 @@ draft: false
 description: dengan gambar custom
 featured_image: /img/uploads/axle.png
 ---
-{﻿{< alert-warning >}}
-h﻿alo ngab
-{﻿{< /alert-warning >}}
+{{< alert-warning >}}
+halo ngab
+{{< /alert-warning >}}
 
-n﻿yoba lagi
+nyoba lagi
 
-i﻿ni juga [nyoba](#)
+ini juga [nyoba](#)
