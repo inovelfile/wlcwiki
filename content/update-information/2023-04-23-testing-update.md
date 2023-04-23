@@ -5,6 +5,8 @@ draft: false
 description: dengan gambar custom
 featured_image: /img/uploads/axle.png
 ---
-{﻿{< alert-info >}}
-t﻿est alert
-{﻿{< /alert-info >}}
+{﻿{< alert-warning >}}
+
+h﻿alo ngab
+
+{﻿{< /alert-warning >}}
