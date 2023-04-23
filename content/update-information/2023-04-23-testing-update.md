@@ -9,6 +9,11 @@ featured_image: /img/uploads/axle.png
 halo ngab
 {{< /alert-warning >}}
 
-nyoba lagi
+nyoba lag
 
-ini juga [nyoba](#)
+iini juga [nyoba](#)
+
+h﻿osni no kaomi
+{﻿{< small-bottom >}}
+aahh sesana anak yang punya nasib buruk.
+{﻿{< /small-bottom >}}
