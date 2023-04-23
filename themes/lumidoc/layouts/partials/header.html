@@ -17,14 +17,14 @@
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
                         <i class="isax isax-medal-star"></i>
-                        <span class="text nav-text">Battlepass</span>
+                        <span class="text nav-text">General</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "battlepass" }}
+                        {{ range where .Site.RegularPages "Section" "general" }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -77,29 +77,14 @@
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
                         <i class="isax isax-bank"></i>
-                        <span class="text nav-text">Clan</span>
+                        <span class="text nav-text">Circle</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "clan" }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
-                        {{ end }}
-                    </div>
-                </li>
-                <li>
-                    <a class="dropdown-btn" onclick="iconanimated(this)">
-                        <i class="isax isax-profile-2user"></i>
-                        <span class="text nav-text">Party</span>
-
-                        <div class="icon-animated">
-                            <i class="isax isax-arrow-right-34"></i>
-                        </div>
-                    </a>
-                    <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "party" }}
+                        {{ range where .Site.RegularPages "Section" "circle" }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -117,8 +102,8 @@
                     <img style="width: 70px; padding-left: 10px; vertical-align: middle;" src="/img/logo.svg">
                 </div>
                 <div class="hide-mobile">
-                    <h1>Selamat datang!</h1>
-                    <p>Adventure.</p>
+                    <h1>Selamat datang</h1>
+                    <p>Adventurer!</p>
                 </div>
             </div>
         </div>
