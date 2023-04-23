@@ -14,12 +14,16 @@
                         <span class="text nav-text">Homepage</span>
                     </a>
                 </li>
+                {{ if .Site.Params.netlify.identity }}
+                {{ with .Netlify.Identity }}
                 <li>
                     <a href="/page/markdown-syntax-guide/">
                         <i class="isax isax-book-saved"></i>
                         <span class="text nav-text">Basic Markdown</span>
                     </a>
                 </li>
+                {{ end }}
+                {{ end }}
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
                         <i class="isax isax-medal-star"></i>
