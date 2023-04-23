@@ -1,4 +1,4 @@
-baseURL = 'https://wlcwiki.netlify.app/'
+baseURL = 'https://wiki.wheelcraft.id/'
 languageCode = 'en-us'
 title = 'WLC Wiki'
 theme = 'lumidoc'
