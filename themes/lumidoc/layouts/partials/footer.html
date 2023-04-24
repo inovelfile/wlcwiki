@@ -6,32 +6,33 @@
 <script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
 <script>
   CMS.registerEditorComponent({
-    id: "alert-info",
-    label: "Alert Info",
+    id: "gist",
+    label: "Gist",
     fields: [{
-            name: "isitext",
-            label: "Isi Text",
+            name: "username",
+            label: "Github Username",
+            widget: "string"
+        },
+        {
+            name: "gid",
+            label: "Gist ID",
             widget: "string"
         },
     ],
     pattern: /^{{< gist ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
-            isitext: match[1],
+            username: match[1],
+            gid: match[2],
         };
     },
     toBlock: function(obj) {
-        return `{{< alert-info ${obj.isitext} >}}`;
+        return `{{< gist ${obj.username} ${obj.gid} >}}`;
     },
     toPreview: function(obj) {
-        return '<a href="https://gist.github.com/' + obj.isitext + '/' + obj.id + '">gist</a>';
-        return '<div class="alert-info"><i class="isax isax-info-circle"></i>';
-        return '<div class="text">';
-        return '${obj.isitext}';
-        return '</div>';
-        return '</div>';
+        return '<a href="https://gist.github.com/' + obj.username + '/' + obj.id + '">gist</a>';
     },
-});
+  });
 </script>
 <script>
     if (window.netlifyIdentity) {
