@@ -1,6 +1,6 @@
 ---
 title: 5.0.7 - Lebaran Update (Part 1)
-date: 2023-04-22T20:17:00.000Z
+date: 2023-04-19T20:17:00.000Z
 draft: false
 description: "Quality of Life: Autorank, Requirement Breeding dikurangi, Pada L4
   dari 300 menjadi 150, Pada L10 dari 10K menjadi 3K, (Requirement breeding
