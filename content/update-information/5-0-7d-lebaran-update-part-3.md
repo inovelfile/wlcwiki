@@ -2,8 +2,8 @@
 title: 5.0.7d - Lebaran Update (Part 3)
 date: 2023-04-24T08:41:12.303Z
 draft: true
-description: Skills dan Attributes di buff. RPG Items Lore dirework.
-  Ditambahkannya RPG Item yang lebih banyak.
+description: Skills dan Attributes di buff. Stats RPG dirework. Ditambahkannya
+  RPG Item yang lebih banyak.
 ---
 #### 1. Quality of Life: Skills & Attributes
 
