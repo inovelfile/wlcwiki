@@ -77,3 +77,29 @@ CMS.registerEditorComponent({
         return `{{< alert-success >}} ${obj.isitext} {{< /alert-success >}}`;
     },
 });
+
+CMS.registerEditorComponent({
+    id: "button-long",
+    label: "Long Button",
+    fields: [{
+            name: "isitext",
+            label: "Isi Button Text",
+            widget: "string"
+        },
+        {
+            name: "link",
+            label: "Link",
+            widget: "string"
+        }
+    ],
+    pattern: /^{{< alert-info ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    fromBlock: function(match) {
+        return {
+            isitext: match[1],
+            link: match[2],
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< button-short "${obj.isitext}" "${obj.link}" >}} `;
+    },
+});
