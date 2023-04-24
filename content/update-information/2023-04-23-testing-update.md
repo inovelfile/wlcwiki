@@ -5,6 +5,8 @@ draft: false
 description: dengan gambar custom
 featured_image: /img/uploads/axle.png
 ---
+{{< alert-info >}} test {{< /alert-info >}}
+
 {{< alert-warning >}}
 halo ngab
 {{< /alert-warning >}}
