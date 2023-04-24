@@ -9,7 +9,9 @@ featured_image: /img/uploads/axle.png
 halo ngab
 {{< /alert-warning >}}
 
-nyoba lag
+{﻿{< alert-info >}}
+t﻿esting
+{﻿{< /alert-info >}}
 
 iini juga [nyoba](#)
 
