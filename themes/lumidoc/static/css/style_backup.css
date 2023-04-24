@@ -977,12 +977,16 @@ code {
 .single-container ul, ol {
     padding-left: 30px;
     padding-right: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 16px;
 }
 
 .single-container li {
     padding: 5px;
     font-size: 16px;
+}
+
+.single-container li p {
+    margin-bottom: 0px;
 }
 
 .single-container .date {
