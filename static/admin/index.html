@@ -29,9 +29,7 @@
             };
         },
         toBlock: function(obj) {
-            return `{{< alert-info >}}`;
-            return '${obj.isitext}';
-            return '{{< /alert-info >}}'
+            return `{{< alert-info >}} ${obj.isitext} {{< /alert-info >}}`;
         },
     });
     </script>
