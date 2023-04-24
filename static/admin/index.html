@@ -12,26 +12,7 @@
 <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script>
-    CMS.registerEditorComponent({
-        id: "alert-info",
-        label: "Alert Info",
-        fields: [{
-                name: "isitext",
-                label: "Isi Alert Text",
-                widget: "string"
-            },
-        ],
-        pattern: /^{{< alert-info ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
-        fromBlock: function(match) {
-            return {
-                isitext: match[1],
-            };
-        },
-        toBlock: function(obj) {
-            return `{{< alert-info >}} ${obj.isitext} {{< /alert-info >}}`;
-        },
-    });
-    </script>
+    <script src="/js/shortcode-custom-cms.js"></script>
+    
 </body>
 </html>
