@@ -19,6 +19,7 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featured_image", widget: "image", required: false, format: "url"}
+      - {label: "Body", name: "body"}
 
   - name: "general" # Used in routes, e.g., /admin/collections/blog
     label: "General" # Used in the UI
@@ -32,6 +33,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body"}
 
   - name: "crates" # Used in routes, e.g., /admin/collections/blog
     label: "Crates" # Used in the UI
@@ -45,6 +47,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body"}
 
   - name: "dungeon" # Used in routes, e.g., /admin/collections/blog
     label: "Dungeon" # Used in the UI
@@ -58,6 +61,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body"}
 
   - name: "rpg-items" # Used in routes, e.g., /admin/collections/blog
     label: "RPG Items" # Used in the UI
@@ -71,6 +75,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body"}
 
   - name: "circle" # Used in routes, e.g., /admin/collections/blog
     label: "Circle" # Used in the UI
@@ -84,3 +89,4 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body"}
