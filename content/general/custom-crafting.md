@@ -10,24 +10,22 @@ R﻿esep yang diubah menandakan resep normal minecraft tidak akan berfungsi pada
 
 1. L﻿eather Horse Armor
 
-   ![](https://i.imgur.com/booY5Za.png "Leather Horse Armor Recipe")
+   ![](/img/uploads/leather-horse-armor.png "Leather Horse Armor Recipe")
 2. H﻿opper
 
-   ![](https://i.imgur.com/T3b54xi.png "Hopper Recipe")
+   ![](/img/uploads/hopper.png "Hopper Recipe")
 3. O﻿bserver
 
-   ![](https://i.imgur.com/COe035Z.png "Observer Recipe")
+   ![](/img/uploads/observer.png "Observer Recipe")
 4. E﻿nder Chest
 
-   ![](https://i.imgur.com/fUKBRZ4.png "Ender Chest Recipe")
+   ![](/img/uploads/ender-chest.png "Ender Chest Recipe")
 5. S﻿hulker Box
 
-   ![](https://i.imgur.com/TCDdw1z.png "Shulker Box Recipe")
+   ![](/img/uploads/shulker-box.png "Shulker Box Recipe")
 6. S﻿ticky Piston
 
-   ![](https://i.imgur.com/HWpL1US.png "Sticky Piston Recipe")
-
-
+   ![](/img/uploads/sticky-piston.png "Sticky Piston Recipe")
 
 ### R﻿esep baru:
 
@@ -35,65 +33,61 @@ T﻿erdapat banyak item yang ditambahkan atau dibuat resep untuk berbagai keperl
 
 1. D﻿ragon's Breath
 
-   ![](https://i.imgur.com/1dmomEW.png "Dragon's Breath Recipe")
+   ![](/img/uploads/dragons-breath.png "Dragon's Breath Recipe")
 2. P﻿earlescent Froglight
 
-   ![](https://i.imgur.com/0k1mGlr.png "Pearlescent Froglight Recipe version 1")
+   ![](/img/uploads/pearlescent-froglight.png "Pearlescent Froglight Recipe version 1")
 
-   ![](https://i.imgur.com/xaKaknO.png "Pearlescent Froglight Recipe version 2")
+   ![](/img/uploads/pearlescent-froglight2.png "Pearlescent Froglight Recipe version 2")
 3. V﻿erdant Froglight
 
-   ![](https://i.imgur.com/kW4j66y.png "Verdant Froglight Recipe version 1")
+   ![](/img/uploads/verdant-froglight.png "Verdant Froglight Recipe version 1")
 
-   ![](https://i.imgur.com/tYke1yW.png "Verdant Froglight Recipe version 2")
+   ![](/img/uploads/verdant-froglight2.png "Verdant Froglight Recipe version 2")
 4. Ochre Froglight
 
-   ![](https://i.imgur.com/KXLW5fY.png "Ochre Froglight Recipe version 1")
+   ![](/img/uploads/orchre-froglight.png "Ochre Froglight Recipe version 1")
 
-   ![](https://i.imgur.com/v6GGsI5.png "Ochre Froglight Recipe version 2")
+   ![](/img/uploads/orchre-froglight2.png "Ochre Froglight Recipe version 2")
 5. B﻿ee Nest
 
-   ![](https://i.imgur.com/1TKRtZZ.png "Bee Nest Recipe")
+   ![](/img/uploads/bee-nest.png "Bee Nest Recipe")
 6. M﻿ycelium
 
-   ![](https://i.imgur.com/vj6AZQ1.png "Mycelium")
+   ![](/img/uploads/mycelium.png "Mycelium")
 7. Q﻿uartz
 
-   ![](https://i.imgur.com/NIwttyO.png "Quartz Recipe")
+   ![](/img/uploads/quartz.png "Quartz Recipe")
 8. A﻿methyst Shard
 
-   ![](https://i.imgur.com/JZVPNxn.png "Amethyst Shard Recipe")
+   ![](/img/uploads/amethyst-shard.png "Amethyst Shard Recipe")
 9. E﻿cho Shard
 
-   ![](https://i.imgur.com/UujDHFG.png "Echo Shard Recipe")
+   ![](/img/uploads/echo-shard.png "Echo Shard Recipe")
 
    C﻿atatan: **Bisa dilakukan** di **Blast Furnace**, dan bahan bakar **tidak harus** lava bucket.
 10. C﻿rying Obsidian
 
-    ![](https://i.imgur.com/Y5vrPQJ.png "Crying Obsidian Recipe")
+    ![](/img/uploads/crying-obsidian.png "Crying Obsidian Recipe")
 11. Netherite Scrape
 
-    ![](https://i.imgur.com/2ey12HT.png "Netherite Scrape")
+    ![](/img/uploads/netherite-scrape.png "Netherite Scrape")
 12. D﻿ead Bush
 
-    ![](https://i.imgur.com/sipaeFb.png "D﻿ead Bush Recipe version 1")
+    ![](/img/uploads/dead-bush.png "D﻿ead Bush Recipe version 1")
 
-    ![](https://i.imgur.com/AbULiam.png "D﻿ead Bush Recipe version 2")
-
-
+    ![](/img/uploads/dead-bush2.png "D﻿ead Bush Recipe version 2")
 13. Iron Horse Armor
 
-    ![](https://i.imgur.com/EWXASP8.png "Iron Horse Armor Recipe")
+    ![](/img/uploads/iron-horse-armor.png "Iron Horse Armor Recipe")
 14. G﻿old Horse Armor
 
-    ![](https://i.imgur.com/mUFXvFl.png "Gold Horse Armor Recipe")
-
-
+    ![](/img/uploads/gold-horse-armor.png "Gold Horse Armor Recipe")
 15. D﻿iamond Horse Armor
 
-    ![](https://i.imgur.com/POSWTwk.png "Diamond Horse Armor Recipe")
+    ![](/img/uploads/diamond-horse-armor.png "Diamond Horse Armor Recipe")
 16. E﻿nchanted Golden Apple/God Apple
 
-    ![](https://i.imgur.com/Ch1YeTm.png "God Apple Recipe")
+    ![](/img/uploads/enchanted-golden-apple.png "God Apple Recipe")
 
     C﻿atatan: recipe ini pernah ada di minecraft lalu dihapus oleh minecraft pada versi1.9, dan sekarang dikembalikan WLC menjadi custom recipe.
