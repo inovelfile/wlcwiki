@@ -2,6 +2,37 @@
     <p>© 2023 Wheelcraft Indonesia - All right reserved.</p>
 </footer>
 <script src="/js/main.js"></script>
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+<script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
+<script>
+  CMS.registerEditorComponent({
+    id: "alert-info",
+    label: "Alert Info",
+    fields: [{
+            name: "isitext",
+            label: "Isi Text",
+            widget: "string"
+        },
+    ],
+    pattern: /^{{< gist ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    fromBlock: function(match) {
+        return {
+            isitext: match[1],
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< alert-info ${obj.isitext} >}}`;
+    },
+    toPreview: function(obj) {
+        return '<a href="https://gist.github.com/' + obj.isitext + '/' + obj.id + '">gist</a>';
+        return '<div class="alert-info"><i class="isax isax-info-circle"></i>';
+        return '<div class="text">';
+        return '${obj.isitext}';
+        return '</div>';
+        return '</div>';
+    },
+});
+</script>
 <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
