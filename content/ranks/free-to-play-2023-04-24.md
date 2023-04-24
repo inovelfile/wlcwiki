@@ -28,8 +28,6 @@ B﻿erikut adalah akses yang didapat untuk setiap levelnya.
 * **L﻿evel 3**
 
   1. Akses perintah /stonecutter
-  2. Akses perintah /workbench
-  3. Akses perintah /cartographytable
   2. Menambah jumlah maksimal home sebanyak 1.
   3. Dapat melakukan **exp trade** melalui perintah /trade dengan orang lain.
 
@@ -42,23 +40,27 @@ B﻿erikut adalah akses yang didapat untuk setiap levelnya.
 
 * **L﻿evel 5**
 
- ﻿ 1. Chat menjadi berwarna putih.
- ﻿ 2. Menambah jumlah claim block sebanyak 20000.
+  1. Chat menjadi berwarna putih.
+  2. Menambah jumlah claim block sebanyak 20000.
+
 
 * **L﻿evel 6**
 
- ﻿ 1. Menambah jumlah maksimal home sebanyak 1.
- ﻿ 2. Menambah jumlah maksimal plot sebanyak 1.
+  1. Menambah jumlah maksimal home sebanyak 1.
+  2. Menambah jumlah maksimal plot sebanyak 1.
+
 
 * **L﻿evel 7**
 
- ﻿ 1. Akses perintah /grindstone.
- ﻿ 2. Menambah semua attributes sebanyak 20. Gunakan perintah /stats untuk cek attributes.
+  1. Akses perintah /grindstone.
+  2. Menambah semua attributes sebanyak 20. Gunakan perintah /stats untuk cek attributes.
+
 
 * **L﻿evel 8**
 
   1. Menambah jumlah claim block sebanyak 50000.
   2. Menambah semua attributes sebanyak 20. Gunakan perintah /stats untuk cek attributes.
+
 
 * **L﻿evel 9**
 
