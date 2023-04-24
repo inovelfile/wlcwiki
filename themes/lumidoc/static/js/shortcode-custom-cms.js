@@ -27,7 +27,7 @@ CMS.registerEditorComponent({
             widget: "string"
         },
     ],
-    pattern: /^{{< alert-info ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    pattern: /^{{< alert-warning ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             isitext: match[1],
@@ -47,7 +47,7 @@ CMS.registerEditorComponent({
             widget: "string"
         },
     ],
-    pattern: /^{{< alert-info ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    pattern: /^{{< alert-danger ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             isitext: match[1],
@@ -67,7 +67,7 @@ CMS.registerEditorComponent({
             widget: "string"
         },
     ],
-    pattern: /^{{< alert-info ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    pattern: /^{{< alert-success ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             isitext: match[1],
@@ -92,7 +92,33 @@ CMS.registerEditorComponent({
             widget: "string"
         }
     ],
-    pattern: /^{{< alert-info ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    pattern: /^{{< button-long ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    fromBlock: function(match) {
+        return {
+            isitext: match[1],
+            link: match[2],
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< button-long "${obj.isitext}" "${obj.link}" >}} `;
+    },
+});
+
+CMS.registerEditorComponent({
+    id: "button-short",
+    label: "Short Button",
+    fields: [{
+            name: "isitext",
+            label: "Isi Button Text",
+            widget: "string"
+        },
+        {
+            name: "link",
+            label: "Link",
+            widget: "string"
+        }
+    ],
+    pattern: /^{{< button-short ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             isitext: match[1],
@@ -101,5 +127,31 @@ CMS.registerEditorComponent({
     },
     toBlock: function(obj) {
         return `{{< button-short "${obj.isitext}" "${obj.link}" >}} `;
+    },
+});
+
+CMS.registerEditorComponent({
+    id: "button-wiki",
+    label: "Wiki Button",
+    fields: [{
+            name: "isitext",
+            label: "Isi Button Text",
+            widget: "string"
+        },
+        {
+            name: "link",
+            label: "Link",
+            widget: "string"
+        }
+    ],
+    pattern: /^{{< button-wiki ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    fromBlock: function(match) {
+        return {
+            isitext: match[1],
+            link: match[2],
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< button-wiki "${obj.isitext}" "${obj.link}" >}} `;
     },
 });
