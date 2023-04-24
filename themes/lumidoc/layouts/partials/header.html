@@ -31,6 +31,21 @@
                 </li>
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-autobrightness"></i>
+                        <span class="text nav-text">Ranks</span>
+
+                        <div class="icon-animated">
+                            <i class="isax isax-arrow-right-34"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-container">
+                        {{ range where .Site.RegularPages "Section" "ranks" }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
+                </li>
+                <li>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
                         <i class="isax isax-dcube"></i>
                         <span class="text nav-text">Crates</span>
 

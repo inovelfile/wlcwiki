@@ -10,7 +10,7 @@ collections:
     label: "Update & Information" # Used in the UI
     folder: "/content/update-information" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -25,7 +25,21 @@ collections:
     label: "General" # Used in the UI
     folder: "/content/general" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "ranks" # Used in routes, e.g., /admin/collections/blog
+    label: "Ranks" # Used in the UI
+    folder: "/content/ranks" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -39,7 +53,7 @@ collections:
     label: "Crates" # Used in the UI
     folder: "/content/crates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -53,7 +67,7 @@ collections:
     label: "Dungeon" # Used in the UI
     folder: "/content/dungeon" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -67,7 +81,7 @@ collections:
     label: "RPG Items" # Used in the UI
     folder: "/content/rpg-items" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -81,7 +95,7 @@ collections:
     label: "Circle" # Used in the UI
     folder: "/content/circle" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter

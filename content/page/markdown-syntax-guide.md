@@ -6,7 +6,6 @@ description:
 featured_image: "/img/featured-image-default.svg"
 tags:
 - unlist
-private: true
 ---
 
 {{< alert-info >}}

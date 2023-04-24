@@ -916,7 +916,7 @@ code {
     justify-content: center;
     align-items: center;
     width: 800px;
-    height: 450px;
+    height: auto;
     border-radius: 15px;
     object-fit: cover;
     margin-left: auto;
@@ -1008,49 +1008,49 @@ code {
 @media screen and (min-width: 1600px) {
     .single-container img {
         width: 900px;
-        height: 506.25px;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .single-container img {
         width: 700px;
-        height: 393.75px;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 1150px) {
     .single-container img {
         width: 100%;
-        height: 300px;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 850px) {
     .single-container img {
         width: 100%;
-        height: 200px;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .single-container img {
         width: 100%;
-        height: 400px;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 550px) {
     .single-container img {
         width: 100%;
-        height: 300px;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 414px) {
     .single-container img {
         width: 100%;
-        height: 250px;
+        height: auto;
     }
 }
 
