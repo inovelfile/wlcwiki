@@ -14,15 +14,17 @@ description: "Quality of Life: Autorank, Requirement Breeding dikurangi, Pada L4
 * Requirement Kill Shulker **dikurangi** Pada L6 dari 250 menjadi 50 (Requirement Shulker Kill hanya ada pada L6).
 
   *Sebagai gantinya agar L6 tidak terlalu mudah, Enderman kill naik dari 1000 menjadi 1500. Disatu sisi, enderman banyak dan deres, dibanding nyari 200 shulker.*
+
 * Requirement blocks break **dikurangi** Pada L6 dari 500K menjadi 250K Pada L9 dari 1jt menjadi 500K Pada L10 dari 2,5jt menjadi 1jt.
 
-#### 2﻿. Quality of Life: Material RPG
+#### 2. Quality of Life: Material RPG
 
 * Pembuatan Impure Mithril Ingot **dihilangkan** kebutuhan balance W100 dan digantikan dengan 1000 exp. Exp lebih mudah dicari.
 * Pembuatan Pure Mithril Ingot **dihilangkan** kebutuhan balance dari W500 dan digantikan dengan 3000 exp.
 * Semua RPG Level 1 **tidak memerlukan** netherite ingot dan diamond tambahan. Ingredient diganti dengan buku kosong.
+  
+  ***Catatan:** Impure Mithril Ingot tetap diperlukan dan tetap memakai netherite. Terus apa yang ganti? Sebelumnya buat bikin RPG Level 1 butuh 2-3 Netherite Ingot. Sekarang cuman perlu 1 Netherite Ingot dan Buku vanilla dan ingredient dasar rpg.*
 
-  **\*Catatan:** Impure Mithril Ingot tetap diperlukan dan tetap memakai netherite. Terus apa yang ganti? Sebelumnya buat bikin RPG Level 1 butuh 2-3 Netherite Ingot. Sekarang cuman perlu 1 Netherite Ingot dan Buku vanilla dan ingredient dasar rpg.*
 * Pembuatan material rpg yang membutuhkan W25, **diturunkan harganya** menjadi W10.
 
   *Kecuali pada Isacha Wanderer, **diturunkan** menjadi W15.*
@@ -41,6 +43,6 @@ description: "Quality of Life: Autorank, Requirement Breeding dikurangi, Pada L4
 
 #### 7﻿. Quality of Life: Recipe
 
-* **Observer**: Resep custom yang membutuhkan 4 netherite ingot telah dikurangi menjadi 2 netherite ingot
-* **Shulker:** Resep custom yang membutuhkan 8 shulker shell telah **dikurangi** menjadi 2 shulker shell.
+* **Observer:** Resep custom yang membutuhkan 4 netherite ingot telah **dikurangi** menjadi 2 netherite ingot.
+* **Shulker:** Resep custom yang membutuhkan 8 shulker shell telah **dikurangi** menjadi 2 shulker shell. 
 * **Hopper:** Resep custom yang membutuhkan 2 netherite ingot telah **dikurangi** menjadi 1 netherite ingot.

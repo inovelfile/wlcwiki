@@ -1015,13 +1015,17 @@ code {
     padding-bottom: 16px;
 }
 
+.single-container .alert-danger, .alert-info, .alert-success, .alert-warning .isax {
+    font-size: 25px;
+}
+
 .single-container li {
-    padding: 5px;
+    padding-bottom: 5px;
     font-size: 16px;
 }
 
 .single-container li p {
-    margin-bottom: 0px;
+    margin-bottom: 7px;
 }
 
 .single-container .date {
