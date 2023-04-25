@@ -15,7 +15,7 @@ Buat atau gabung dengan Clan untuk meningkatkan produktifitas bermain! bagi tuga
 
 1. Pertama, anda harus membeli 750 Axle (﻿lalu redeem Axle tersebut ke akun kalian)
 
-   {{< button-long "WLC STORE" "store.wheelcraft.id" >}} 
+   {{< button-long "WLC STORE" "1. store.wheelcraft.id" >}} 
 2. Setelah anda redeem Axle nya, tulis **/donate**
 3. Pilih **Other** lalu click **Clan Contract** seperti pada gambar
 
