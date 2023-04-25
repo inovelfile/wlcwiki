@@ -131,11 +131,29 @@
                     </button>
                 </div>
                 <div class="search">
+                    <div class="ip" id="copy-text" data-copytext="play.wheelcraft.id"><i class="isax isax-game"></i>Play Now</div>
                     <form action="/search" method="GET">
                         <input type="search" name="q" id="search-query" placeholder="Search..">
                         <button type="submit"><i class="isax isax-search-normal-1"></i></button>
                     </form>
                 </div>
+
+                <script>
+                    var copyText = document.querySelectorAll('.ip');
+                    copyText.forEach(function(element) {
+                        element.addEventListener('click', function() {
+                            var text = this.getAttribute('data-copytext');
+                            var tempInput = document.createElement("input");
+                            tempInput.value = text;
+                            document.body.appendChild(tempInput);
+                            tempInput.select();
+                            document.execCommand("copy");
+                            document.body.removeChild(tempInput);
+                            alert("Teks berhasil disalin: " + text);
+                        });
+                    });
+                </script>
+
             </div>
         </div>
         <!-- Dowpdown Search Content -->

@@ -274,7 +274,29 @@ main {
 }
 
 .search {
-    width: 350px;
+    /* width: 350px; */
+    display: flex;
+}
+
+.search .ip {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    margin-right: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    color: #BFBFBF;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.search .ip:hover {
+    background-color: #FAFAFA;
+}
+
+.search .ip .isax {
+    font-size: 17px;
 }
 
 @media screen and (max-width: 870px) {
