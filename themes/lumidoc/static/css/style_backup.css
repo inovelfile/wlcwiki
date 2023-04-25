@@ -598,6 +598,19 @@ input[type=text], input[type=search] {
     padding-top: 20px;
 }
 
+.all-content .container-content-sl .headtext .link .isax {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    margin-left: 3px;
+    color: #FF8F1F;
+    padding: 3px;
+}
+
+.all-content .container-content-sl a {
+    text-decoration: none;
+}
+
 .all-content .container-content h2, .all-content .container-content-sf h2, .all-content .container-content-sl h2 {
     font-size: 25px;
 }
@@ -1194,17 +1207,18 @@ code {
 .page-container .isax, h1 {
     display: flex;
     align-items: center;
+    font-size: 35px;
 }
 
 .page-container h2 {
-    font-size: 22px;
-    padding-top: 30px;
+    font-size: 20px;
+    padding-top: 40px;
 }
 
 .page-container .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
     padding-top: 12px;
 }
 
