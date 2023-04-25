@@ -6,7 +6,5 @@ description:
 featured_image: ""
 aliases: "/stafflist"
 layout: "stafflist"
-tags:
-- unlist
 ---
 
