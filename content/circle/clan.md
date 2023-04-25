@@ -15,13 +15,13 @@ Buat atau gabung dengan Clan untuk meningkatkan produktifitas bermain! bagi tuga
 
 1. Pertama, anda harus membeli 750 Axle (﻿lalu redeem Axle tersebut ke akun kalian)
 
-   {{< button-short "WLC STORE" "store.wheelcraft.id" >}} 
+   {{< button-long "WLC STORE" "store.wheelcraft.id" >}} 
 2. Setelah anda redeem Axle nya, tulis **/donate**
 3. Pilih **Other** lalu click **Clan Contract** seperti pada gambar
 4. Setelah membeli, ketik **/clan create** 
 5. Setelah menulis itu anda akan diminta menuliskan **TAG** dan **Nama Clan** masing-masing terpisah seperti pada gambar
 
-   {{< alert-info >}} WARNING! Anda TIDAK bisa mengubahnya lagi jadi pikirkan matang matang Nama Clan dan TAG-nya bersama teman anda sebelum membuat. {{< /alert-info >}}
+   {{< alert-danger >}} WARNING! Anda TIDAK bisa mengubahnya lagi jadi pikirkan matang matang Nama Clan dan TAG-nya bersama teman anda sebelum membuat. {{< /alert-danger >}}
 
 ###### Gambar :
 
