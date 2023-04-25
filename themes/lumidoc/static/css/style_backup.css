@@ -132,9 +132,8 @@ header p {
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.sidenav {
-		/* padding-top: 60px; */
 		width: 250px;
 	}
 	.openbtn {
@@ -299,7 +298,7 @@ main {
     font-size: 17px;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 900px) {
     .search {
         display: none;
     }
@@ -1025,26 +1024,6 @@ code {
     font-size: 16px;
 }
 
-.single-container .card3 {
-    display: flex;
-    align-items: center;
-    min-width: 200px;
-    max-width: 200px;
-    margin-right: 15px;
-    scroll-snap-align: start;
-    transition: transform 0.2s ease-in-out;
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 10px;
-}
-
-.single-container .card3 img {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 7px;
-}
-
 @media screen and (max-width: 768px) {
     .single-container ul, ol {
         padding-left: 20px;
@@ -1204,6 +1183,46 @@ code {
         font-size: 100px;
         margin-top: 50%;
     }
+}
+
+.page-container {
+    margin-left: 25px;
+    margin-right: 110px;
+    padding: 5px 10px 5px 10px;
+}
+
+.page-container .isax, h1 {
+    display: flex;
+    align-items: center;
+}
+
+.page-container h2 {
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+.page-container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 12px;
+}
+
+.page-container .card4 {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #FAFAFA;
+}
+
+.page-container .card4 img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 7px;
 }
 
 ::-webkit-scrollbar {
