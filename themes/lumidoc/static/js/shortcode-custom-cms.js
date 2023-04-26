@@ -166,9 +166,9 @@ CMS.registerEditorComponent({
         },
         {
             name: "desc",
-            label: "Deskripsi",
+            label: "Contoh Video ID [ Abaikan field ini ]",
             widget: "string",
-            default: "Contoh Video ID = ( GXr5glhGkzE ) diambil dari (https://www.youtube.com/watch?v=GXr5glhGkzE)",
+            default: "Contoh = ( GXr5glhGkzE ) diambil dari (https://www.youtube.com/watch?v=GXr5glhGkzE)",
             readOnly: true,
         }
     ],
