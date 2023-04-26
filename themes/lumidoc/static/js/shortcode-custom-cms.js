@@ -161,14 +161,22 @@ CMS.registerEditorComponent({
     label: "Youtube Embed",
     fields: [{
             name: "videoid",
-            label: "Video Youtube ID - Contoh [ GXr5glhGkzE ]",
+            label: "Youtube Video ID",
             widget: "string",
         },
+        {
+            name: "desc",
+            label: "Deskripsi",
+            widget: "string",
+            default: "Contoh Video ID = ( GXr5glhGkzE ) diambil dari (https://www.youtube.com/watch?v=GXr5glhGkzE)",
+            readOnly: true,
+        }
     ],
     pattern: /^{{< youtube ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             videoid: match[1],
+            desc: match[2],
         };
     },
     toBlock: function(obj) {
