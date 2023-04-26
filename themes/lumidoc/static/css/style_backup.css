@@ -1340,6 +1340,13 @@ code {
     margin-bottom: 16px;
 }
 
+@media screen and (max-width: 768px) {
+    .wrapper-video {
+        margin: 0;
+        margin-bottom: 16px;
+    }
+}
+
 .video-container {
     position: relative;
     width: 100%;
