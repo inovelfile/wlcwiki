@@ -4,6 +4,7 @@ date: 2023-04-24T09:46:00+07:00
 draft: false
 description:
 featured_image: "/img/featured-image-default.svg"
+layout: "page-no-index"
 tags:
 - unlist
 ---
