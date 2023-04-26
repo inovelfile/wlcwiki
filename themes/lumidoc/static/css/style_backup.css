@@ -1249,6 +1249,51 @@ code {
     }
 }
 
+.post-navigation {
+    display: flex;
+    gap: 17px;
+    margin-top: 50px;
+}
+
+.post-navigation a {
+    width: 50%;
+    border-radius: 15px;
+    border: 2px solid #BFBFBF;
+    text-decoration: none;
+}
+
+.post-navigation .judul {
+    font-size: 17px;
+}
+
+.post-navigation .isax {
+    color: #afafaf;
+}
+
+.post-navigation .prev {
+    padding: 18px 25px 18px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-navigation .next {
+    padding: 18px 25px 18px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-navigation .sub-text {
+    font-size: 14px;
+    color: #afafaf;
+    padding: 0px 0px 6px 0px;
+}
+
+.post-navigation .prev .sub-text {
+    text-align: right;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;

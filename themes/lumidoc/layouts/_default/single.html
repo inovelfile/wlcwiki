@@ -6,6 +6,30 @@
                 <div class="date"><i class="isax isax-calendar-1"></i>{{.Date.Format "2 January 2006"}}</div>
                 <h1 style="padding-bottom: 5px;">{{ .Title }}</h1>
                 {{ .Content }}
+                <div class="post-navigation">
+                    {{ with .PrevInSection }}
+                    <a href="{{ .Permalink }}" rel="prev">
+                        <div class="prev">
+                            <i class="isax isax-arrow-left"></i>
+                            <div class="text2">
+                                <div class="sub-text">Previous</div>
+                                <div class="judul">{{ .Title }}</div>
+                            </div>
+                        </div>
+                    </a>
+                    {{ end }}
+                    {{ with .NextInSection }}
+                    <a href="{{ .Permalink }}" rel="next">
+                        <div class="next">
+                            <div class="text2">
+                                <div class="sub-text">Next</div>
+                                <div class="judul">{{ .Title }}</div>
+                            </div>
+                            <i class="isax isax-arrow-right-1"></i>
+                        </div>
+                    </a>
+                    {{ end }}
+                </div>
             </div>
         </main>
     </div>
