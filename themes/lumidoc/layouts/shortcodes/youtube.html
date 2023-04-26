@@ -1,0 +1,7 @@
+{{ $type := .Get 0 }}
+{{ $content := .Inner }}
+<div class="wrapper-video">
+    <div class="video-container">
+        <iframe class="youtube" src="https://www.youtube.com/embed/{{ $content }}" allowfullscreen></iframe>
+    </div>
+</div>

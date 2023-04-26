@@ -1334,6 +1334,27 @@ code {
     }
 }
 
+.wrapper-video {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 16px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.youtube {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;

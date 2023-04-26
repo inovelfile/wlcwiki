@@ -155,3 +155,24 @@ CMS.registerEditorComponent({
         return `{{< button-wiki "${obj.isitext}" "${obj.link}" >}} `;
     },
 });
+
+CMS.registerEditorComponent({
+    id: "youtube",
+    label: "Youtube Embed",
+    fields: [{
+            name: "videoid",
+            label: "Video Youtube ID",
+            widget: "string",
+            description: "Contoh Video Youtube ID dari link ini: [ https://www.youtube.com/watch?v=x42faHFeI3c ] adalah [ x42faHFeI3c ]"
+        },
+    ],
+    pattern: /^{{< youtube ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+    fromBlock: function(match) {
+        return {
+            videoid: match[1],
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< youtube >}} ${obj.videoid} {{< /youtube >}}`;
+    },
+});

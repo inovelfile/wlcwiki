@@ -60,7 +60,6 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*
 
 {{< button-short "Short Button" "#" >}}
 
-
 {{< button-long "Long Button" "#" >}}
 
 {{< alert-info >}}
