@@ -11,7 +11,7 @@ description: M﻿cMMO telah dikembalikan. Tentunya sistemnya baru. Khawatir deng
 
 {{< alert-success >}} Treefeller is back. Super digging dan mining juga kembali. {{< /alert-success >}}
 
-{{< youtube >}} GXr5glhGkzE {{< /youtube >}}
+{{< youtube >}}GXr5glhGkzE{{< /youtube >}}
 
 {{< alert-info >}} Kali ini ada Sharp Hook (santet fishing rod :3) Dan Replenish (Skill farming) untuk auto replant. Kedepannya, skill bakal ditambah secara berkala. {{< /alert-info >}}
 
