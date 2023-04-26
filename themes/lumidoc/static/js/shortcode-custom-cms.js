@@ -180,6 +180,6 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function(obj) {
-        return `{{< youtube >}} ${obj.videoid} {{< /youtube >}}`;
+        return `{{< youtube >}}${obj.videoid}{{< /youtube >}}`;
     },
 });
