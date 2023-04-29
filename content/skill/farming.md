@@ -6,7 +6,7 @@ description: Tingkatkan skill farming kamu dengan bercocok tanam!
 ---
 Tingkatkan skill farming kamu dengan bercocok tanam!
 
-**Farming** merupakan kegiatan yang dilakukan dengan bercocok tanam seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, farming memiliki keuntungan meliputi abilities dan mana abilities. Untuk meningkatkan skill ini, kamu hanya perlu memanen tumbuhan atau crops yang ada pada Minecraft untuk mendapatkan **Farming XP**. Setiap jenis tumbuhan atau crops memiliki jumlah **Farming XP** yang berbeda-beda.
+**Farming** merupakan kegiatan yang dilakukan dengan bercocok tanam seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, farming memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu memanen tumbuhan atau crops yang ada pada Minecraft untuk mendapatkan **Farming XP**. Setiap jenis tumbuhan atau crops memiliki jumlah **Farming XP** yang berbeda-beda.
 
 Untuk mengakses skill ini dan melihat level farming kamu, ketik **/farming**.
 
@@ -51,7 +51,7 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
 
   > Contoh:
   >
-  > **Triple Harvest1** memiliki chance 3,8%. Setiap peningkatan level ability sebesar 0,7% maka **Triple Harvest 2** memiliki chance sebesar (3,8%+0,7%) = 4,5%, begitupun seterusnya.
+  > **Triple Harvest 1** memiliki chance 3,8%. Setiap peningkatan level ability sebesar 0,7% maka **Triple Harvest 2** memiliki chance sebesar (3,8%+0,7%) = 4,5%, begitupun seterusnya.
 
 ## Mana Ability
 
