@@ -28,6 +28,8 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
 
   **Ability** atau kemampuan dari **Bountiful Harvest** adalah mendapatkan kesempatan atau chance double drops dari tumbuhan atau crops yang sedang kamu panen. **Ability** ini terbuka pada **Farming** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Bountiful Harvest** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
 
+  {{< alert-info >}} * > Contoh:   >   > **Bountiful Harvest1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Bountiful Harvest 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya. {{< /alert-info >}}
+
   > Contoh:
   >
   > **Bountiful Harvest1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Bountiful Harvest 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya.
