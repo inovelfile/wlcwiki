@@ -16,11 +16,22 @@ Untuk mengakses skill ini kamu hanya perlu mengetik **/foraging**.
 
 ## XP Source
 
+
+
 ## Abilities
 
 Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
 
 * **Lumberjack**
+
+  **Ability** atau kemampuan dari **Lumberjack** adalah mendapatkan kesempatan atau chance double drops dari pohon atau logs yang sedang kamu tebang. **Ability** ini terbuka pada **Foraging** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Lumberjack** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
+
+  > Contoh:
+  >
+  > **Lumberjack 1** memiliki chance sebesar 5,7%
+  >
+  > **Lumberjack 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%.
+* **Forager**
 
 
 
