@@ -10,7 +10,9 @@ Tingkatkan skill farming kamu dengan bercocok tanam!
 
 Untuk mengakses skill ini dan melihat level farming kamu, ketik **/farming**.
 
-Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan stats
+{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan penambahan stats berupa Toughness sebesar 0,5. {{< /alert-info >}}
+
+
 
 ## XP Source
 
