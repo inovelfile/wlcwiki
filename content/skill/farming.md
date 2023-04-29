@@ -1,7 +1,7 @@
 ---
 title: Farming
 date: 2023-04-28T14:53:43.243Z
-draft: false
+draft: true
 description: Tingkatkan skill farming kamu dengan bercocok tanam!
 ---
 Tingkatkan skill farming kamu dengan bercocok tanam!
@@ -28,11 +28,9 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
 
   **Ability** atau kemampuan dari **Bountiful Harvest** adalah mendapatkan kesempatan atau chance double drops dari tumbuhan atau crops yang sedang kamu panen. **Ability** ini terbuka pada **Farming** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Bountiful Harvest** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
 
-  {{< alert-info >}} * > Contoh:   >   > **Bountiful Harvest1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Bountiful Harvest 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya. {{< /alert-info >}}
-
   > Contoh:
   >
-  > **Bountiful Harvest1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Bountiful Harvest 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya.
+  > **Bountiful Harvest 1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Bountiful Harvest 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya.
 * **Farmer**
 
   **Ability** dari **Farmer** adalah meningkatkan jumlah **Farming XP** yang didapatkan. **Ability** ini terbuka pada **Farming** level 3 dengan peningkatan sebesar **5%** dari **Farming XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
