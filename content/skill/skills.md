@@ -24,3 +24,11 @@ Untuk melihat leaderboard power skill kamu.
 > **/skilltop**
 
 Untuk melihat leaderboard skill.
+
+
+
+## Abilities
+
+
+
+## Mana Abilities
