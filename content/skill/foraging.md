@@ -6,7 +6,7 @@ description: Jadilah penebang kayu terkaya di WheelCraft Indonesia S5!
 ---
 Jadilah penebang kayu terkaya di WheelCraft Indonesia S5!
 
-**Foraging** atau biasa disebut dengan Woodcutter adalah kegiatan yang biasa dilakukan oleh player Minecraft dengan menebang atau mengumpulan berbagai jenis Logs yang ada pada Minecraft. Pada season ini, **Foraging** memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menebang berbagai jenis pohon yang ada pada Minecraft untuk mendapatkan **Farming XP**. Setiap jenis Logs, Leaves dan sebagainya memiliki jumlah **Farming XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah Strength dan Toughness.
+**Foraging** atau biasa disebut dengan Woodcutter adalah kegiatan yang biasa dilakukan oleh player Minecraft dengan menebang atau mengumpulan berbagai jenis logs yang ada pada Minecraft. Pada season ini, **Foraging** memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menebang berbagai jenis pohon yang ada pada Minecraft untuk mendapatkan **Farming XP**. Setiap jenis Logs, Leaves dan sebagainya memiliki jumlah **Farming XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah Strength dan Toughness.
 
 Untuk mengakses skill ini kamu hanya perlu mengetik **/foraging**.
 
@@ -43,3 +43,7 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
   tak taw gmna jelasinnya hehe
 
 ## Mana Ability
+
+Fungsi dari mana disini adalah penggunaan **Ability** yang diharuskan menggunakan mana untuk mengaktifkannya. Pada skill **Foraging**, **Mana Ability** yang didapatkan adalah **Treecapitator**.
+
+**Treecapitator** adalah kemampuan atau ability untuk menebang seluruh pohon atau logs secara instan. Kemampuan ini berdurasi **3 detik** dan memerlukan mana cost sebesar **20 mana** dengan cooldown selama **240 detik**. Setiap peningkatan level ability ini akan menambahkan durasi sebesar **0,5 detik**.
