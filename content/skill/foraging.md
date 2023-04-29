@@ -16,10 +16,10 @@ Untuk mengakses skill ini kamu hanya perlu mengetik **/foraging**.
 
 ## XP Source
 
-
-
 ## Abilities
 
-Ability yang didapatkan
+Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
+
+* **Lumberjack**
 
 ## Mana Ability
