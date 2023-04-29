@@ -1,7 +1,7 @@
 ---
 title: Farming
 date: 2023-04-28T14:53:43.243Z
-draft: true
+draft: false
 description: Tingkatkan skill farming kamu dengan bercocok tanam!
 ---
 Tingkatkan skill farming kamu dengan bercocok tanam!
@@ -11,8 +11,6 @@ Tingkatkan skill farming kamu dengan bercocok tanam!
 Untuk mengakses skill ini dan melihat level farming kamu, ketik **/farming**.
 
 {{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan penambahan stats berupa Toughness sebesar 0,5. {{< /alert-info >}}
-
-
 
 {{< alert-info >}} Setiap peningkatan level ganjil (3, 5, 7, ..., dst), kamu akan mendapatkan penambahan stats berupa Health sebesar 0,5. {{< /alert-info >}}
 
@@ -28,14 +26,14 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
 
 * **Bountiful Harvest**
 
-  **Ability** atau kemampuan dari **Bountiful Harvest** adalah mendapatkan kesempatan atau chance double drops dari tumbuhan atau crops yang sedang kamu panen. **Ability** ini terbuka pada **Farming** level 2 dengan chance sebesar 5,7%. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Bountiful Harvest** kamu, setiap levelnya akan bertambah sebesar 0,7%. 
+  **Ability** atau kemampuan dari **Bountiful Harvest** adalah mendapatkan kesempatan atau chance double drops dari tumbuhan atau crops yang sedang kamu panen. **Ability** ini terbuka pada **Farming** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Bountiful Harvest** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
 
   > Contoh:
   >
   > **Bountiful Harvest1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Bountiful Harvest 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya.
 * **Farmer**
 
-  **Ability** dari **Farmer** adalah meningkatkan jumlah **Farming XP** yang didapatkan. **Ability** ini terbuka pada **Farming** level 3 dengan peningkatan sebesar 5% dari **Farming XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar 5%.
+  **Ability** dari **Farmer** adalah meningkatkan jumlah **Farming XP** yang didapatkan. **Ability** ini terbuka pada **Farming** level 3 dengan peningkatan sebesar **5%** dari **Farming XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
 
   > Contoh:
   >
@@ -49,12 +47,14 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
   Ability dari ini saya gatau apa:v
 * **Triple Harvest**
 
-  **Ability** dari **Triple Harvest** adalah mendapatkan kesempatan atau chance untuk mendapatkan triple drops dari tumbuhan atau crops yang di panen. Ability ini akan terbuka pada Farming level 7 dengan chance sebesar 3,8%. Kesempatan atau chance triple drops akan meningkat seiring bertambahnya level **Triple Harvest** kamu, setiap levelnya akan bertambah sebesar 0,7%. 
+  **Ability** dari **Triple Harvest** adalah mendapatkan kesempatan atau chance untuk mendapatkan triple drops dari tumbuhan atau crops yang di panen. Ability ini akan terbuka pada Farming level 7 dengan chance sebesar **3,8%**. Kesempatan atau chance triple drops akan meningkat seiring bertambahnya level **Triple Harvest** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
 
   > Contoh:
   >
   > **Triple Harvest1** memiliki chance 3,8%. Setiap peningkatan level ability sebesar 0,7% maka **Triple Harvest 2** memiliki chance sebesar (3,8%+0,7%) = 4,5%, begitupun seterusnya.
 
-
-
 ## Mana Ability
+
+Fungsi dari mana disini adalah penggunaan **Ability** yang diharuskan menggunakan mana untuk mengaktifkannya. Pada skill **Farming**, **Mana Ability** yang didapatkan adalah **Replenish**.
+
+**Replenish** adalah kemampuan atau ability untuk menanam tumbuhan atau crops secara otomatis ketika kamu sedang memanemnya. Kemampuan ini berdurasi **3 detik** dan memerlukan mana cost sebesar **20 mana** dengan cooldown selama **240 detik**. Setiap peningkatan level ability ini akan menambahkan durasi sebesar **0,5 detik**.
