@@ -28,13 +28,18 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
   >
   > **Lumberjack 1** memiliki chance sebesar 5,7%
   >
-  > **Lumberjack 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%.
+  > **Lumberjack 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%
 * **Forager**
 
   **Ability** dari **Forager** adalah meningkatkan jumlah **Farming XP** yang didapatkan. **Ability** ini terbuka pada **Foraging** level 3 dengan peningkatan sebesar **5%** dari **Farming XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
 
   > Contoh:
   >
-  > Forager 1 m
+  > **Forager 1** akan meningkatkan jumlah **Farming XP** sebesar 5%
+  >
+  > **Forager 2** akan meningkatkan jumlah **Farming XP** sebesar (5%+5%) = 10%
+* **Valor**
+
+  tak taw gmna jelasinnya hehe
 
 ## Mana Ability
