@@ -16,8 +16,6 @@ Untuk mengakses skill ini kamu hanya perlu mengetik **/foraging**.
 
 ## XP Source
 
-
-
 ## Abilities
 
 Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
@@ -33,6 +31,10 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
   > **Lumberjack 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%.
 * **Forager**
 
+  **Ability** dari **Forager** adalah meningkatkan jumlah **Farming XP** yang didapatkan. **Ability** ini terbuka pada **Foraging** level 3 dengan peningkatan sebesar **5%** dari **Farming XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
 
+  > Contoh:
+  >
+  > Forager 1 m
 
 ## Mana Ability
