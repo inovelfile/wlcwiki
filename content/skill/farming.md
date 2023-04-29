@@ -2,7 +2,8 @@
 title: Farming
 date: 2023-04-28T14:53:43.243Z
 draft: true
-description: Merupakan Peningkatan Skills Health & Toughness Melalui Memanen
-  Berbagai Jenis Farm
+description: Tingkatkan skill farming kamu dengan bercocok tanam!
 ---
-aaa
+Tingkatkan skill farming kamu dengan bercocok tanam!
+
+Farming merupakan skill
