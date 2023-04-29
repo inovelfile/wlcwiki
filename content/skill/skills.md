@@ -9,7 +9,7 @@ Tingkatkan skill dengan melakukan berbagai tugas untuk mendapatkan stat boost, a
 
 Skills dapat diartikan sebagai kemampuan atau ability dari player untuk mendapatkan berbagai keuntungan. Seiring dengan meningkatnya level masing-masing skill, maka stats player juga akan meningkat.
 
-
+![](/img/uploads/skill.png)
 
 ## **Command Dasar**
 
