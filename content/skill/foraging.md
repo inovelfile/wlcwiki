@@ -22,4 +22,6 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
 
 * **Lumberjack**
 
+
+
 ## Mana Ability
