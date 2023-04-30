@@ -2,9 +2,9 @@
 title: Archery
 date: 2023-04-30T15:22:22.540Z
 draft: true
-description: Tingkatkan skill fishing kamu dengan memancing!
+description: Tingkatkan skill fishing kamu dengan memanah!
 ---
-Tingkatkan skill fishing kamu dengan memancing!
+Tingkatkan skill fishing kamu dengan memanah!
 
 **Fishing** merupakan kegiatan yang dilakukan dengan memancing seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, fishing memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menambang bebatuan atau ore yang ada pada Minecraft untuk mendapatkan **Fishing XP**. Setiap jenis ikan dan loots memiliki jumlah **Fishing XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Luck**.
 
