@@ -1,6 +1,6 @@
 ---
 title: Skills
-date: 2023-04-30T16:03:17.174Z
+date: 2023-04-30T16:05:38.366Z
 draft: false
 description: Tingkatkan skill dengan melakukan berbagai tugas untuk mendapatkan
   stat boost, abilities dan lebih banyak lagi!
