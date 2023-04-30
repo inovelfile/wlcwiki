@@ -16,7 +16,23 @@ Untuk mengakses skill ini dan melihat level farming kamu, ketik **/fishing**.
 
 Seperti yang dijelaskan sebelumnya, setiap jenis ikan dan loots yang didapat memiliki jumlah **Fishing XP** yang berbeda-beda.
 
-![]()
+![](/img/uploads/fishingxp.png)
+
+Junk Item : 20
+
+Cod : 25
+
+Salmon : 40
+
+Pufferfish : 115
+
+Rare Loot : 250 
+
+Treasure Item : 400
+
+Tropical Fish : 500
+
+Epic Loot : 750
 
 ## Ability
 
