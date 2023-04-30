@@ -78,7 +78,13 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
   > dst.
 * **Geneticist**
 
-  Ability dari ini saya gatau apa:v
+  **Ability** dari **Geneticist** adalah meningkatkan pendapatan **saturasi** dari tanaman makanan. **Ability** ini terbuka pada **Farming** level 5 dengan peningkatan sebesar **1.2**. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **0.2.**
+
+  > Contoh:
+  >
+  > **Geneticist** level 1 akan meningkatkan pendapatan **saturasi** dari tanaman makanan sebesar 1.2
+  >
+  > **Geneticist** level 2 akan meningkatkan pendapatan **saturasi** dari tanaman makanan sebesar 1.4
 * **Triple Harvest**
 
   **Ability** dari **Triple Harvest** adalah mendapatkan kesempatan atau chance untuk mendapatkan triple drops dari tumbuhan atau crops yang di panen. Ability ini akan terbuka pada Farming level 7 dengan chance sebesar **3,8%**. Kesempatan atau chance triple drops akan meningkat seiring bertambahnya level **Triple Harvest** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
