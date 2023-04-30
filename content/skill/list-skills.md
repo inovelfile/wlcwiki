@@ -1,6 +1,6 @@
 ---
 title: Stats
-date: 2023-04-30T16:05:26.632Z
+date: 2023-04-30T17:55:26.402Z
 draft: false
 description: Merupakan salah satu fitur yang dapat meningkatkan statistik player
   sesuai dengan keinginannya untuk menjadi player terkuat di WheelCraft
