@@ -1,6 +1,6 @@
 ---
 title: Farming
-date: 2023-04-30T16:03:39.415Z
+date: 2023-04-30T16:05:17.910Z
 draft: false
 description: Tingkatkan skill farming kamu dengan bercocok tanam!
 ---
