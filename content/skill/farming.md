@@ -18,9 +18,43 @@ Untuk mengakses skill ini dan melihat level farming kamu, ketik **/farming**.
 
 Seperti yang dijelaskan sebelumnya, setiap jenis crops memiliki jumlah **Farming XP** yang berbeda-beda.
 
-*(tambah 1 1 image nya atau perlu dijelasin aja? -adi)*
+![](/img/uploads/xp-farm.png)
 
-## Abilities
+Bamboo : 0.25 XP
+
+Kelp : 0.5 XP
+
+Sugarcane : 1.7 XP
+
+Wheat : 2 XP
+
+Potato : 2.5 XP
+
+Sweet Berries : 2.5 XP
+
+Carrot : 2.7 XP
+
+Beetroot : 3 XP
+
+Nether Wart : 3 XP
+
+Pumpkin : 3.4 XP
+
+Melon : 3.4 XP
+
+Cocoa : 4 XP
+
+Sea Pickles : 4 XP
+
+Glow Berries : 4.5 XP
+
+Cactus : 6 XP
+
+Brown Mushroom : 7 XP
+
+Red Mushroom : 7 XP
+
+
 
 Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
 
