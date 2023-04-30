@@ -54,8 +54,6 @@ Brown Mushroom : 7 XP
 
 Red Mushroom : 7 XP
 
-
-
 ## Ability
 
 Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
@@ -93,4 +91,4 @@ Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampua
 
 Fungsi dari mana disini adalah penggunaan **Ability** yang diharuskan menggunakan mana untuk mengaktifkannya. Pada skill **Farming**, **Mana Ability** yang didapatkan adalah **Replenish**.
 
-**Replenish** adalah kemampuan atau ability untuk menanam tumbuhan atau crops secara otomatis ketika kamu sedang memanemnya. Kemampuan ini berdurasi **3 detik** dan memerlukan mana cost sebesar **20 mana** dengan cooldown selama **240 detik**. Setiap peningkatan level ability ini akan menambahkan durasi sebesar **0,5 detik**.
+**Replenish** adalah kemampuan atau ability untuk menanam tumbuhan atau crops secara otomatis ketika kamu sedang memanemnya. Cara mengaktifkannya adalah klik kanan ketika kamu sedang memegang hoe dan mulailah memanen maka ability ini akan otomatis aktif. Kemampuan ini berdurasi **3 detik** dan memerlukan mana cost sebesar **20 mana** dengan cooldown selama **240 detik**. Setiap peningkatan level ability ini akan menambahkan durasi sebesar **0,5 detik**.
