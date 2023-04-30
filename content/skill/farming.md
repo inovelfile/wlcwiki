@@ -56,6 +56,8 @@ Red Mushroom : 7 XP
 
 
 
+## Ability
+
 Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
 
 * **Bountiful Harvest**
