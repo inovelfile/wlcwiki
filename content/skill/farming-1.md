@@ -8,7 +8,7 @@ Tingkatkan skill mining kamu dengan menambang bebatuan!
 
 **Mining** merupakan kegiatan yang dilakukan dengan menambang bebatuan seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, mining memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menambang bebatuan atau ore yang ada pada Minecraft untuk mendapatkan **Mining XP**. Setiap jenis batu dan ore memiliki jumlah **Mining XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Strength** dan **Luck**.
 
-Untuk mengakses skill ini dan melihat level farming kamu, ketik **/mining**.
+Untuk mengakses skill ini dan melihat level mining kamu, ketik **/mining**.
 
 {{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan penambahan stats berupa Strength sebesar 0,5. {{< /alert-info >}}
 
@@ -22,41 +22,41 @@ Seperti yang dijelaskan sebelumnya, setiap jenis crops memiliki jumlah **Mining 
 
 ![](/img/uploads/miningxp2.png)
 
-Netherite
+Netherite : 0.1
 
-Stone
+Stone : 0.2
 
-Cobblestone
+Cobblestone : 0.2
 
-Granite
+Granite : 0.2
 
-Diorite
+Diorite : 0.2
 
-Andesite
+Andesite : 0.2
 
-Blackstone
+Blackstone : 0.3
 
-Ice
+Ice : 0.3
 
-Basalt
+Basalt : 0.4
 
-Deepslate
+Deepslate : 0.4
 
-Terracotta
+Terracotta : 0.5
 
-End Stone
+End Stone : 0.5
 
-Tuff
+Tuff : 0.5
 
-Magma Block
+Magma Block : 0.7
 
-Calcite
+Calcite : 0.8
 
-Smooth Basalt
+Smooth Basalt : 0.8
 
-Packed Ice
+Packed Ice : 0.8
 
-Coal Ore
+Coal Ore : 1
 
 {{< alert-info >}} Untuk block lainnya kamu bisa melihat dengan menggunakan command /mining lalu pilih menu XP Source. {{< /alert-info >}}
 
