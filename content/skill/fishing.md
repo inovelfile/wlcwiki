@@ -69,7 +69,7 @@ Dengan meningkatkan level **Fishing** kamu, ada beberapa abilities atau kemampua
   >   dengan chance drop 1 - 4 item.
 * **Epic Catch**
 
-  **Ability** atau kemampuan dari **Epic Catch** adalah mendapatkan kesempatan atau chance untuk mendapatkan Epic Loots dari memancing. **Ability** ini terbuka pada **Fishing** level 7 dengan chance sebesar **0,9%**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Treasure Hunter** kamu, setiap levelnya akan bertambah sebesar **0,4%**.
+  **Ability** atau kemampuan dari **Epic Catch** adalah mendapatkan kesempatan atau chance untuk mendapatkan Epic Loots dari memancing. **Ability** ini terbuka pada **Fishing** level 7 dengan chance sebesar **0,9%**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Epic Catch** kamu, setiap levelnya akan bertambah sebesar **0,4%**.
 
   > Epic Loots yang bisa didapatkan berupa:
   >
