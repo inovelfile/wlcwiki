@@ -16,9 +16,49 @@ Untuk mengakses skill ini dan melihat level farming kamu, ketik **/mining**.
 
 ## XP Source
 
-Seperti yang dijelaskan sebelumnya, setiap jenis crops memiliki jumlah **Farming XP** yang berbeda-beda.
+Seperti yang dijelaskan sebelumnya, setiap jenis crops memiliki jumlah **Mining XP** yang berbeda-beda.
 
-![]()
+![](/img/uploads/miningxp1.png)
+
+![](/img/uploads/miningxp2.png)
+
+Netherite
+
+Stone
+
+Cobblestone
+
+Granite
+
+Diorite
+
+Andesite
+
+Blackstone
+
+Ice
+
+Basalt
+
+Deepslate
+
+Terracotta
+
+End Stone
+
+Tuff
+
+Magma Block
+
+Calcite
+
+Smooth Basalt
+
+Packed Ice
+
+Coal Ore
+
+{{< alert-info >}} Untuk block lainnya kamu bisa melihat dengan menggunakan command /mining lalu pilih menu XP Source. {{< /alert-info >}}
 
 ## Ability
 
@@ -44,10 +84,10 @@ Dengan meningkatkan level **Mining** kamu, ada beberapa abilities atau kemampuan
   > dst.
 * **Pick Master**
 
-  Ability dari ini saya gatau apa:v
+  **Ability** dari **Pick Master** adalah menambahkan deal damage ketika kamu memukul entity menggunakan pickaxe dengan jumlah 13,8%. **Ability** ini akan terbuka pada **Mining** level 5. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar 3,8%.
 * **Hardened Armor**
 
-  **Tak tau ability nya bg**
+  **Ability** dari **Hardened Armor** adalah mendapatkan kesempatan untuk menghilangkan atau meniadakan durability damage pada armor yang sedang digunakan. **Ability** ini akan terbuka pada **Mining** level 7 dengan chance sebesar **8%**. Setiap peningkatan **Ability** ini akan bertambah sebesar **0,5%**.
 
 ## Mana Ability
 
