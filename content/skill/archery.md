@@ -1,6 +1,6 @@
 ---
-title: Fishing
-date: 2023-04-30T12:04:12.226Z
+title: Archery
+date: 2023-04-30T15:22:22.540Z
 draft: true
 description: Tingkatkan skill fishing kamu dengan memancing!
 ---

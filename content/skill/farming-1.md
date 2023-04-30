@@ -20,8 +20,6 @@ Seperti yang dijelaskan sebelumnya, setiap jenis crops memiliki jumlah **Farming
 
 ![]()
 
-
-
 ## Ability
 
 Dengan meningkatkan level **Mining** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
@@ -35,7 +33,7 @@ Dengan meningkatkan level **Mining** kamu, ada beberapa abilities atau kemampuan
   > **Lucky Miner 1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Lucky Miner 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya.
 * **Miner**
 
-  **Ability** dari **Miner**adalah meningkatkan jumlah **Mining XP** yang didapatkan. **Ability** ini terbuka pada **Miner** level 3 dengan peningkatan sebesar **5%** dari **Mining XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
+  **Ability** dari **Miner** adalah meningkatkan jumlah **Mining XP** yang didapatkan. **Ability** ini terbuka pada **Mining** level 3 dengan peningkatan sebesar **5%** dari **Mining XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
 
   > Contoh:
   >
