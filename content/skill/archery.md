@@ -2,7 +2,7 @@
 title: Archery
 date: 2023-04-30T15:22:22.540Z
 draft: true
-description: Tingkatkan skill fishing kamu dengan memanah!
+description: Tingkatkan skill archery kamu dengan memanah!
 ---
 Tingkatkan skill fishing kamu dengan memanah!
 
