@@ -8,7 +8,7 @@ Tingkatkan skill fishing kamu dengan memancing!
 
 **Fishing** merupakan kegiatan yang dilakukan dengan memancing seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, fishing memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menambang bebatuan atau ore yang ada pada Minecraft untuk mendapatkan **Fishing XP**. Setiap jenis ikan dan loots memiliki jumlah **Fishing XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Luck**.
 
-Untuk mengakses skill ini dan melihat level farming kamu, ketik **/fishing**.
+Untuk mengakses skill ini dan melihat level fishing kamu, ketik **/fishing**.
 
 {{< alert-info >}} Setiap peningkatan level, kamu akan mendapatkan penambahan stats berupa Luck sebesar 0,5. {{< /alert-info >}}
 
