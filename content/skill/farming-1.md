@@ -1,96 +1,58 @@
 ---
-title: Farming
+title: Mining
 date: 2023-04-30T11:49:11.545Z
 draft: true
-description: Tingkatkan skill farming kamu dengan bercocok tanam!
+description: Tingkatkan skill mining kamu dengan menambang bebatuan!
 ---
-Tingkatkan skill farming kamu dengan bercocok tanam!
+Tingkatkan skill mining kamu dengan menambang bebatuan!
 
-**Farming** merupakan kegiatan yang dilakukan dengan bercocok tanam seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, farming memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu memanen tumbuhan atau crops yang ada pada Minecraft untuk mendapatkan **Farming XP**. Setiap jenis tumbuhan atau crops memiliki jumlah **Farming XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah Toughness dan Health.
+**Mining** merupakan kegiatan yang dilakukan dengan menambang bebatuan seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, mining memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menambang bebatuan atau ore yang ada pada Minecraft untuk mendapatkan **Mining XP**. Setiap jenis batu dan ore memiliki jumlah **Mining XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Strength** dan **Luck**.
 
-Untuk mengakses skill ini dan melihat level farming kamu, ketik **/farming**.
+Untuk mengakses skill ini dan melihat level farming kamu, ketik **/mining**.
 
-{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan penambahan stats berupa Toughness sebesar 0,5. {{< /alert-info >}}
+{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan penambahan stats berupa Strength sebesar 0,5. {{< /alert-info >}}
 
-{{< alert-info >}} Setiap peningkatan level ganjil (3, 5, 7, ..., dst), kamu akan mendapatkan penambahan stats berupa Health sebesar 0,5. {{< /alert-info >}}
+{{< alert-info >}} Setiap peningkatan level ganjil (3, 5, 7, ..., dst), kamu akan mendapatkan penambahan stats berupa Luck sebesar 0,5. {{< /alert-info >}}
 
 ## XP Source
 
 Seperti yang dijelaskan sebelumnya, setiap jenis crops memiliki jumlah **Farming XP** yang berbeda-beda.
 
-![](/img/uploads/xp-farm.png)
-
-Bamboo : 0.25 XP
-
-Kelp : 0.5 XP
-
-Sugarcane : 1.7 XP
-
-Wheat : 2 XP
-
-Potato : 2.5 XP
-
-Sweet Berries : 2.5 XP
-
-Carrot : 2.7 XP
-
-Beetroot : 3 XP
-
-Nether Wart : 3 XP
-
-Pumpkin : 3.4 XP
-
-Melon : 3.4 XP
-
-Cocoa : 4 XP
-
-Sea Pickles : 4 XP
-
-Glow Berries : 4.5 XP
-
-Cactus : 6 XP
-
-Brown Mushroom : 7 XP
-
-Red Mushroom : 7 XP
+![]()
 
 
 
 ## Ability
 
-Dengan meningkatkan level **Farming** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
+Dengan meningkatkan level **Mining** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
 
-* **Bountiful Harvest**
+* **Lucky Miner**
 
-  **Ability** atau kemampuan dari **Bountiful Harvest** adalah mendapatkan kesempatan atau chance double drops dari tumbuhan atau crops yang sedang kamu panen. **Ability** ini terbuka pada **Farming** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Bountiful Harvest** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
-
-  > Contoh:
-  >
-  > **Bountiful Harvest 1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Bountiful Harvest 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya.
-* **Farmer**
-
-  **Ability** dari **Farmer** adalah meningkatkan jumlah **Farming XP** yang didapatkan. **Ability** ini terbuka pada **Farming** level 3 dengan peningkatan sebesar **5%** dari **Farming XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
+  **Ability** atau kemampuan dari **Lucky Miner** adalah mendapatkan kesempatan atau chance double drops dari ores yang sedang kamu tambang. **Ability** ini terbuka pada **Mining** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Lucky Miner** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
 
   > Contoh:
   >
-  > **Farmer** level 1 akan meningkatkan jumlah **Farming XP** sebesar 5%
+  > **Lucky Miner 1** memiliki chance 5,7%. Setiap peningkatan level ability sebesar 0,7% maka **Lucky Miner 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%, begitupun seterusnya.
+* **Miner**
+
+  **Ability** dari **Miner**adalah meningkatkan jumlah **Mining XP** yang didapatkan. **Ability** ini terbuka pada **Miner** level 3 dengan peningkatan sebesar **5%** dari **Mining XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
+
+  > Contoh:
   >
-  > **Farmer** level 2 akan meningkatkan jumlah **Farming XP** sebesar 10%
+  > **Miner** level 1 akan meningkatkan jumlah **Mining XP** sebesar 5%
+  >
+  > **Miner** level 2 akan meningkatkan jumlah **Mining XP** sebesar 10%
   >
   > dst.
-* **Geneticist**
+* **Pick Master**
 
   Ability dari ini saya gatau apa:v
-* **Triple Harvest**
+* **Hardened Armor**
 
-  **Ability** dari **Triple Harvest** adalah mendapatkan kesempatan atau chance untuk mendapatkan triple drops dari tumbuhan atau crops yang di panen. Ability ini akan terbuka pada Farming level 7 dengan chance sebesar **3,8%**. Kesempatan atau chance triple drops akan meningkat seiring bertambahnya level **Triple Harvest** kamu, setiap levelnya akan bertambah sebesar **0,7%**. 
-
-  > Contoh:
-  >
-  > **Triple Harvest 1** memiliki chance 3,8%. Setiap peningkatan level ability sebesar 0,7% maka **Triple Harvest 2** memiliki chance sebesar (3,8%+0,7%) = 4,5%, begitupun seterusnya.
+  **Tak tau ability nya bg**
 
 ## Mana Ability
 
-Fungsi dari mana disini adalah penggunaan **Ability** yang diharuskan menggunakan mana untuk mengaktifkannya. Pada skill **Farming**, **Mana Ability** yang didapatkan adalah **Replenish**.
+Fungsi dari mana disini adalah penggunaan **Ability** yang diharuskan menggunakan mana untuk mengaktifkannya. Pada skill **Mining**, **Mana Ability** yang didapatkan adalah **Speed Mine**.
 
-**Replenish** adalah kemampuan atau ability untuk menanam tumbuhan atau crops secara otomatis ketika kamu sedang memanemnya. Kemampuan ini berdurasi **3 detik** dan memerlukan mana cost sebesar **20 mana** dengan cooldown selama **240 detik**. Setiap peningkatan level ability ini akan menambahkan durasi sebesar **0,5 detik**.
+**Speed Mine** adalah kemampuan atau ability untuk memberikan Haste 10 ketika kamu sedang menambang. Cara mengaktifkannya adalah klik kanan ketika kamu sedang memegang pickaxe dan mulailah menambang maka ability ini akan otomatis aktif. Kemampuan ini berdurasi **3 detik** dan memerlukan mana cost sebesar **20 mana** dengan cooldown selama **240 detik**. Setiap peningkatan level ability ini akan menambahkan durasi sebesar **0,5 detik**.
