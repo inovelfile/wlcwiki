@@ -1,7 +1,7 @@
 ---
 title: Foraging
-date: 2023-04-29T18:14:06.353Z
-draft: true
+date: 2023-04-30T16:05:07.502Z
+draft: false
 description: Jadilah penebang kayu terkaya di WheelCraft Indonesia S5!
 ---
 Jadilah penebang kayu terkaya di WheelCraft Indonesia S5!
@@ -15,6 +15,60 @@ Untuk mengakses skill ini kamu hanya perlu mengetik **/foraging**.
 {{< alert-info >}} Setiap peningkatan level ganjil (3, 5, 7, ...., dst), kamu akan mendapatkan penambahan stats berupa Toughness sebesar 0,5. {{< /alert-info >}}
 
 ## XP Source
+
+Setiap leaves serta logs memiliki jumlah **Foraging XP** yang berbeda-beda.
+
+![](/img/uploads/foragingxp.png)
+
+Moss Carpet : 0.2 XP
+
+Oak Leaves : 0.4 XP
+
+Spruce Leaves : 0.4 XP
+
+Birch Leaves : 0.4 XP
+
+Jungle Leaves : 0.4 XP
+
+Acacia Leaves : 0.4 XP
+
+Dark Oak Leaves : 0.4 XP
+
+Mangrove Leaves : 0.4 XP
+
+Nether Wart Block : 0.5 XP
+
+Warped Wart Block : 0.5 XP
+
+Azalea Leaves : 1.5 XP
+
+Flowering Azalea Leaves :  2 XP
+
+Mangrove Roots :  2 XP
+
+Moss Block :  3.2 XP
+
+Oak Log : 4 XP
+
+Spruce Log : 4 XP
+
+Birch Log : 4 XP
+
+Jungle Log : 4 XP
+
+Acacia Log : 4 XP
+
+Dark Oak Log : 4 XP
+
+Mangrove Log : 4 XP
+
+Crimson Stem : 5 XP
+
+Warped Stem : 5 XP
+
+Azalea : 7 XP
+
+Flowering Azalea : 9.1 XP
 
 ## Abilities
 
