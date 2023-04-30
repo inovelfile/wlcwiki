@@ -1,6 +1,6 @@
 ---
 title: Excavation
-date: 2023-04-30T18:05:16.651Z
+date: 2023-04-30T18:32:47.405Z
 draft: false
 description: Tingkatkan skill excavation kamu dengan menghancurkan tanah dan pasir!
 ---
