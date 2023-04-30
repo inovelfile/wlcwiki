@@ -1,7 +1,7 @@
 ---
 title: Excavation
 date: 2023-04-30T18:05:16.651Z
-draft: true
+draft: false
 description: Tingkatkan skill excavation kamu dengan menghancurkan tanah dan pasir!
 ---
 Tingkatkan skill excavation kamu dengan menghancurkan tanah dan pasir!
@@ -85,4 +85,4 @@ Dengan meningkatkan level **Excavation** kamu, ada beberapa abilities atau kemam
 
 Fungsi dari mana disini adalah penggunaan **Ability** yang diharuskan menggunakan mana untuk mengaktifkannya. Pada skill **Excavation**, **Mana Ability** yang didapatkan adalah **Terraform**.
 
-**Sharp Hook** adalah kemampuan atau ability untuk memberikan damage tambahan sebesar **15 damage** ketika kamu melakukan hooked pada entity. Cara mengaktifkannya adalah klik kiri untuk hooked pada entity. Kemampuan ini membutuhkan mana sebanyak **20 mana** dengan cooldown **10 detik.**
+**Terraform** adalah kemampuan atau ability untuk menghancurkan jenis tanah yang sama dengan radius 4 block pada koordinat Y yang sama . Cara mengaktifkannya adalah klik kanan ketika memegang shovel lalu mulailah menghancurkan tanah. Kemampuan ini berdurasi **3 detik** membutuhkan mana sebanyak **20 mana** dengan cooldown **180 detik.** Setiap peningkatan level dari ability ini akan menambahkan durasi selama **0,5 detik**.
