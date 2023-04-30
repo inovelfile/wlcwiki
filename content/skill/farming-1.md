@@ -1,7 +1,7 @@
 ---
 title: Mining
 date: 2023-04-30T11:49:11.545Z
-draft: true
+draft: false
 description: Tingkatkan skill mining kamu dengan menambang bebatuan!
 ---
 Tingkatkan skill mining kamu dengan menambang bebatuan!
