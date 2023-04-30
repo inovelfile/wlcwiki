@@ -2,29 +2,25 @@
 title: Fishing
 date: 2023-04-30T12:04:12.226Z
 draft: true
-description: Tingkatkan skill mining kamu dengan menambang bebatuan!
+description: Tingkatkan skill fishing kamu dengan memancing keributan!
 ---
-Tingkatkan skill mining kamu dengan menambang bebatuan!
+Tingkatkan skill fishing kamu dengan memancing keributan!
 
-**Mining** merupakan kegiatan yang dilakukan dengan menambang bebatuan seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, mining memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menambang bebatuan atau ore yang ada pada Minecraft untuk mendapatkan **Mining XP**. Setiap jenis batu dan ore memiliki jumlah **Mining XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Strength** dan **Luck**.
+**Fishing** merupakan kegiatan yang dilakukan dengan memancing seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, fishing memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menambang bebatuan atau ore yang ada pada Minecraft untuk mendapatkan **Fishing XP**. Setiap jenis ikan dan loots memiliki jumlah **Fishing XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Luck**.
 
-Untuk mengakses skill ini dan melihat level farming kamu, ketik **/mining**.
+Untuk mengakses skill ini dan melihat level farming kamu, ketik **/fishing**.
 
-{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan penambahan stats berupa Strength sebesar 0,5. {{< /alert-info >}}
-
-{{< alert-info >}} Setiap peningkatan level ganjil (3, 5, 7, ..., dst), kamu akan mendapatkan penambahan stats berupa Luck sebesar 0,5. {{< /alert-info >}}
+{{< alert-info >}} Setiap peningkatan level , kamu akan mendapatkan penambahan stats berupa Luck sebesar 0,5. {{< /alert-info >}}
 
 ## XP Source
 
-Seperti yang dijelaskan sebelumnya, setiap jenis crops memiliki jumlah **Farming XP** yang berbeda-beda.
+Seperti yang dijelaskan sebelumnya, setiap jenis crops memiliki jumlah **Fishing XP** yang berbeda-beda.
 
 ![]()
 
-
-
 ## Ability
 
-Dengan meningkatkan level **Mining** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
+Dengan meningkatkan level **Fishing** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
 
 * **Lucky Miner**
 
