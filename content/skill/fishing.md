@@ -72,4 +72,4 @@ Dengan meningkatkan level **Fishing** kamu, ada beberapa abilities atau kemampua
 
 Fungsi dari mana disini adalah penggunaan **Ability** yang diharuskan menggunakan mana untuk mengaktifkannya. Pada skill **Fishing**, **Mana Ability** yang didapatkan adalah **Sharp Hook**.
 
-**Sharp Hook** adalah kemampuan atau ability untuk memberikan damage tambahan sebesar 15 damage ketika kamu melakukan hooked pada entity. Cara mengaktifkannya adalah klik kiri untuk hooked pada entity.
+**Sharp Hook** adalah kemampuan atau ability untuk memberikan damage tambahan sebesar **15 damage** ketika kamu melakukan hooked pada entity. Cara mengaktifkannya adalah klik kiri untuk hooked pada entity. Kemampuan ini membutuhkan mana sebanyak **20 mana** dengan cooldown **10 detik.**
