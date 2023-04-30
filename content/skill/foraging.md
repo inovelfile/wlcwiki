@@ -10,7 +10,7 @@ Jadilah penebang kayu terkaya di WheelCraft Indonesia S5!
 
 Untuk mengakses skill ini kamu hanya perlu mengetik **/foraging**.
 
-{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan penambahan stats berupa Health sebesar 0,5. {{< /alert-info >}}
+{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), kamu akan mendapatkan penambahan stats berupa Strength sebesar 0,5. {{< /alert-info >}}
 
 {{< alert-info >}} Setiap peningkatan level ganjil (3, 5, 7, ...., dst), kamu akan mendapatkan penambahan stats berupa Toughness sebesar 0,5. {{< /alert-info >}}
 
