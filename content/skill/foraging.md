@@ -40,7 +40,7 @@ Dengan meningkatkan level **Foraging** kamu, ada beberapa abilities atau kemampu
   > **Forager 2** akan meningkatkan jumlah **Foraging XP** sebesar (5%+5%) = 10%
 * **Valor**
 
-  **Ability** dari **Valor** adalah meningkatkan strength ketika membawa axe di tangan. **Ability** ini terbuka pada Foraging level 5 dengan peningkatan sebesar **11.5 Strength**. Setiap peningkatan level dari Ability ini akan bertambah sebesar **1.5 Strength.**
+  **Ability** dari **Valor** adalah meningkatkan strength ketika membawa axe di tangan. **Ability** ini terbuka pada **Foraging** level 5 dengan peningkatan sebesar **11.5 Strength**. Setiap peningkatan level dari Ability ini akan bertambah sebesar **1.5 Strength.**
 
   > Contoh: 
   >
