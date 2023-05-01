@@ -82,7 +82,9 @@ Dengan meningkatkan level **Foraging** kamu, ada beberapa abilities atau kemampu
   >
   > **Lumberjack 1** memiliki chance sebesar 5,7%
   >
-  > **Lumberjack 2** memiliki chance sebesar (5,7%+0,7%) = 6,4%
+  > **Lumberjack 2** memiliki chance sebesar 6,4%
+  >
+  > dst.
 * **Forager**
 
   **Ability** dari **Forager** adalah meningkatkan jumlah **Foraging XP** yang didapatkan. **Ability** ini terbuka pada **Foraging** level 3 dengan peningkatan sebesar **5%** dari **Foraging XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
@@ -91,7 +93,9 @@ Dengan meningkatkan level **Foraging** kamu, ada beberapa abilities atau kemampu
   >
   > **Forager 1** akan meningkatkan jumlah **Foraging XP** sebesar 5%
   >
-  > **Forager 2** akan meningkatkan jumlah **Foraging XP** sebesar (5%+5%) = 10%
+  > **Forager 2** akan meningkatkan jumlah **Foraging XP** sebesar 10%
+  >
+  > dst.
 * **Valor**
 
   **Ability** dari **Valor** adalah meningkatkan strength ketika membawa axe di tangan. **Ability** ini terbuka pada **Foraging** level 5 dengan peningkatan sebesar **11.5 Strength**. Setiap peningkatan level dari Ability ini akan bertambah sebesar **1.5 Strength.**
@@ -100,7 +104,9 @@ Dengan meningkatkan level **Foraging** kamu, ada beberapa abilities atau kemampu
   >
   > **Valor 1** akan meningkatkan strength sebesar 11.5
   >
-  > **Valor 2** akan meningkatkan strength sebesar (11.5+1.5) = 13
+  > **Valor 2** akan meningkatkan strength sebesar 13
+  >
+  > dst.
 
 ## Mana Ability
 
