@@ -9,6 +9,17 @@ theme = 'lumidoc'
 [outputs]
     home = ["HTML", "RSS", "JSON"]
 
+[[redirects]]
+  from = "/admin/*"
+  to = "/"
+  status = 302
+  force = true
+  conditions = { 
+    Role = { 
+      eq = "staff" 
+    } 
+ }
+
 [sitemap]
     changefreq = 'daily'
     filename = 'sitemap.xml'
