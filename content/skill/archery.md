@@ -4,19 +4,39 @@ date: 2023-04-30T15:22:22.540Z
 draft: true
 description: Tingkatkan skill archery kamu dengan memanah!
 ---
-Tingkatkan skill fishing kamu dengan memanah!
+Tingkatkan skill archery kamu dengan memanah!
 
-**Fishing** merupakan kegiatan yang dilakukan dengan memancing seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, fishing memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu menambang bebatuan atau ore yang ada pada Minecraft untuk mendapatkan **Fishing XP**. Setiap jenis ikan dan loots memiliki jumlah **Fishing XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Luck**.
+**Archery** merupakan kegiatan yang dilakukan dengan memanah kepada mobs maupun player lain seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, archery memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu memanah berbagai jenis mobs atau player  ada pada Minecraft untuk mendapatkan **Archery XP**. Setiap jenis mobs maupun player memiliki jumlah **Archery XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Luck** dan **Strength**
 
-Untuk mengakses skill ini dan melihat level farming kamu, ketik **/fishing**.
+Untuk mengakses skill ini dan melihat level farming kamu, ketik **/archery**.
 
-{{< alert-info >}} Setiap peningkatan level, kamu akan mendapatkan penambahan stats berupa Luck sebesar 0,5. {{< /alert-info >}}
+{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ..., dst), kamu akan mendapatkan penambahan stats berupa Luck sebesar 0,5. {{< /alert-info >}}
+
+{{< alert-info >}} Setiap peningkatan level ganjil (1, 3, 5, ..., dst), kamu akan mendapatkan penambahan stats berupa Strength sebesar 0,5. {{< /alert-info >}}
 
 ## XP Source
 
 Seperti yang dijelaskan sebelumnya, setiap jenis ikan dan loots yang didapat memiliki jumlah **Fishing XP** yang berbeda-beda.
 
-![]()
+![](/img/uploads/xp-archer.png)
+
+![](/img/uploads/xp-archer2.png)
+
+![](/img/uploads/xp-archer3.png)
+
+Allay : 0.2 XP
+
+Tadpole : 0.7 XP
+
+Bat : 1 XP
+
+Cat : 1 XP
+
+Chicken : 1 XP
+
+Cod : 1 XP
+
+
 
 ## Ability
 
