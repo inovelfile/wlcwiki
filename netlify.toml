@@ -42,3 +42,14 @@ HUGO_ENABLEGITINFO = "true"
 from = "/npmjs/*"
 to = "/npmjs/"
 status = 200
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/"
+  status = 302
+  force = true
+  conditions = { 
+    Role = { 
+      eq = "staff" 
+    } 
+ }
