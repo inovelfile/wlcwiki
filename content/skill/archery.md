@@ -36,60 +36,45 @@ Chicken : 1 XP
 
 Cod : 1 XP
 
-
+{{< alert-info >}} Untuk block lainnya kamu bisa melihat dengan menggunakan command /archery lalu pilih menu XP Source. {{< /alert-info >}}
 
 ## Ability
 
-Dengan meningkatkan level **Fishing** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
+Dengan meningkatkan level **Archery** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
 
-* **Lucky Catch**
+* **Piercing**
 
-  **Ability** atau kemampuan dari **Lucky Catch** adalah mendapatkan kesempatan atau chance double drops dari memancing. **Ability** ini terbuka pada **Fishing** level 2 dengan chance sebesar **5,4%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Lucky Catch** kamu, setiap levelnya akan bertambah sebesar **0,4% - 0,5%**. 
-* **Fisher**
+  **Ability** atau kemampuan dari **Piercing** adalah mendapatkan kesempatan atau chance arrow untuk menembus berbagai mobs dalam sekali panah. **Ability** ini terbuka pada **Archery** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Piercing** kamu, setiap levelnya akan bertambah sebesar **0,7% - 0,6% - 0,7%**. 
+* **Archer**
 
-  **Ability** dari **Fisher** adalah meningkatkan jumlah **Fishing XP** yang didapatkan. **Ability** ini terbuka pada **Fishing** level 3 dengan peningkatan sebesar **5%** dari **Fishing XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
+  **Ability** dari **Archer** adalah meningkatkan jumlah **Archery XP** yang didapatkan. **Ability** ini terbuka pada **Fishing** level 3 dengan peningkatan sebesar **5%** dari **Archery XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
 
   > Contoh:
   >
-  > **Fisher** level 1 akan meningkatkan jumlah **Fishing XP** sebesar 5%
+  > **Archer** level 1 akan meningkatkan jumlah **Archery XP** sebesar 5%
   >
-  > **Fisher** level 2 akan meningkatkan jumlah **Fishing XP** sebesar 10%
+  > **Archer** level 2 akan meningkatkan jumlah **Archery XP** sebesar 10%
   >
   > dst.
-* **Treasure Hunter**
+* **Crit Chance**
 
-  **Ability** atau kemampuan dari **Treasure Hunter** adalah mendapatkan kesempatan atau chance untuk mendapatkan Rare Loots dari memancing. **Ability** ini terbuka pada **Fishing** level 5 dengan chance sebesar **1,6%**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Treasure Hunter** kamu, setiap levelnya akan bertambah sebesar **0,6%**. 
+  **Ability** atau kemampuan dari **Crit Chance** adalah mendapatkan kesempatan atau chance untuk mendapatkan critical hit dari memanah. **Ability** ini terbuka pada **Archery** level 5 dengan chance sebesar **1,5%**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Crit Chance** kamu, setiap levelnya akan bertambah sebesar **0,5%**. 
 
-  > Rare Loots yang bisa didapatkan berupa:
+  > Contoh:
   >
-  > * Iron Ingot
-  > * Gold Nugget
-  > * Coal
-  > * Bone
-  > * Prismarine Shard
-  > * Prismarine Crystal
-  > * Slime Ball
+  > **Crit Chance** level 1 akan meningkatkan jumlah chance sebesar 1.5%
   >
-  >   dengan chance drop 1 - 4 item.
-* **Epic Catch**
-
-  **Ability** atau kemampuan dari **Epic Catch** adalah mendapatkan kesempatan atau chance untuk mendapatkan Epic Loots dari memancing. **Ability** ini terbuka pada **Fishing** level 7 dengan chance sebesar **0,9%**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Treasure Hunter** kamu, setiap levelnya akan bertambah sebesar **0,4%**.
-
-  > Epic Loots yang bisa didapatkan berupa:
+  > **Crit Chance** level 2 akan meningkatkan jumlah chancesebesar 2%
   >
-  > * Diamond
-  > * Gold Ingot
-  > * Coal Block
-  > * Bone Block
-  > * Prismarine Shard
-  > * Prismarine Crystal
-  > * Slime Block
-  > * Tipped Arrow (Weakness, Slowness, Turtle Master, Water Breathing, Poison, Instant Damage, Spectral Arrow)
+  > dst.
+* **Stun**
+
+  **Ability** atau kemampuan dari **Stun** adalah mendapatkan kesempatan atau chance untuk mengurangi gerakan lawan dari memanah. **Ability** ini terbuka pada **Archery** level 7 dengan chance sebesar **2,4%** dan pengurangan gerakan sebesar **20%** selama **2 detik**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Stun** kamu, setiap levelnya akan bertambah sebesar **1,4%**.
+
+  > Contoh:
   >
-  >   dengan chance drop 1 - 7 item.
-
-## Mana Ability
-
-Fungsi dari mana disini adalah penggunaan **Ability** yang diharuskan menggunakan mana untuk mengaktifkannya. Pada skill **Fishing**, **Mana Ability** yang didapatkan adalah **Sharp Hook**.
-
-**Sharp Hook** adalah kemampuan atau ability untuk memberikan damage tambahan sebesar 15 damage ketika kamu melakukan hooked pada entity. Cara mengaktifkannya adalah klik kiri untuk hooked pada entity.
+  > **Stun** level 1 akan meningkatkan jumlah chance sebesar **2,4%** dan pengurangan gerakan sebesar 20% selama 2 detik
+  >
+  > **Stun** level 2 akan meningkatkan jumlah chance sebesar **3,8%** dan pengurangan gerakan sebesar 20% selama 2 detik
+  >
+  > dst.
