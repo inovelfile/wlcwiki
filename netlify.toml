@@ -48,8 +48,5 @@ status = 200
   to = "/"
   status = 302
   force = true
-  conditions = { 
-    Role = { 
-      eq = "staff" 
-    } 
- }
+  [redirects.conditions]
+    Role = { eq = "staff" }
