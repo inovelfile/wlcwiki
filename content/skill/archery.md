@@ -6,7 +6,7 @@ description: Tingkatkan skill archery kamu dengan memanah!
 ---
 Tingkatkan skill archery kamu dengan memanah!
 
-**Archery** merupakan kegiatan yang dilakukan dengan memanah kepada mobs maupun player lain seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, archery memiliki keuntungan meliputi **Abilities** dan **Mana Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu memanah berbagai jenis mobs atau player  ada pada Minecraft untuk mendapatkan **Archery XP**. Setiap jenis mobs maupun player memiliki jumlah **Archery XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Luck** dan **Strength**
+**Archery** merupakan kegiatan yang dilakukan dengan memanah kepada mobs maupun player lain seperti halnya kamu bermain Minecraft pada umumnya. Pada season ini, archery memiliki keuntungan yaitu **Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu memanah berbagai jenis mobs atau player  ada pada Minecraft untuk mendapatkan **Archery XP**. Setiap jenis mobs maupun player memiliki jumlah **Archery XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Luck** dan **Strength**
 
 Untuk mengakses skill ini dan melihat level farming kamu, ketik **/archery**.
 
@@ -16,7 +16,7 @@ Untuk mengakses skill ini dan melihat level farming kamu, ketik **/archery**.
 
 ## XP Source
 
-Seperti yang dijelaskan sebelumnya, setiap jenis ikan dan loots yang didapat memiliki jumlah **Fishing XP** yang berbeda-beda.
+Seperti yang dijelaskan sebelumnya, setiap jenis ikan dan loots yang didapat memiliki jumlah **Archery XP** yang berbeda-beda.
 
 ![](/img/uploads/xp-archer.png)
 
