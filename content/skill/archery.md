@@ -47,7 +47,7 @@ Dengan meningkatkan level **Archery** kamu, ada beberapa abilities atau kemampua
   **Ability** atau kemampuan dari **Piercing** adalah mendapatkan kesempatan atau chance arrow untuk menembus berbagai mobs dalam sekali panah. **Ability** ini terbuka pada **Archery** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Piercing** kamu, setiap levelnya akan bertambah sebesar **0,7% - 0,6% - 0,7%**. 
 * **Archer**
 
-  **Ability** dari **Archer** adalah meningkatkan jumlah **Archery XP** yang didapatkan. **Ability** ini terbuka pada **Fishing** level 3 dengan peningkatan sebesar **5%** dari **Archery XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
+  **Ability** dari **Archer** adalah meningkatkan jumlah **Archery XP** yang didapatkan. **Ability** ini terbuka pada **Archery** level 3 dengan peningkatan sebesar **5%** dari **Archery XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
 
   > Contoh:
   >
