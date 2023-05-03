@@ -50,30 +50,30 @@ Dengan meningkatkan level **Fighting** kamu, ada beberapa abilities atau kemampu
 
   > Contoh:
   >
-  > **Archer** level 1 akan meningkatkan jumlah **Archery XP** sebesar 5%
+  > **Fighter** level 1 akan meningkatkan jumlah **Fighting XP** sebesar 5%
   >
-  > **Archer** level 2 akan meningkatkan jumlah **Archery XP** sebesar 10%
+  > **Fighter** level 2 akan meningkatkan jumlah **Fighting XP** sebesar 10%
   >
   > dst.
-* **Crit Chance**
+* **First Strike**
 
-  **Ability** atau kemampuan dari **Crit Chance** adalah mendapatkan kesempatan atau chance untuk mendapatkan critical hit dari memanah. **Ability** ini terbuka pada **Archery** level 5 dengan chance sebesar **1,5%**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Crit Chance** kamu, setiap levelnya akan bertambah sebesar **0,5%**. 
+  **Ability** atau kemampuan dari **First Strike** adalah mendapatkan damage lebih pada pukulan pertama. **Ability** ini terbuka pada **Fighting** level 5 dengan peningkatan sebesar **13,8%**. damage akan meningkat seiring bertambahnya level **First Strike** kamu, setiap levelnya akan bertambah sebesar **3,8%**. 
 
   > Contoh:
   >
-  > **Crit Chance** level 1 akan meningkatkan jumlah chance sebesar 1.5%
+  > **First Strike** level 1 akan meningkatkan jumlah damage sebesar 13,8%
   >
-  > **Crit Chance** level 2 akan meningkatkan jumlah chancesebesar 2%
+  > **Crit Chance** level 2 akan meningkatkan jumlah damage sebesar 17,6%
   >
   > dst.
-* **Stun**
+* **Bleed**
 
-  **Ability** atau kemampuan dari **Stun** adalah mendapatkan kesempatan atau chance untuk mengurangi gerakan lawan dari memanah. **Ability** ini terbuka pada **Archery** level 7 dengan chance sebesar **2,4%** dan pengurangan gerakan sebesar **20%** selama **2 detik**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Stun** kamu, setiap levelnya akan bertambah sebesar **1,4%**.
+  **Ability** atau kemampuan dari **Bleed** adalah mendapatkan kesempatan atau chance untuk mengurangi HP lawan. **Ability** ini terbuka pada **Bleed** level 7 dengan chance sebesar **1,8%** selama **3 ticks** dan setiap ticks terhitung **2,7 damage**. Kesempatan atau chance akan meningkat seiring bertambahnya level **Bleed** kamu, setiap levelnya akan bertambah sebesar **0,9% - 0,8%** dan damage tiap ticks akan bertambah sebesar **0,2**.
 
   > Contoh:
   >
-  > **Stun** level 1 akan meningkatkan jumlah chance sebesar **2,4%** dan pengurangan gerakan sebesar 20% selama 2 detik
+  > **Bleed** level 1 akan meningkatkan jumlah chance sebesar **1,8%** selama 3 ticks dan setiap ticks terhitung **2,7** damage
   >
-  > **Stun** level 2 akan meningkatkan jumlah chance sebesar **3,8%** dan pengurangan gerakan sebesar 20% selama 2 detik
+  > **Bleed** level 2 akan meningkatkan jumlah chance sebesar **2,7%** selama 3 ticks dan setiap ticks terhitung **2,9** damage
   >
   > dst.
