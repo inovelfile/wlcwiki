@@ -17,15 +17,13 @@ Untuk mengakses skill ini dan melihat level farming kamu, ketik **/strength**.
 
 Seperti yang dijelaskan sebelumnya, setiap jenis ikan dan loots yang didapat memiliki jumlah **Fighting XP** yang berbeda-beda.
 
-![](/img/uploads/xp-archer.png)
+![](/img/uploads/xp-fight1.png)
 
-![](/img/uploads/xp-archer2.png)
+![](/img/uploads/xp-fight2.png)
 
-![](/img/uploads/xp-archer3.png)
+![](/img/uploads/xp-fight3.png)
 
 Allay : 0.2 XP
-
-Tadpole : 0.7 XP
 
 Bat : 1 XP
 
@@ -35,7 +33,9 @@ Chicken : 1 XP
 
 Cod : 1 XP
 
-{{< alert-info >}} Untuk block lainnya kamu bisa melihat dengan menggunakan command /archery lalu pilih menu XP Source. {{< /alert-info >}}
+Ocelot : 1 XP
+
+{{< alert-info >}} Untuk mobs lainnya kamu bisa melihat dengan menggunakan command /fighting lalu pilih menu XP Source. {{< /alert-info >}}
 
 ## Ability
 
