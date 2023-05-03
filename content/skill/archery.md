@@ -64,7 +64,7 @@ Dengan meningkatkan level **Archery** kamu, ada beberapa abilities atau kemampua
   >
   > **Crit Chance** level 1 akan meningkatkan jumlah chance sebesar 1.5%
   >
-  > **Crit Chance** level 2 akan meningkatkan jumlah chancesebesar 2%
+  > **Crit Chance** level 2 akan meningkatkan jumlah chance sebesar 2%
   >
   > dst.
 * **Stun**
