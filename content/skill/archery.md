@@ -36,7 +36,7 @@ Chicken : 1 XP
 
 Cod : 1 XP
 
-{{< alert-info >}} Untuk block lainnya kamu bisa melihat dengan menggunakan command /archery lalu pilih menu XP Source. {{< /alert-info >}}
+{{< alert-info >}} Untuk mobs lainnya kamu bisa melihat dengan menggunakan command /archery lalu pilih menu XP Source. {{< /alert-info >}}
 
 ## Ability
 
