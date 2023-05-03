@@ -39,14 +39,14 @@ Ocelot : 1 XP
 
 ## Ability
 
-Dengan meningkatkan level **Archery** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
+Dengan meningkatkan level **Fighting** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
 
-* **Piercing**
+* **Crit Damage**
 
-  **Ability** atau kemampuan dari **Piercing** adalah mendapatkan kesempatan atau chance arrow untuk menembus berbagai mobs dalam sekali panah. **Ability** ini terbuka pada **Archery** level 2 dengan chance sebesar **5,7%**. Kesempatan atau chance double drops akan meningkat seiring bertambahnya level **Piercing** kamu, setiap levelnya akan bertambah sebesar **0,7% - 0,6% - 0,7%**. 
-* **Archer**
+  **Ability** atau kemampuan dari **Crit Damage** adalah meningkatkan critical hit damage. **Ability** ini terbuka pada **Fighting** level 2 dengan peningkatan sebesar **5,8%**. Critical hit damage akan meningkat seiring bertambahnya level **Crit Damage** kamu, setiap levelnya akan bertambah sebesar **0,7% - 0,8% - 0,7%**. 
+* **Fighter**
 
-  **Ability** dari **Archer** adalah meningkatkan jumlah **Archery XP** yang didapatkan. **Ability** ini terbuka pada **Fishing** level 3 dengan peningkatan sebesar **5%** dari **Archery XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
+  **Ability** dari **Fighter** adalah meningkatkan jumlah **Fighting XP** yang didapatkan. **Ability** ini terbuka pada **Fighting** level 3 dengan peningkatan sebesar **5%** dari **Fighting XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
 
   > Contoh:
   >
