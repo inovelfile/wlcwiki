@@ -1,6 +1,6 @@
 baseURL = 'https://wiki.wheelcraft.id/'
 languageCode = 'en-us'
-title = 'WLC Wiki'
+title = 'Wheelcraft Wiki'
 theme = 'lumidoc'
 
 [params]
