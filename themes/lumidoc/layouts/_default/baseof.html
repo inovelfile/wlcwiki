@@ -152,4 +152,38 @@
         }
     </script>
     <!-- HUGO SEARCH END -->
+
+    <!-- DARK MODE -->
+    <script>
+        var toggle = document.getElementById("dark-mode-toggle");
+        var darkTheme = document.getElementById("dark-mode-theme");
+
+        toggle.addEventListener("click", () => {
+            if (toggle.className === "isax isax-moon darkmode") {
+                setTheme("dark");
+            } else if (toggle.className === "isax isax-sun-1 darkmode") {
+                setTheme("light");
+            }
+        });
+
+        // Memeriksa apakah mode tema sebelumnya disimpan di localStorage
+        var savedTheme = localStorage.getItem("theme");
+        if (savedTheme) {
+            setTheme(savedTheme);
+        }
+
+        function setTheme(mode) {
+            if (mode === "dark") {
+                darkTheme.disabled = false;
+                toggle.className = "isax isax-sun-1 darkmode";
+            } else if (mode === "light") {
+                darkTheme.disabled = true;
+                toggle.className = "isax isax-moon darkmode";
+            }
+
+            // Menyimpan mode tema saat ini ke localStorage
+            localStorage.setItem("theme", mode);
+        }
+    </script>
+    <!-- DARK MODE END -->
 </html>
