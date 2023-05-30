@@ -11,7 +11,7 @@ html  {
 }
 
 body {
-    /* transition: 0.3s; */
+    transition: 0.3s;
     background-color: #181818;
     color: #fcfcfc;
 }
@@ -111,7 +111,7 @@ header p {
     background-color: #181818;
     color: #fcfcfc;
     overflow-x: hidden;
-	/* transition: 0.3s; */
+	transition: 0.3s;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
@@ -184,7 +184,7 @@ header p {
     font-size: 16px;
     height: 100%;
     align-items: center;
-    /* transition: 0.3s; */
+    transition: 0.3s;
     cursor: pointer;
 }
 
@@ -204,7 +204,7 @@ header p {
 .sidenav li a:hover {
     background-color: #3f3f46;
     border-radius: 8px;
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 
 .sidenav li .text {
@@ -366,7 +366,7 @@ main {
     padding: 12px;
     font-size: 20px;
     color: #BFBFBF;
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 
 .right-menu .darkmode:hover {
@@ -439,7 +439,7 @@ main {
     cursor: pointer;
     color: #424242;
     background-color: #fff;
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 
 .right-menu  button:hover {
@@ -623,7 +623,7 @@ input[type=text], input[type=search] {
     font-size: 17px;
     background-color: #FF8F1F;
     color: #fff;
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 
 .card-home .carddef .cards .column-left button:hover {
@@ -713,7 +713,7 @@ input[type=text], input[type=search] {
     cursor: pointer;
     background-color: #FF8F1F;
     color: #fff;
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 
 
@@ -1031,7 +1031,7 @@ code {
     font-weight: 600;
     background-color: #FF8F1F;
     color: #fff;
-    /* transition: 0.3s; */
+    transition: 0.3s;
     margin-bottom: 16px;
 }
 
