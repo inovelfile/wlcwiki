@@ -4,6 +4,16 @@
     <head>
         {{- partial "head.html" . -}}
     </head>
+    <!-- DARK MODE 1-->
+    <noscript>
+        <style>
+            body {
+            visibility: visible;
+            opacity: 1;
+            }
+        </style>
+    </noscript>
+    <!-- DARK MODE END 1-->
     <body>
         {{- partial "header.html" . -}}
         <div id="content">
@@ -11,7 +21,7 @@
         </div>
         {{- partial "footer.html" . -}}
     </body>
-    <!-- DARK MODE -->
+    <!-- DARK MODE 2-->
     <script>
         // Cek apakah pengguna telah memilih mode sebelumnya
         const isDarkMode = localStorage.getItem('darkMode');
@@ -19,11 +29,15 @@
         // Jika pengguna telah memilih mode gelap sebelumnya, terapkan mode tersebut
         if (isDarkMode === 'true') {
         document.body.classList.add('dark-mode');
+        document.getElementById('dark-mode-toggle').classList.remove('isax-moon');
+        document.getElementById('dark-mode-toggle').classList.add('isax-sun-1');
         }
 
         // Fungsi untuk mengaktifkan atau menonaktifkan mode gelap
         function toggleDarkMode() {
         document.body.classList.toggle('dark-mode');
+        document.getElementById('dark-mode-toggle').classList.toggle('isax-moon');
+        document.getElementById('dark-mode-toggle').classList.toggle('isax-sun-1');
 
         // Simpan preferensi pengguna di Local Storage
         const isDarkMode = document.body.classList.contains('dark-mode');
@@ -33,8 +47,28 @@
         // Tambahkan event listener ke tombol mode gelap
         const darkModeToggle = document.getElementById('dark-mode-toggle');
         darkModeToggle.addEventListener('click', toggleDarkMode);
+
+        function showTheme() {
+        // Check Local Storage then apply dark theme if it's active
+        if (isDarkMode === 'true') {
+            document.body.classList.add('dark-mode');
+            document.getElementById('dark-mode-toggle').classList.remove('isax-moon');
+            document.getElementById('dark-mode-toggle').classList.add('isax-sun-1');
+        }
+        }
+
+        function showContent() {
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = 1;
+        }
+
+        window.addEventListener('DOMContentLoaded', function () {
+        showTheme();
+        showContent();
+        });
+
     </script>
-    <!-- DARK MODE END -->
+    <!-- DARK MODE END 2-->
     <!-- HUGO SEARCH START -->
     <script>
         var summaryInclude = 180;
