@@ -101,7 +101,7 @@ header p {
     z-index: 1;
     top: 0;
     padding-bottom: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
     overflow-x: hidden;
 	transition: 0.3s;
     -ms-overflow-style: none;  /* IE and Edge */
