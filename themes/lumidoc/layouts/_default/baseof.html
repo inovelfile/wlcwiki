@@ -10,32 +10,31 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
-
-        <!-- DARK MODE -->
-        <script>
-            // Cek apakah pengguna telah memilih mode sebelumnya
-            const isDarkMode = localStorage.getItem('darkMode');
-
-            // Jika pengguna telah memilih mode gelap sebelumnya, terapkan mode tersebut
-            if (isDarkMode === 'true') {
-            document.body.classList.add('dark-mode');
-            }
-
-            // Fungsi untuk mengaktifkan atau menonaktifkan mode gelap
-            function toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
-
-            // Simpan preferensi pengguna di Local Storage
-            const isDarkMode = document.body.classList.contains('dark-mode');
-            localStorage.setItem('darkMode', isDarkMode);
-            }
-
-            // Tambahkan event listener ke tombol mode gelap
-            const darkModeToggle = document.getElementById('dark-mode-toggle');
-            darkModeToggle.addEventListener('click', toggleDarkMode);
-        </script>
-        <!-- DARK MODE END -->
     </body>
+    <!-- DARK MODE -->
+    <script>
+        // Cek apakah pengguna telah memilih mode sebelumnya
+        const isDarkMode = localStorage.getItem('darkMode');
+
+        // Jika pengguna telah memilih mode gelap sebelumnya, terapkan mode tersebut
+        if (isDarkMode === 'true') {
+        document.body.classList.add('dark-mode');
+        }
+
+        // Fungsi untuk mengaktifkan atau menonaktifkan mode gelap
+        function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+
+        // Simpan preferensi pengguna di Local Storage
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        localStorage.setItem('darkMode', isDarkMode);
+        }
+
+        // Tambahkan event listener ke tombol mode gelap
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        darkModeToggle.addEventListener('click', toggleDarkMode);
+    </script>
+    <!-- DARK MODE END -->
     <!-- HUGO SEARCH START -->
     <script>
         var summaryInclude = 180;
