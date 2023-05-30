@@ -3,42 +3,6 @@
 <html>
     <head>
         {{- partial "head.html" . -}}
-
-        <!-- DARK MODE -->
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-            var toggle = document.getElementById("dark-mode-toggle");
-            var darkTheme = document.getElementById("dark-mode-theme");
-
-            // Memeriksa apakah mode tema sebelumnya disimpan di localStorage
-            var savedTheme = localStorage.getItem("theme");
-            if (savedTheme) {
-                setTheme(savedTheme);
-            }
-
-            toggle.addEventListener("click", function () {
-                if (toggle.classList.contains("isax-moon")) {
-                setTheme("dark");
-                } else {
-                setTheme("light");
-                }
-            });
-
-            function setTheme(mode) {
-                if (mode === "dark") {
-                darkTheme.disabled = false;
-                toggle.classList.replace("isax-moon", "isax-sun-1");
-                } else if (mode === "light") {
-                darkTheme.disabled = true;
-                toggle.classList.replace("isax-sun-1", "isax-moon");
-                }
-
-                // Menyimpan mode tema saat ini ke localStorage
-                localStorage.setItem("theme", mode);
-            }
-            });
-        </script>
-        <!-- DARK MODE END -->
     </head>
     <body>
         {{- partial "header.html" . -}}
@@ -46,6 +10,31 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+
+        <!-- DARK MODE -->
+        <script>
+            // Cek apakah pengguna telah memilih mode sebelumnya
+            const isDarkMode = localStorage.getItem('darkMode');
+
+            // Jika pengguna telah memilih mode gelap sebelumnya, terapkan mode tersebut
+            if (isDarkMode === 'true') {
+            document.body.classList.add('dark-mode');
+            }
+
+            // Fungsi untuk mengaktifkan atau menonaktifkan mode gelap
+            function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+
+            // Simpan preferensi pengguna di Local Storage
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            localStorage.setItem('darkMode', isDarkMode);
+            }
+
+            // Tambahkan event listener ke tombol mode gelap
+            const darkModeToggle = document.getElementById('dark-mode-toggle');
+            darkModeToggle.addEventListener('click', toggleDarkMode);
+        </script>
+        <!-- DARK MODE END -->
     </body>
     <!-- HUGO SEARCH START -->
     <script>
