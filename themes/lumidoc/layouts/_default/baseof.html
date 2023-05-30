@@ -5,11 +5,6 @@
         {{- partial "head.html" . -}}
     </head>
     <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
         <!-- DARK MODE -->
         <script>
             var toggle = document.getElementById("dark-mode-toggle");
@@ -43,6 +38,11 @@
             }
         </script>
         <!-- DARK MODE END -->
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
     </body>
 
     <!-- HUGO SEARCH START -->
