@@ -31,15 +31,15 @@
                 </li>
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
-                        <i class="isax isax-autobrightness"></i>
-                        <span class="text nav-text">Ranks</span>
+                        <i class="isax isax-bank"></i>
+                        <span class="text nav-text">Circle</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "ranks" }}
+                        {{ range where .Site.RegularPages "Section" "circle" }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -61,15 +61,15 @@
                 </li>
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
-                        <i class="isax isax-flash-1"></i>
-                        <span class="text nav-text">Skill</span>
+                        <i class="isax isax-buy-crypto"></i>
+                        <span class="text nav-text">Donate</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "skill" }}
+                        {{ range where .Site.RegularPages "Section" "dungeon" }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -91,6 +91,21 @@
                 </li>
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-autobrightness"></i>
+                        <span class="text nav-text">Ranks</span>
+
+                        <div class="icon-animated">
+                            <i class="isax isax-arrow-right-34"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-container">
+                        {{ range where .Site.RegularPages "Section" "ranks" }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
+                </li>
+                <li>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
                         <i class="isax isax-magicpen"></i>
                         <span class="text nav-text">RPG Items</span>
 
@@ -106,15 +121,15 @@
                 </li>
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
-                        <i class="isax isax-bank"></i>
-                        <span class="text nav-text">Circle</span>
+                        <i class="isax isax-flash-1"></i>
+                        <span class="text nav-text">Skill</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "circle" }}
+                        {{ range where .Site.RegularPages "Section" "skill" }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
