@@ -57,8 +57,27 @@ body.dark-mode p {
     color: var(--color-button-light);
 }
 
+.copy-link-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/page/link.png); /* Ganti dengan path gambar ikon yang sesuai */
+    background-size: cover;
+    margin-left: 5px; /* Sesuaikan jarak ikon dengan teks header */
+    cursor: pointer;
+}
+
+body.dark-mode .copy-link-icon {
+    background-image: url(/img/page/link-2.png);
+}
+  
+.copy-link-icon:hover {
+    opacity: 0.7; /* Ganti dengan efek hover yang diinginkan */
+}
+
 a {
     color: var(--color-text-black);
+    text-decoration: none;
 }
 
 body.dark-mode a {

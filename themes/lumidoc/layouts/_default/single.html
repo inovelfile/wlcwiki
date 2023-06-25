@@ -5,7 +5,9 @@
             <div class="single-container">
                 <div class="date"><i class="isax isax-calendar-1"></i>{{.Date.Format "2 January 2006"}}</div>
                 <h1 style="padding-bottom: 5px;">{{ .Title }}</h1>
-                {{ .Content }}
+                <!-- {{ .Content | replaceRE "(<h[1-6]\\sid=\"([^\"]+)\"\\s?>)(.+)(</h[1-6]+>)" "${1}<a href=\"#${2}\">${3}</a>${4}" | safeHTML }} -->
+                    {{ .Content | replaceRE "(<h[1-6]\\s+id=\"([^\"]+)\"\\s*>)(.+)(</h[1-6]+>)" "${1}<a href=\"#${2}\">${3}<span class=\"copy-link-icon\" data-link=\"#${2}\"></span>${4}</a>" | safeHTML }}
+
                 <div class="post-navigation">
                     {{ with .PrevInSection }}
                     <a href="{{ .Permalink }}" rel="prev">
