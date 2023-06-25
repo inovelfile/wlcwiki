@@ -4,16 +4,6 @@
     <head>
         {{- partial "head.html" . -}}
     </head>
-    <!-- DARK MODE 1-->
-    <noscript>
-        <style>
-            body {
-            visibility: visible;
-            opacity: 1;
-            }
-        </style>
-    </noscript>
-    <!-- DARK MODE END 1-->
     <body>
         {{- partial "header.html" . -}}
         <div id="content">
@@ -21,7 +11,7 @@
         </div>
         {{- partial "footer.html" . -}}
     </body>
-    <!-- DARK MODE 2-->
+    <!-- DARK MODE-->
     <script>
         // Cek apakah pengguna telah memilih mode sebelumnya
         const isDarkMode = localStorage.getItem('darkMode');
@@ -66,9 +56,8 @@
         showTheme();
         showContent();
         });
-
     </script>
-    <!-- DARK MODE END 2-->
+    <!-- DARK MODE END-->
     <!-- HUGO SEARCH START -->
     <script>
         var summaryInclude = 180;
