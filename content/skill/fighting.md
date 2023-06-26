@@ -9,7 +9,7 @@ Tingkatkan skill fighting kamu dengan membunuh mobs menggunakan senjata jarak pe
 
 **fighting** merupakan kegiatan yang dilakukan dengan membunuh mobs menggunakan senjata jarak pendek. Pada season ini, fighting memiliki keuntungan yaitu **Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu membunuh berbagai jenis mobs atau player menggunakan senjata jarak pendek yang ada pada Minecraft untuk mendapatkan **Fighting XP**. Setiap jenis mobs maupun player memiliki jumlah **Fighting XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Strength**
 
-Untuk mengakses skill ini dan melihat level farming kamu, ketik **/strength**.
+Untuk mengakses skill ini dan melihat level fighting kamu, ketik **/strength**.
 
 {{< alert-info >}} Setiap peningkatan level, kamu akan mendapatkan penambahan stats berupa Strength sebesar 0,5. {{< /alert-info >}}
 
