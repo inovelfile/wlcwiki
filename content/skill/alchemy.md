@@ -16,4 +16,6 @@ Untuk mengakses skill ini dan melihat level alchemy kamu, ketik **/alchemy**.
 
 ## XP Source
 
-Seperti yang dijelaskan sebelumnya, setiap jenis ikan dan loots yang didapat memiliki jumlah **Fighting XP** yang berbeda-beda.
+Seperti yang dijelaskan sebelumnya, setiap jenis potions yang dibuat memiliki jumlah **Alchemy XP** yang berbeda-beda.
+
+![](/img/uploads/alchemy-2-.png)
