@@ -20,3 +20,9 @@ description: "Default color pas chat di rank L0 : dark grey -> grey, New tab to
 
      ![ss](/img/uploads/ss.png "ss")
 4. Secara default, player baru akan langsung dapet **/kit starter** (nggak perlu ketik /kit starter dulu)
+
+
+
+**25/06/23:**
+
+1. Syarat untuk naik ke L1 sudah dikurangi. Jadi gaperlu bayar W50, dan kill skeleton & spider cuman perlu kill 10 instead of 25
