@@ -61,21 +61,6 @@
                 </li>
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
-                        <i class="isax isax-buy-crypto"></i>
-                        <span class="text nav-text">Donation</span>
-
-                        <div class="icon-animated">
-                            <i class="isax isax-arrow-right-34"></i>
-                        </div>
-                    </a>
-                    <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "donate" }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
-                        {{ end }}
-                    </div>
-                </li>
-                <li>
-                    <a class="dropdown-btn" onclick="iconanimated(this)">
                         <i class="isax isax-ghost"></i>
                         <span class="text nav-text">Dungeon</span>
 
