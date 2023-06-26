@@ -1171,7 +1171,13 @@ code {
     transition: 0.2s;
 }
 
-.single-container .btn-to-wiki button:hover {
+body.dark-mode .single-container .btn-to-wiki button {
+    border: 1px solid #40404066;
+    background-color: var(--color-button-dark-secondary);
+    color: var(--color-button-light);
+}
+
+.single-container .btn-to-wiki button:hover, body.dark-mode .single-container .btn-to-wiki button:hover {
     color: #FF8F1F;
 }
 
