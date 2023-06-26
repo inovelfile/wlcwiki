@@ -10,7 +10,9 @@ Tingkatkan skill alchemy dengan membuat berbagai macam potions!
 
 Untuk mengakses skill ini dan melihat level alchemy kamu, ketik **/alchemy**.
 
-{{< alert-info >}} Setiap peningkatan level, kamu akan mendapatkan penambahan stats berupa Strength sebesar 0,5. {{< /alert-info >}}
+{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ..., dst), kamu akan mendapatkan penambahan stats berupa Wisdom sebesar 0,5. {{< /alert-info >}}
+
+{{< alert-info >}} Setiap peningkatan level ganjil (1, 3, 5, ..., dst), kamu akan mendapatkan penambahan stats berupa Health sebesar 0,5. {{< /alert-info >}}
 
 ## XP Source
 
