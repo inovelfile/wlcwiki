@@ -61,18 +61,15 @@ body.dark-mode p {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-image: url(/img/page/link.png); /* Ganti dengan path gambar ikon yang sesuai */
+    background-image: url(/img/page/hastag-3.png);
     background-size: cover;
-    margin-left: 5px; /* Sesuaikan jarak ikon dengan teks header */
+    margin-left: 6px; /* Sesuaikan jarak ikon dengan teks header */
     cursor: pointer;
+    margin-bottom: 2px;
 }
 
 body.dark-mode .copy-link-icon {
-    background-image: url(/img/page/link-2.png);
-}
-  
-.copy-link-icon:hover {
-    opacity: 0.7; /* Ganti dengan efek hover yang diinginkan */
+    background-image: url(/img/page/hastag-3.png);
 }
 
 a {
@@ -228,12 +225,33 @@ body.dark-mode .nav-menu .active {
     color: #000;
     padding: 11px 25px;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 13px;
     font-size: 16px;
     height: 100%;
     align-items: center;
     transition: 0.3s;
     cursor: pointer;
+}
+
+.sidenav li a.top {
+    margin-top: 2px;
+}
+
+.sidenav .text-category {
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    color: #dddddd;
+    font-weight: 600;
+}
+
+body.dark-mode .sidenav .text-category {
+    color: #484848;
+}
+
+.sidenav .text-category.style-2 {
+    margin-top: 35px;
 }
 
 body.dark-mode .sidenav li a {
@@ -305,7 +323,7 @@ main {
 }
 
 .nav-menu {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 10px;
     transition: 0.4s;
 }
@@ -582,6 +600,10 @@ body.dark-mode input[type=search] {
    color: #BFBFBF;
 }
 
+.container-main {
+    margin-top: 75px;
+}
+
 .card-home {
     display: flex;
     flex-wrap: wrap;
@@ -755,15 +777,6 @@ body.dark-mode .all-content {
     padding-top: 20px;
 }
 
-.all-content .container-content-sl .headtext .link .isax {
-    font-size: 18px;
-    font-weight: 600;
-    display: flex;
-    margin-left: 3px;
-    color: #FF8F1F;
-    padding: 3px;
-}
-
 .all-content .container-content-sl a {
     text-decoration: none;
 }
@@ -840,8 +853,6 @@ body.dark-mode .all-content {
     padding: 20px;
     border-radius: 20px;
 }
-
-
 
 .card-container-uni, .card-container-sf, .card-container-sl {
     position: relative;
@@ -1576,6 +1587,48 @@ body.dark-mode .post-navigation .judul {
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #FF8F1F;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
 }
 
 ::-webkit-scrollbar {

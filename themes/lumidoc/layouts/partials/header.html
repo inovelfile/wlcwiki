@@ -8,14 +8,22 @@
                 <div class="show-mobile">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                 </div>
+                <div class="text-category">Menu</div>
                 <li>
-                    <a href="/">
+                    <a href="/" class="top">
                         <i class="isax isax-home-2"></i>
                         <span class="text nav-text">Homepage</span>
                     </a>
                 </li>
                 <li>
-                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                    <a href="/page/stafflist/">
+                        <i class="isax isax-security-user"></i>
+                        <span class="text nav-text">Staff List</span>
+                    </a>
+                </li>
+                <div class="text-category style-2">Wiki</div>
+                <li>
+                    <a class="dropdown-btn top" onclick="iconanimated(this)">
                         <i class="isax isax-book-saved"></i>
                         <span class="text nav-text">General</span>
 
@@ -157,6 +165,7 @@
                         <button type="submit"><i class="isax isax-search-normal-1"></i></button>
                     </form>
                 </div>
+                <div id="snackbar">IP Server berhasil di salin</div>
                 <script>
                     var copyText = document.querySelectorAll('.ip');
                     copyText.forEach(function(element) {
@@ -168,7 +177,10 @@
                             tempInput.select();
                             document.execCommand("copy");
                             document.body.removeChild(tempInput);
-                            alert("Teks berhasil disalin: " + text);
+                            
+                            var x = document.getElementById("snackbar");
+                            x.className = "show";
+                            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
                         });
                     });
                 </script>
