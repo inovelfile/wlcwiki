@@ -1,6 +1,6 @@
 ---
 title: 5.0.8b - Mini Update
-date: 2023-06-24T05:09:46.800Z
+date: 2023-06-23T05:09:46.800Z
 draft: false
 description: Sekarang sudah bisa join ke server menggunakan versi 1.20 & 1.20.1,
   Perombakan harga donasi besar-besaran.
