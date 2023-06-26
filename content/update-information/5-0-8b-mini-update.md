@@ -13,8 +13,6 @@ description: Sekarang sudah bisa join ke server menggunakan versi 1.20 & 1.20.1,
    * Sekarang jadi bisa beli yang permanen. Tapi kalau sekarang posisinya nggak ada duit untuk beli permanen / masih ragu WLC bakal continue update atau nggak, bisa coba dulu via Trial.
 
      {{< button-wiki "Check harga rank" "https://wiki.wheelcraft.id/donate/donation-ranks/" >}} 
-
-
    * **PROTECTION & HOME**
 
      * Home Slot +1 : Rp 20.000 -> Rp 19.900 atau 199 Axle
@@ -32,7 +30,6 @@ description: Sekarang sudah bisa join ke server menggunakan versi 1.20 & 1.20.1,
 
    Sebagai bentuk dari support WLC, Axle yang direfund dari pembelian Rank Bulanan, bisa dicairkan ke uang cash / IRL money. Silahkan buka ticket di Discord untuk mendapatkan uangnya kembali.
 3. Clan tag maximum characters : 3 -> 5\
-   \
    misal di chat \[ABC], jadi bisa \[ABCDE] Lalu kalau jadi leader, warna **\[]** nya gold, sedangkan untuk membernya warna **\[]** nya dark grey.
 
    ![ss1](/img/uploads/ss1.png "ss1")
