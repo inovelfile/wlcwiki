@@ -1,5 +1,6 @@
 ---
 title: Mythical Forest
+author: Rxvz
 date: 2023-06-27T05:51:53.919Z
 draft: false
 description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
@@ -20,7 +21,7 @@ description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
 
   > Tips : statistik Endurance, Strength dan Health akan lebih berguna saat melawan mobs **Mythical Forest**
 
-### **Drop List :**
+### **Drop List**
 
 ###### **Chance drop loot adalah mutlak , Enchantment Looting tidak akan berpengaruh kepada Chance drop loot maupun drop loot**
 
@@ -28,9 +29,9 @@ description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
 * Volatile Gel ( 1-3 40% Chance ) 
 * Nuclei ( 1-15 80% )
 
-> > Drop yang diberikan merupakan virtual item yang akan masuk ke dalam /pouch player, player dapat memperjual belikan virtual item /pouch kepada player lain dengan menggunakan command            **/transfer *(****Example)*
->
->
+> > Drop yang diberikan merupakan virtual item yang akan masuk ke dalam /pouch player, player dapat memperjual belikan virtual item /pouch kepada player lain dengan menggunakan command
+> >
+> > */transfer (Example)*
 
 ## **Isacha Wanderer**
 
