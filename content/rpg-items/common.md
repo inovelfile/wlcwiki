@@ -18,23 +18,23 @@ description: Rarity common RPG dapat di upgrade dengan drop piece dari Mythical
 Type : Axe\
 *Stats ( Lv 1-9 )*
 
-*  **Lvl 1**\
-  Attack Damage : 11.5\
-  Attack Speed : 1.2\
-  Crit Strike Chance : +7%\
-  Crit Strike Power : +85%\
-  **Heavy Smash** (Attack)\
-  Increase the next damage dealt by 50%\
-  and stun target for 1s\
-  *Cooldown : 9s*
-* **Lvl 9/MAX**\
-  Attack Damage : 14.9\
-  Attack Speed : 1.2\
-  Crit Strike Chance : +10%\
-  Crit Strike Power : +99.2%\
-  **Heavy Smash** (Attack)\
-  Increase the next damage dealt by 58%\
-  and stun target for 1.5s\
-  *Cooldown : 7s*
+* **Lvl 1**
+
+  * Attack Damage : 11.5
+  * Attack Speed : 1.2
+  * Crit Strike Chance : +7%
+  * Crit Strike Power : +85%
+  * **Heavy Smash** (Attack)
+  * Increase the next damage dealt by 50% and stun target for 1s
+  * *Cooldown : 9s*
+* **Lvl 9/MAX**
+
+  * Attack Damage : 14.9
+  * Attack Speed : 1.2
+  * Crit Strike Chance : +10%
+  * Crit Strike Power : +99.2%
+  * **Heavy Smash** (Attack)
+  * Increase the next damage dealt by 58% and stun target for 1.5s
+  * *Cooldown : 7s*
 * **Lore**\
   *"An axe so heavy that it sinks into the ground"*
