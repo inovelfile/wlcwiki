@@ -109,6 +109,10 @@ header p {
     border: solid 0.5px #e2e2e2;
 }
 
+body.dark-mode .garis {
+    border: solid 0.5px #40404066;
+}
+
 .last-modif {
     display: flex;
     justify-content: flex-end;
