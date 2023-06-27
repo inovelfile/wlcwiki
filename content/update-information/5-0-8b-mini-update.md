@@ -1,5 +1,6 @@
 ---
 title: 5.0.8b - Mini Update
+author: poromaru
 date: 2023-06-23T05:09:46.800Z
 draft: false
 description: Sekarang sudah bisa join ke server menggunakan versi 1.20 & 1.20.1,
