@@ -1,6 +1,6 @@
 ---
 title: Stats
-author: SoulMaker
+author: SoulGuard07
 date: 2023-04-30T18:34:28.817Z
 draft: false
 description: Merupakan salah satu fitur yang dapat meningkatkan statistik player
