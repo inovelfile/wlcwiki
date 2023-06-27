@@ -137,6 +137,10 @@ body.dark-mode tr:nth-child(even) {
 
 tr:hover {background-color: #ddd;}
 
+body.dark-mode tr:hover {
+    background-color: #060606;
+}
+
 th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -144,8 +148,6 @@ th {
     background-color: #ff8f1f;
     color: white;
 }
-
-
 
 .last-modif {
     display: flex;
