@@ -1,5 +1,6 @@
 ---
 title: 5.0.8c - Mini Update
+author: poromaru
 date: 2023-06-24T07:31:37.917Z
 draft: false
 description: "Default color pas chat di rank L0 : dark grey -> grey, New tab to
