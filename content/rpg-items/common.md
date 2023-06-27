@@ -2,7 +2,7 @@
 title: Common
 author: Rxvz
 date: 2023-06-27T07:22:49.117Z
-draft: true
+draft: false
 description: Rarity common RPG dapat di upgrade dengan drop piece dari Mythical
   Forest ( https://wiki.wheelcraft.id/dungeon/mythical-forest/ ), RPG common
   dapat di upgrade ke rarity tahap lanjutan dengan recipe tertentu
