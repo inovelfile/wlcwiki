@@ -7,6 +7,19 @@ media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 
 collections:
+  - name: "authors"
+    label: "Authors"
+    folder: "/content/update-information"
+    format: json
+    create: true
+    slug: "{{name}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Rank", name: "title", widget: "string" }
+      - { label: "Image", name: "authorimage", widget: "image" }
+
   - name: "update-information" # Used in routes, e.g., /admin/collections/blog
     label: "Update & Information" # Used in the UI
     folder: "/content/update-information" # The path to the folder where the documents are stored
