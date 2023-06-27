@@ -1,6 +1,6 @@
 ---
 title: Farming
-author: SoulMaker
+author: SoulGuard07
 date: 2023-04-30T18:34:19.873Z
 draft: false
 description: Tingkatkan skill farming kamu dengan bercocok tanam!
