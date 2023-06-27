@@ -9,9 +9,7 @@ description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
 ---
 ![](/img/uploads/2023-06-27_13.15.36.png)
 
-
-
-***Mob List :***
+### Mob List
 
 * **Slimeling** *( 40 HP ) , Abilities : None , Meele*
 * **Squiggly** *( 25 HP ) , Abilities : Dash , Meele*
@@ -20,8 +18,22 @@ description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
 * **Blasty** *( 60 HP ) Abilities : Explode , Meele*
 * **Acrasis** *( 500 HP ) Abilities : Horde, Stun , Ranged / Meele*
 
-**Drop List :**
+  > Tips : statistik Endurance, Strength dan Health akan lebih berguna saat melawan mobs **Mythical Forest**
 
-* **Plasmodium** `60% Drop Chance ( 1-3 )`
-* **Volatile** `40% Drop Chance ( 1-3 )`
-* **Nuclei** *( Boss Drop Only )* `40-100% ( 1-15 )`
+### **Drop List :**
+
+###### **Chance drop loot adalah mutlak , Enchantment Looting tidak akan berpengaruh kepada Chance drop loot maupun drop loot**
+
+* Plasmodium ( 1-3 60% Chance )
+* Volatile Gel ( 1-3 40% Chance ) 
+* Nuclei ( 1-15 80% )
+
+> > Drop yang diberikan merupakan virtual item yang akan masuk ke dalam /pouch player, player dapat memperjual belikan virtual item /pouch kepada player lain dengan menggunakan command            **/transfer *(****Example)*
+>
+>
+
+## **Isacha Wanderer**
+
+![](/img/uploads/screenshot-2023-06-27-132238.png)
+
+Player dapat menukarkan loot dari Dungeon yang membutuhkan setidaknya 1 barrel, Player dapat menemui Isacha wanderer di pojok kiri dari spawn player.
