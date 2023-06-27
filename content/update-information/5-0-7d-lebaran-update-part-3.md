@@ -1,5 +1,6 @@
 ---
 title: 5.0.7d - Lebaran Update (Part 3)
+author: poromaru
 date: 2023-04-24T08:41:12.303Z
 draft: true
 description: Skills dan Attributes di buff. Stats RPG dirework. Ditambahkannya
