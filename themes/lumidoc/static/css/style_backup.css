@@ -113,6 +113,40 @@ body.dark-mode .garis {
     border: solid 0.5px #40404066;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+body.dark-mode td, body.dark-mode th {
+    border: 1px solid #282828;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+body.dark-mode tr:nth-child(even) {
+    background-color: #121212;
+}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff8f1f;
+    color: white;
+}
+
+
+
 .last-modif {
     display: flex;
     justify-content: flex-end;
