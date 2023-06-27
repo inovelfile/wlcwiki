@@ -23,9 +23,7 @@ description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
 
 **Blasty** *( 60 HP ) Abilities : Explode , Meele*
 
-***Acrasis** ( 500 HP ) Abilities : Horde, Stun , Ranged / Meele*
-
-
+**\*Acrasis** ( 500 HP ) Abilities : Horde, Stun , Ranged / Meele*
 
 **Drop List :**
 
@@ -34,11 +32,3 @@ description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
 **Volatile** `40% Drop Chance ( 1-3 )`
 
 **Nuclei** *( Boss Drop Only )* `40-100% ( 1-15 )`
-
-``
-
-# Isacha Wanderer
-
-![](/img/uploads/screenshot-2023-06-27-132238.png)
-
-Player dapat menukarkan loot Dungeon **Isacha - Mythic Forest** di  NPC **Isacha Wanderer**
