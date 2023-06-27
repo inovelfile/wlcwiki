@@ -1,5 +1,6 @@
 ---
 title: 5.0.7c - Mini Update
+author: poromaru
 date: 2023-04-22T04:46:42.451Z
 draft: false
 description: Damage % Increase Per strength dinaikan dari 0.25%/strength menjadi
