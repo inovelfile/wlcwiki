@@ -7,13 +7,11 @@ description: Rarity common RPG dapat di upgrade dengan drop piece dari Mythical
   Forest ( https://wiki.wheelcraft.id/dungeon/mythical-forest/ ), RPG common
   dapat di upgrade ke rarity tahap lanjutan dengan recipe tertentu
 ---
-## Breseker
+# Breseker
 
-![](/img/uploads/2023-06-27_14.44.55.png)
+![](/img/uploads/screenshot-2023-06-27-150814.png)
 
-![](/img/uploads/screenshot-2023-06-27-142955.png)
-
-##### Wedged Axe
+##### Wedged Axe / Breseker
 
 Type : Axe\
 *Stats ( Lv 1-9 )*
@@ -38,3 +36,18 @@ Type : Axe\
   * *Cooldown : 7s*
 * **Lore**\
   *"An axe so heavy that it sinks into the ground"*
+* Upgrade Recipe\
+  Placodermal Skull , Volatile Gel , Prismatic Branch
+
+
+
+# Warrior
+
+![](/img/uploads/screenshot-2023-06-27-151038.png)
+
+**Broken Broadsword / Warrior**
+
+Type : Broadsword\
+Stats ( Lv 1-9 )
+
+* **Lvl 1**
