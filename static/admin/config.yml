@@ -9,7 +9,7 @@ public_folder: "/img/uploads"
 collections:
   - name: "authors"
     label: "Authors"
-    folder: "/content/update-information"
+    folder: "/static/admin/author"
     format: json
     create: true
     slug: "{{name}}"
