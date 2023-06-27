@@ -69,3 +69,107 @@ Stats ( Lv 1-9 )
   "The glory of combat has long gone it has yet to reach its true potential"
 * Upgrade Recipe\
   Painite , Placodermal Skull , Volatile Gel
+
+
+
+# Knight
+
+![](/img/uploads/screenshot-2023-06-27-151038.png)
+
+**Relic Sword / Knight**
+
+Type : Sword\
+Stats ( Lv 1-9 )
+
+* **Lvl 1**
+
+  * Attack Damage : 9
+  * Attack Speed : 1.6
+  * Crit Strike Chance : +7%
+  * Crit Strike Power : +65%
+  * **Empower** ( Attack )\
+    Increase next damage dealt by 50% *Cooldown : 5s*
+* **Lvl 9/MAX**
+
+  * Attack Damage : 12.2
+  * Attack Speed : 1.6
+  * Crit Strike Chance : +10%
+  * Crit Strike Power : +75.3%
+  * **Empower** ( Attack )\
+    Increase next damage dealt by 62% *Cooldown : 4s*
+* **Lore**\
+  "A sword that once belonged to hero the glory fading, now naught but rust"
+* Upgrade Recipe\
+  Amber Fruit , Painite , Plasmodium
+
+
+
+# Archer
+
+![](/img/uploads/screenshot-2023-06-27-161341.png)
+
+**Hunting Bow / Archer**
+
+Type : Bow\
+Stats ( Lv 1-9 )
+
+* **Lvl 1**
+
+  * Attack Damage : 12
+  * Attack Speed : 1
+  * Crit Strike Chance : +15%
+  * Crit Strike Power : +75%
+  * **Raging** ( Arrow Hit )\
+    Increase damage dealt based on target hp by ( 2.5 + 600% " %Missing HP ) *Cooldown : 8s*
+* **Lvl 9/MAX**
+
+  * Attack Damage : 15.7
+  * Attack Speed : 1
+  * Crit Strike Chance : +18.8%
+  * Crit Strike Power : +87.2%
+  * **Raging** ( Arrow Hit )\
+    Increase damage dealt based on target hp by ( 4.5 + 750% " %Missing HP ) *Cooldown : 8s*
+* **Lore**\
+  "Sturdy bow that every huntsman trust"
+* Upgrade Recipe\
+  Alazarin Fur , Prismatic Branch , Plasmodium
+
+
+
+# Mage
+
+![](/img/uploads/screenshot-2023-06-27-162209.png)
+
+**Cursed Book / Mage**
+
+Type : Staff\
+Stats ( Lv 1-9 )
+
+* **Lvl 1**
+
+  * Attack Damage : 9
+  * Attack Speed : 1.6
+  * Crit Strike Chance : +6%
+  * Crit Strike Power : +70%
+  * **Weaken** ( Right Click )\
+    Weaken target for 2.5s\
+    Increasing damage taken by 20%\
+    *Cooldown : 10s*\
+    *Hunger : 3*
+  * Range : 15
+* **Lvl 9/MAX**
+
+  * Attack Damage : 12.2
+  * Attack Speed : 1.6
+  * Crit Strike Chance : +8.9%
+  * Crit Strike Power : +81.2%
+  * Range : 15
+  * **Weaken** ( Right Click )\
+    Weaken target for 3.5s\
+    Increasing damage taken by 35%\
+    *Cooldown : 7s*\
+    *Hunger : 3*
+* **Lore**\
+  "Penned in an unknown method of writing It has countless forbidden knowledge"
+* Upgrade Recipe\
+  Infernal Ingot , Amoeba Gem , Plasmodium
