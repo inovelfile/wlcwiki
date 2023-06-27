@@ -1,6 +1,6 @@
 ---
 title: Archery
-author: SoulMaker
+author: SoulGuard07
 date: 2023-04-30T15:22:22.540Z
 draft: false
 description: Tingkatkan skill archery kamu dengan memanah!
