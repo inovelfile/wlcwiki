@@ -45,9 +45,3 @@ description: "Quality of Life: Autorank, Requirement Breeding dikurangi, Pada L4
 * **Observer:** Resep custom yang membutuhkan 4 netherite ingot telah **dikurangi** menjadi 2 netherite ingot.
 * **Shulker:** Resep custom yang membutuhkan 8 shulker shell telah **dikurangi** menjadi 2 shulker shell. 
 * **Hopper:** Resep custom yang membutuhkan 2 netherite ingot telah **dikurangi** menjadi 1 netherite ingot.
-
-```css
-.test {
-    background-color: #fff;
-}
-```
