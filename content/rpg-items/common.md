@@ -31,9 +31,8 @@ Type : Axe\
   * Attack Speed : 1.2
   * Crit Strike Chance : +10%
   * Crit Strike Power : +99.2%
-  * **Heavy Smash** (Attack)
-  * Increase the next damage dealt by 58% and stun target for 1.5s
-  * *Cooldown : 7s*
+  * **Heavy Smash** (Attack)\
+    Increase the next damage dealt by 58% and stun target for 1.5s *Cooldown : 7s*
 * **Lore**\
   *"An axe so heavy that it sinks into the ground"*
 * Upgrade Recipe\
@@ -51,3 +50,22 @@ Type : Broadsword\
 Stats ( Lv 1-9 )
 
 * **Lvl 1**
+
+  * Attack Damage : 11.5
+  * Attack Speed : 1.2
+  * Crit Strike Chance : +7%
+  * Crit Strike Power : +5
+  * **Moon Smash** ( Right Click )\
+    Deal 6 damage in a 3 radius circle *Cooldown : 9s*
+* **Lvl 9/MAX**
+
+  * Attack Damage : 14.7
+  * Attack Speed : 1.2
+  * Crit Strike Chance : 9.7%
+  * Crit Strike Power : +97.3%
+  * **Moon Smash** ( Right Click )\
+    Deal 7.6 damage in a 3 radius circle *Cooldown : 7s*
+* **Lore**\
+  "The glory of combat has long gone it has yet to reach its true potential"
+* Upgrade Recipe\
+  Painite , Placodermal Skull , Volatile Gel
