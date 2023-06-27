@@ -3,7 +3,9 @@ title: Common Rarity
 author: Rxvz
 date: 2023-06-27T13:36:22.511Z
 draft: false
-description: Test
+description: Server kami menyediakan berbagai custom weapon yang unik & menarik,
+  sebuah rpg yang dimana player bisa mengupgrade nya ketahap selanjutnya dengan
+  statistik / skill yang berbeda!
 ---
 ## Berserker
 
