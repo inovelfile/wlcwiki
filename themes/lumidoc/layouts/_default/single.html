@@ -35,10 +35,11 @@
                     {{ end }}
                 </div>
 
-                <div class="garis"></div>
+                
                 <!-- {{ $date := .Date.Format "2 January 2006" }}
                 {{ $lastmod := .Lastmod.Format "2 January 2006" }} -->
                 {{ if ne $lastmod $date }}
+                <div class="garis"></div>
                     <div class="last-modif">
                         Last modified {{ .Lastmod.Format "2 January 2006" }}
                     </div>
