@@ -242,12 +242,12 @@ body.dark-mode .nav-menu .active {
     text-transform: uppercase;
     padding-left: 25px;
     padding-bottom: 5px;
-    color: #dddddd;
+    color: #cdcdcd;
     font-weight: 600;
 }
 
 body.dark-mode .sidenav .text-category {
-    color: #484848;
+    color: #727272;
 }
 
 .sidenav .text-category.style-2 {
