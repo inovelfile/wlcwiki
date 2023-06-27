@@ -1,7 +1,7 @@
 ---
 title: Dungeon
 date: 2023-06-27T05:51:53.919Z
-draft: true
+draft: false
 description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
   yang akan masuk ke /pouch player, semakin dalam player memasuki Dungeon,
   entitas dungeon akan bertambah kuat, setiap ujung dungeon terdapat 1 elite
