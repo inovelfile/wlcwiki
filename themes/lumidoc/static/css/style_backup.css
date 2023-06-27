@@ -1239,7 +1239,6 @@ body.dark-mode .single-container .btn-to-wiki button {
 .single-container .date {
     font-size: 14px;
     color: #BFBFBF;
-    border-radius: 5px;
     padding-bottom: 2px;
     display: flex;
     align-items: center;
@@ -1247,6 +1246,24 @@ body.dark-mode .single-container .btn-to-wiki button {
 
 .single-container .date .isax {
     font-size: 16px;
+}
+
+.single-container .author {
+    font-size: 14px;
+    color: #BFBFBF;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.single-container .author .isax {
+    font-size: 16px;
+    /* margin-right: 10px; */
+}
+
+.single-container .info {
+    display: flex;
+    gap: 12px;
 }
 
 .single-container .line {

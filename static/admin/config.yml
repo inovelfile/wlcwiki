@@ -29,11 +29,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - { label: "Author", name: "author", widget: "relation", 
-        collection: "authors", 
-        value_field: "name", 
-        display_fields: [ "name" ], 
-        search_fields: [ "name" ] }
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
@@ -49,6 +45,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
@@ -63,6 +60,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
@@ -77,6 +75,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
@@ -91,6 +90,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
@@ -105,6 +105,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
@@ -119,6 +120,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
@@ -133,6 +135,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
