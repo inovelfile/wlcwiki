@@ -1,6 +1,6 @@
 ---
 title: Skills
-author: SoulMaker
+author: SoulGuard07
 date: 2023-04-30T18:34:37.401Z
 draft: false
 description: Tingkatkan skill dengan melakukan berbagai tugas untuk mendapatkan
