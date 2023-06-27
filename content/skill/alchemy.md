@@ -1,5 +1,6 @@
 ---
 title: Alchemy
+author: SoulMaker
 date: 2023-06-26T11:02:10.243Z
 draft: false
 description: Tingkatkan skill alchemy dengan membuat berbagai macam potions!
