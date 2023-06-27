@@ -1,5 +1,6 @@
 ---
 title: 5.0.7a - Lebaran Update (Part 1)
+author: poromaru
 date: 2023-04-19T20:17:00.000Z
 draft: false
 description: "Quality of Life: Autorank, Requirement Breeding dikurangi, Pada L4
