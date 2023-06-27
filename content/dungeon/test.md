@@ -5,16 +5,9 @@ date: 2023-06-27T10:16:26.345Z
 draft: false
 description: test
 ---
-<!--StartFragment-->
-
-````
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-````
-
-<!--EndFragment-->
+| Example            | Lv 1 | Lv2     | Lv3    | Lv 4    | Lv 5    | Lv 6    | Lv 7    | Lv 8    | Lv 9    |
+| ------------------ | ---- | ------- | ------ | ------- | ------- | ------- | ------- | ------- | ------- |
+| Attack Damage      | 1    | 2       | 34     | 45      | 67      | 89      | 100     | 1k      | pler    |
+| Attack Speed       | 1    | \------ | \----- | \------ | \------ | \------ | \------ | \------ | \------ |
+| Crit Strike Chance | %    | %       | %      | %       | %       | %       | %       | %       | %       |
+| Crit Strike Power  | %    | %       | %      | %       | %       | %       | %       | %       | %       |
