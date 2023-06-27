@@ -1,5 +1,6 @@
 ---
 title: 5.0.7b - Lebaran Update (Part 2)
+author: poromaru
 date: 2023-04-21T04:29:31.318Z
 draft: false
 description: M﻿cMMO telah dikembalikan. Tentunya sistemnya baru. Khawatir dengan
