@@ -104,6 +104,19 @@ header p {
     color: var(--color-text-white-secondary);
 }
 
+.garis {
+    margin-top: 40px;
+    border: solid 0.5px #e2e2e2;
+}
+
+.last-modif {
+    display: flex;
+    justify-content: flex-end;
+    color: #afafaf;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
 .mobile-menu {
    display: inline-block;
 }

@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Wheelcraft Wiki'
 theme = 'lumidoc'
 
+enableGitInfo = true
+
 [params]
     Description = 'Wheelcraft Wiki adalah Tempat di mana kamu bisa mencari informasi seputar Server Minecraft Wheelcraft Indonesia.'
 
