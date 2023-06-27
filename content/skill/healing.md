@@ -1,7 +1,7 @@
 ---
 title: Healing
 author: DiamondCruz
-date: 2023-06-27T16:03:28.117Z
+date: 2023-06-27T17:16:20.457Z
 draft: true
 description: "Tingkatkan skill healing kamu dengan meminum potion dan memakan
   golden apple! "
