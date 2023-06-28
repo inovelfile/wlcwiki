@@ -16,4 +16,8 @@ Tingkatkan skill **Enchanting** kamu dengan meningkatkan **peralatan** dan **buk
 
 ![](/img/uploads/enchanttable.png)
 
+## XP Source
+
+
+
 ![](/img/uploads/enchtable.png)
