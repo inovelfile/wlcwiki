@@ -16,8 +16,14 @@ Tingkatkan skill **Enchanting** kamu dengan meningkatkan **peralatan** dan **buk
 
 ![](/img/uploads/enchanttable.png)
 
+Untuk mengakses skill **Enchanting** di dalam server gunakan **/enchanting**
+
 ## XP Source
 
+Pemain dapat meningkatkan level skill **Enchanting** dengan meningkatkan **peralatan** dan **buku** menggunakan **enchanting table**. Pada dasarnya, semua jenis peralatan dan buku menghasilkan **10 Enchanting XP/level** (tanpa multiplier).Banyaknya **Enchanting XP** yang didapatkan oleh pemain ditentukan dari level yang dipilih saat meningkatkan peralatan atau buku menggunakan enchanting table. Level yang dipilih oleh pemain akan dikalikan dengan 
 
+Sebagai contoh, perhatikan gambar di bawah ini.
 
 ![](/img/uploads/enchtable.png)
+
+Pada gambar di atas, angka yang dilingkari adalah level yang
