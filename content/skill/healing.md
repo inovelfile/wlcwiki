@@ -48,7 +48,7 @@ Golden Apple : 100 XP
 
 Enchanted Golden Apple : 500 XP
 
-{{< alert-info >}} Fun Fact : Menggunakan splash potion hanya akan memberikan Healing XP kepada si pelempar potion {{< /alert-info >}}
+{{< alert-info >}} Fun Fact : Menggunakan splash potion hanya memberikan Healing XP kepada si pelempar potion {{< /alert-info >}}
 
 ## Ability
 
