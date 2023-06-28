@@ -1,7 +1,7 @@
 ---
 title: Enchanting
 author: DiamondCruz
-date: 2023-06-28T03:53:55.909Z
+date: 2023-06-28T07:24:01.995Z
 draft: true
 description: Tingkatkan skill enchanting kamu dengan meningkatkan peralatan dan
   buku di enchanting table
@@ -14,6 +14,6 @@ Tingkatkan skill **Enchanting** kamu dengan meningkatkan **peralatan** dan **buk
 
 **Enchanting** adalah aktivitas meningkatkan **peralatan** dan **buku** yang dilakukan di **enchanting table**.
 
-![test](/img/uploads/enchanttable.png "test")
+![](/img/uploads/enchanttable.png)
 
 ![](/img/uploads/enchtable.png)
