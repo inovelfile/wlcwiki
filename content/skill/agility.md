@@ -9,7 +9,7 @@ Tingkatkan skill agility dengan melompat dan menerima fall damage!
 
 **Agility** merupakan kegiatan yang dilakukan dengan melompat dan menerima fall damage. Pada season ini, agility memiliki keuntungan yaitu **Abilities**. Untuk meningkatkan skill ini, kamu hanya perlu melompat dan menerima fall damage di server WheelCraft untuk mendapatkan **Agility XP**. Setiap jenis kegiatan memiliki jumlah **Agility XP** yang berbeda-beda. Stats yang didapatkan dari skill ini adalah **Regeneration** dan **Toughness**.
 
-Untuk mengakses skill ini dan melihat level endurance kamu, ketik **/endurance**.
+Untuk mengakses skill ini dan melihat level endurance kamu, ketik **/agility**.
 
 {{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ..., dst), kamu akan mendapatkan penambahan stats berupa Toughness sebesar 0,5. {{< /alert-info >}}
 
