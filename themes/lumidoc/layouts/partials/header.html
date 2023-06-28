@@ -32,7 +32,8 @@
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "general" }}
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "general") ".Params.Title" }}
+                        {{ range $sortedPages }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -47,7 +48,8 @@
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "circle" }}
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "circle") ".Params.Title" }}
+                        {{ range $sortedPages }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -62,7 +64,8 @@
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "crates" }}
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "crates") ".Params.Title" }}
+                        {{ range $sortedPages }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -77,7 +80,8 @@
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "dungeon" }}
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "dungeon") ".Params.Title" }}
+                        {{ range $sortedPages }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -92,7 +96,8 @@
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "ranks" }}
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "ranks") ".Params.Title" }}
+                        {{ range $sortedPages }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -107,7 +112,8 @@
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "rpg-items" }}
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "rpg-items") ".Params.Title" }}
+                        {{ range $sortedPages }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
@@ -122,7 +128,8 @@
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ range where .Site.RegularPages "Section" "skill" }}
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "skill") ".Params.Title" }}
+                        {{ range $sortedPages }}
                         <a href="{{.Permalink}}">{{.Title}}</a>
                         {{ end }}
                     </div>
