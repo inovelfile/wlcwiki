@@ -6,8 +6,6 @@ draft: false
 description: "Tingkatkan skill healing kamu dengan meminum potion dan memakan
   golden apple! "
 ---
-
-
 Tingkatkan skill **Healing** kamu menggunakan **Potion** dan **Golden Apple**!
 
 **Healing** merupakan salah satu kemampuan yang memberikan tambahan stats berupa **Regeneration** dan **Health**. 
@@ -20,9 +18,11 @@ Untuk mengakses skill **Healing** di dalam server gunakan **/healing**
 
 Pemain dapat meningkatkan level skill **Healing** dengan **meminum/melemparkan potion** dan **memakan golden apple**. Potion yang digunakan akan menghasilkan **Healing XP** yang berbeda-beda tergantung dengan tingkatan potion yang digunakan.
 
-{{< alert-warning >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), akan mendapatkan tambahan stats Regeneration sebesar 0,5. {{< /alert-warning >}}
+{{< alert-info >}} Setiap peningkatan level genap (2, 4, 6, ...., dst), akan mendapatkan tambahan stats Regeneration sebesar 0,5. {{< /alert-info >}}
 
-{{< alert-warning >}} Setiap peningkatan level ganjil (3, 5, 7, ...., dst), akan mendapatkan tambahan stats Health sebesar 0,5. {{< /alert-warning >}}
+
+
+{{< alert-info >}} Setiap peningkatan level ganjil (3, 5, 7, ...., dst), akan mendapatkan tambahan stats Health sebesar 0,5. {{< /alert-info >}}
 
 ![](/img/uploads/xphealing.png)
 
@@ -48,7 +48,7 @@ Golden Apple : 100 XP
 
 Enchanted Golden Apple : 500 XP
 
-{{< alert-warning >}} Fun Fact : Menggunakan splash potion hanya akan memberikan XP kepada si pelempar potion {{< /alert-warning >}}
+{{< alert-info >}} Fun Fact : Menggunakan splash potion hanya akan memberikan XP kepada si pelempar potion {{< /alert-info >}}
 
 ## Ability
 
