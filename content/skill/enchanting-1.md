@@ -2,7 +2,7 @@
 title: Enchanting
 author: SoulGuard07
 date: 2023-06-28T11:24:14.307Z
-draft: true
+draft: false
 description: Tingkatkan skill enchanting dengan enchant book dan items!
 ---
 Tingkatkan skill enchanting dengan enchant book dan items!
@@ -15,42 +15,46 @@ Untuk mengakses skill ini dan melihat level endurance kamu, ketik **/enchanting*
 
 {{< alert-info >}} Setiap peningkatan level ganjil (1, 3, 5, ..., dst), kamu akan mendapatkan penambahan stats berupa luck sebesar 0,5. {{< /alert-info >}}
 
-![](/img/uploads/agility.png)
+![](/img/uploads/enchanting.png)
 
-Fall Damage : 2 XP/Damage
+Weapon : 10 XP/Level of Enchant Received
 
-Jumping : 10 XP/100 Jumps
+Armor : 10 XP/Level of Enchant Received
+
+Tool : 10 XP/Level of Enchant Received
+
+Book : 10 XP/Level of Enchant Received
 
 ## Ability
 
-Dengan meningkatkan level **Agility** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
+Dengan meningkatkan level **Enchanting** kamu, ada beberapa abilities atau kemampuan yang bisa kamu gunakan ketika melakukan kegiatan ini.
 
-* **Light Fall**
+* **Lucky Table**
 
-  **Ability** atau kemampuan dari Light Fall adalah pengurangan seluruh fall damage. **Ability** ini terbuka pada **Agility** level 2 dengan pengurangan sebesar **7,8%**. Pengurangan fall damage akan meningkat seiring bertambahnya level **Agility** kamu, setiap levelnya akan bertambah sebesar **5,6% - 6,1% - 6,7%**. 
-* **Jumper**
+  **Ability** atau kemampuan dari Lucky Table adalah kesempatan mendapatkan upgrade 1 level pada item yang belum memiliki enchant maksimum. **Ability** ini terbuka pada **Enchanting** level 2 dengan kesempatan sebesar **3,2%**. Kesempatan upgrade level akan meningkat seiring bertambahnya level **Enchanting** kamu, setiap levelnya akan bertambah sebesar **0,2%**. 
+* **Enchanter**
 
-  **Ability** dari **Jumper** adalah meningkatkan jumlah **Agility XP** yang didapatkan. **Ability** ini terbuka pada **Agility** level 3 dengan peningkatan sebesar **5%** dari **Agility XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
-
-  > Contoh:
-  >
-  > **Agility** level 1 akan meningkatkan jumlah **Agility XP** sebesar 5%
-  >
-  > **Agility** level 2 akan meningkatkan jumlah **Agility XP** sebesar 10%
-  >
-  > dst.
-
-  * **Sugar Rush**
-
-  **Ability** atau kemampuan dari **Sugar Rush** adalah meningkatkan efek potion speed dan jump boost. **Ability** ini terbuka pada **Agility** level 7 dengan peningkatan efek sebesar **7,7%**. Peningkatan efek potion akan meningkat seiring bertambahnya level **Agility** kamu, setiap levelnya akan bertambah sebesar **2,7%**.  
+  **Ability** dari **Enchanter** adalah meningkatkan jumlah **Enchanting XP** yang didapatkan. **Ability** ini terbuka pada **Enchanting** level 3 dengan peningkatan sebesar **5%** dari **Enchanting XP** normal. Setiap peningkatan level dari **Ability** ini akan bertambah sebesar **5%**.
 
   > Contoh:
   >
-  > **Sugar Rush** level 1 akan meningkatkan efek potion sebesar 7,7%
+  > **Enchanting** level 1 akan meningkatkan jumlah **Enchanting XP** sebesar 5%
   >
-  > **Sugar Rush** level 2 akan meningkatkan efek potion sebesar 10,4%
+  > **Enchanting** level 2 akan meningkatkan jumlah **Enchanting XP** sebesar 10%
   >
   > dst.
-* **Thunder Fall**
 
-  **Ability** atau kemampuan dari **Thunder Fall** adalah kesempatan untuk mengurangi fall damage di 3 block radius ketika sneak pada saat jatuh. **Ability** ini terbuka pada **Agility** level 5 dengan kesempatan awal sebesar **31,4%** untuk **15,8%** pengurangan ketika sneak pada saat jatuh. Peningkatan kesempatan untuk pengurangan fall damage akan meningkat seiring bertambahnya level **Agility** kamu.
+  * **Enchanted Strength**
+
+  **Ability** atau kemampuan dari **Enchanted Strength** adalah meningkatkan strength pada enchantment yang unik yang ditaruh ditangan. **Ability** ini terbuka pada **Enchanting** level 5 dengan peningkatan sebesar **1,2%**. Peningkatan strength akan meningkat seiring bertambahnya level **Enchanting** kamu, setiap levelnya akan bertambah sebesar **0,2%**.  
+
+  > Contoh:
+  >
+  > **Enchanted Strength** level 1 akan meningkatkan strength sebesar 1,2%
+  >
+  > **Enchanted Strength** level 2 akan meningkatkan strength sebesar 1,4%
+  >
+  > dst.
+* **XP Warrior**
+
+  **Ability** atau kemampuan dari XP Warrior adalah kesempatan mendapatkan double experience dari mobs yang kamu bunuh. **Ability** ini terbuka pada **Enchanting** level 7 dengan kesempatan sebesar **3,1%**. Kesempatan mendapatkan double experience akan meningkat seiring bertambahnya level **Enchanting** kamu, setiap levelnya akan bertambah sebesar **3,1% - 3,8% - 4,4%**.
