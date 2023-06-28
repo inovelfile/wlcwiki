@@ -61,7 +61,7 @@ Dengan meningkatkan level **Healing**, ada beberapa kemampuan yang bisa pemain d
   **Life Essence** level 1 meningkatkan **heal** yang didapatkan oleh pemain saat menggunakan **instant health potion** sebesar **12,7%**.
 
   **Life Essence** level 2 meningkatkan **heal** yang didapatkan oleh pemain saat menggunakan **instant health potion** sebesar **15,4%**
-* .**Healer**
+* **Healer**
 
   **Healer** adalah kemampuan yang didapatkan oleh pemain saat mencapai **Healing** level 3. Pada level 1, **Healer** akan meningkatkan **Healing XP** yang didapatkan oleh pemain sebesar **5%**. Setiap kenaikan level **Healer** akan menaikkan peningkatan **Healing XP** sebesar **5%**.
 
