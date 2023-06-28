@@ -1,7 +1,7 @@
 ---
 title: Enchanting
 author: DiamondCruz
-date: 2023-06-28T07:24:01.995Z
+date: 2023-06-28T10:40:14.915Z
 draft: true
 description: Tingkatkan skill enchanting kamu dengan meningkatkan peralatan dan
   buku di enchanting table
@@ -12,7 +12,7 @@ Tingkatkan skill **Enchanting** kamu dengan meningkatkan **peralatan** dan **buk
 
 {{< button-wiki "List Stats di Wheelcraft" "https://wiki.wheelcraft.id/skill/list-skills/" >}} 
 
-**Enchanting** adalah aktivitas meningkatkan **peralatan** dan **buku** yang dilakukan di **enchanting table**.
+**Enchanting** adalah aktivitas meningkatkan **peralatan** seperti dan **buku** menggunakan **enchanting table**. Pemain dapat mengunjungi warp blacksmith dengan mengetik. 
 
 ![](/img/uploads/enchanttable.png)
 
