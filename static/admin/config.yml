@@ -51,39 +51,9 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "general-sb" # Used in routes, e.g., /admin/collections/blog
-    label: "General [SB]" # Used in the UI
-    folder: "/content/general-sb" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    editor:
-      preview: false
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "circle" # Used in routes, e.g., /admin/collections/blog
     label: "Circle [SV]" # Used in the UI
     folder: "/content/circle" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    editor:
-      preview: false
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "circle-sb" # Used in routes, e.g., /admin/collections/blog
-    label: "Circle [SB]" # Used in the UI
-    folder: "/content/circle-sb" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
@@ -141,21 +111,6 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "level-sb" # Used in routes, e.g., /admin/collections/blog
-    label: "Level [SB]" # Used in the UI
-    folder: "/content/level-sb" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    editor:
-      preview: false
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "rpg-items" # Used in routes, e.g., /admin/collections/blog
     label: "RPG Items [SV]" # Used in the UI
     folder: "/content/rpg-items" # The path to the folder where the documents are stored
@@ -174,6 +129,53 @@ collections:
   - name: "skill" # Used in routes, e.g., /admin/collections/blog
     label: "Skill [SV]" # Used in the UI
     folder: "/content/skill" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+  # SKYBLOCK
+  - name: "general-sb" # Used in routes, e.g., /admin/collections/blog
+    label: "General [SB]" # Used in the UI
+    folder: "/content/general-sb" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "circle-sb" # Used in routes, e.g., /admin/collections/blog
+    label: "Circle [SB]" # Used in the UI
+    folder: "/content/circle-sb" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "level-sb" # Used in routes, e.g., /admin/collections/blog
+    label: "Level [SB]" # Used in the UI
+    folder: "/content/level-sb" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
