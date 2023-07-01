@@ -21,7 +21,7 @@
                         <span class="text nav-text">Staff List</span>
                     </a>
                 </li>
-                <div class="text-category style-2">Wiki</div>
+                <div class="text-category style-2">Survival</div>
                 <li>
                     <a class="dropdown-btn top" onclick="iconanimated(this)">
                         <i class="isax isax-book-saved"></i>
@@ -134,6 +134,57 @@
                         {{ end }}
                     </div>
                 </li>
+
+                <div class="text-category style-2">Skyblock</div>
+                <li>
+                    <a class="dropdown-btn top" onclick="iconanimated(this)">
+                        <i class="isax isax-book-saved"></i>
+                        <span class="text nav-text">General</span>
+
+                        <div class="icon-animated">
+                            <i class="isax isax-arrow-right-34"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-container">
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "general-sb") ".Params.Title" }}
+                        {{ range $sortedPages }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
+                </li>
+                <li>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-bank"></i>
+                        <span class="text nav-text">Circle</span>
+
+                        <div class="icon-animated">
+                            <i class="isax isax-arrow-right-34"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-container">
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "circle-sb") ".Params.Title" }}
+                        {{ range $sortedPages }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
+                </li>
+                <li>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-autobrightness"></i>
+                        <span class="text nav-text">Level</span>
+
+                        <div class="icon-animated">
+                            <i class="isax isax-arrow-right-34"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-container">
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "level-sb") ".Params.Title" }}
+                        {{ range $sortedPages }}
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        {{ end }}
+                    </div>
+                </li>
+
             </ul>
         </div>
     </div>
