@@ -1,5 +1,5 @@
 ---
-title: 5.0.8b - Mini Update
+title: 5.0.8b - Survival - Mini Update
 author: poromaru
 date: 2023-06-23T05:09:46.800Z
 draft: false
