@@ -92,7 +92,7 @@ Abilities :
 
 * ***Super Smash*** : Acrasis melompat keatas kemudian jatuh kebawah mendamage player yang terkena partikel sebesar **12 magic damage**. Player dalam radius **3 blocks** akan terkena stun selama **3 detik**. Player dalam radus 8 block akan terkena **Slow 3** selama **5 detik**. Trigger chance **50%**. Cooldown **8 detik**.
 * ***Acid Rain*** : Acrasis berhenti bergerak dan mendapatkan buff Damage Resistance 2, Regeneration 2 selama **5 detik** ke diri sendiri sambil menurunkan partikel hujan dengan **3 magic damage** dan efek Poison 2 durasi **2 detik** pada player yang terkena partikel.
-* ***Summon Slimespirit*** : Acrasis berhenti bergerak dan mendapatkan buff Resistance 3 selama **15 detik** dan summon **10 Slimespirit**. Setelah 15 detik Acrasis akan memakan Slimespirit dan heal diri sendiri sebesar **20 health** per **1 Slimespirit**.
+* ***Summon Slimespirit*** : Acrasis berhenti bergerak, mendapatkan buff Resistance 3 selama **15 detik** dan summon **10 Slimespirit**. Setelah 15 detik Acrasis akan memakan Slimespirit kemudian heal diri sendiri sebesar **20 health** per **1 Slimespirit**.
 
   * Slimespirit :
 
