@@ -29,7 +29,7 @@ description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
 * Volatile Gel ( 1-3 40% Chance ) 
 * Nuclei ( 1-15 80% )
 
-> > Drop yang diberikan merupakan virtual item yang akan masuk ke dalam /pouch player, player dapat memperjual belikan virtual item /pouch kepada player lain dengan menggunakan command
+> > Drop yang diberikan merupakan virtual item yang akan masuk ke dalam /pouch player, player dapat memperjual belikan virtual item /pouch kepada player lain dengan menggunakan command :
 > >
 > > */transfer (Example)*
 
