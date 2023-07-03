@@ -5,7 +5,7 @@
             <div class="single-container">
                 <div class="info">
                     <div class="date"><i class="isax isax-calendar-1"></i>{{.Date.Format "2 January 2006"}}</div>
-                    <div class="author"><i class="isax isax-profile-circle"></i>{{.Params.author}}</div>
+                    <div class="author"><i class="isax isax-profile-circle"></i><div style="color: #FF8F1F;">{{.Params.author}}</div></div>
                 </div>
                 <h1 style="padding-bottom: 5px;">{{ .Title }}</h1>
                 <!-- {{ .Content | replaceRE "(<h[1-3]\\sid=\"([^\"]+)\"\\s?>)(.+)(</h[1-3]+>)" "${1}<a href=\"#${2}\">${3}</a>${4}" | safeHTML }} -->
