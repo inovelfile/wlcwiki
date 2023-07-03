@@ -1,5 +1,5 @@
 ---
-title: 5.0.7c - Mini Update
+title: 5.0.7c - Survival - Mini Update
 author: poromaru
 date: 2023-04-22T04:46:42.451Z
 draft: false
