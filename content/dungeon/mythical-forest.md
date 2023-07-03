@@ -107,9 +107,7 @@ Drops :
 * 5 Plasmodium
 * 5 Slimeball
 
-> Drop yang diberikan merupakan virtual item yang akan masuk ke dalam /pouch player, player dapat memperjualbelikan virtual item /pouch kepada player lain dengan menggunakan command :
->
-> */transfer (Example)*
+{{< alert-info >}} > Drop yang diberikan merupakan virtual item yang akan masuk ke dalam /pouch player, player dapat memperjualbelikan virtual item /pouch kepada player lain dengan menggunakan command : > > */transfer (Example)* {{< /alert-info >}}
 
 ## **Isacha Wanderer**
 
