@@ -1,6 +1,6 @@
 ---
 title: Mythical Forest
-author: poromaru
+author: Rxvz
 date: 2023-06-27T05:51:53.919Z
 draft: true
 description: RPG Piece dapat didapatkan di /warp dungeon berupa virtual item
