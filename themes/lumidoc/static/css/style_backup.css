@@ -280,6 +280,7 @@ body.dark-mode .nav-menu .active {
     padding: 11px 25px;
     text-decoration: none;
     margin-top: 13px;
+    margin-bottom: 5px;
     font-size: 16px;
     height: 100%;
     align-items: center;
@@ -287,8 +288,14 @@ body.dark-mode .nav-menu .active {
     cursor: pointer;
 }
 
+.sidenav li a:hover {
+    background-color: #F2F2F2;
+    border-radius: 6px;
+}
+
 .sidenav li a.top {
     margin-top: 2px;
+    margin-bottom: 5px;
 }
 
 .sidenav .text-category {
@@ -318,23 +325,62 @@ body.dark-mode .sidenav li a {
     color: var(--color-text-white);
 }
 
-.sidenav li .dropdown-container a {
+.sidenav .menuoption {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.sidenav .menuoption .garismenu {
+    border-left: 2px solid #F2F2F2;
+    height: 32px;
+}
+
+body.dark-mode .sidenav li .menuoption .menu a:hover {
+    background-color: #27272a;
+}
+
+body.dark-mode .sidenav .menuoption .garismenu {
+    border-left: 2px solid var(--color-button-dark);
+}
+
+.sidenav li .dropdown-container .menuoption .menu {
     padding: 8px 15px;
+    width: 100%;
+}
+
+.sidenav li .dropdown-container .menuoption .menu:hover{
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+body.dark-mode .sidenav li .dropdown-container .menuoption .menu:hover {
+    background-color: var(--color-button-dark);
+}
+
+.sidenav li .dropdown-container a {
+    padding: 0;
     font-size: 13px;
-    margin-top: 6px;
+    margin: 0;
     border-radius: 6px;
+    width: 95%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.sidenav li .dropdown-container a:hover {
+    background-color: #f2f2f2;
 }
 
 @media screen and (max-width: 768px) {
     .sidenav li a {
         cursor: none;
     }
-}
-
-.sidenav li a:hover {
-    background-color: #F2F2F2;
-    border-radius: 8px;
-    transition: 0.3s;
 }
 
 body.dark-mode .sidenav li a:hover {

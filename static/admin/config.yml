@@ -96,9 +96,9 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "ranks" # Used in routes, e.g., /admin/collections/blog
-    label: "Ranks [SV]" # Used in the UI
-    folder: "/content/ranks" # The path to the folder where the documents are stored
+  - name: "donation" # Used in routes, e.g., /admin/collections/blog
+    label: "Donation [SV]" # Used in the UI
+    folder: "/content/donation" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
@@ -161,6 +161,21 @@ collections:
   - name: "circle-sb" # Used in routes, e.g., /admin/collections/blog
     label: "Circle [SB]" # Used in the UI
     folder: "/content/circle-sb" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "donation" # Used in routes, e.g., /admin/collections/blog
+    label: "Donation [SB]" # Used in the UI
+    folder: "/content/donation-sb" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:

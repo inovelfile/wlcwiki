@@ -34,7 +34,12 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "general") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
@@ -50,7 +55,12 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "circle") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
@@ -66,7 +76,12 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "crates") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
@@ -82,23 +97,33 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "dungeon") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
                 <li>
                     <a class="dropdown-btn" onclick="iconanimated(this)">
-                        <i class="isax isax-autobrightness"></i>
-                        <span class="text nav-text">Ranks</span>
+                        <i class="isax isax-empty-wallet"></i>
+                        <span class="text nav-text">Donation</span>
 
                         <div class="icon-animated">
                             <i class="isax isax-arrow-right-34"></i>
                         </div>
                     </a>
                     <div class="dropdown-container">
-                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "ranks") ".Params.Title" }}
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "donation") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
@@ -114,7 +139,12 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "rpg-items") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
@@ -130,7 +160,12 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "skill") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
@@ -148,7 +183,12 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "general-sb") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
@@ -164,7 +204,33 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "circle-sb") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </li>
+                <li>
+                    <a class="dropdown-btn" onclick="iconanimated(this)">
+                        <i class="isax isax-empty-wallet"></i>
+                        <span class="text nav-text">Donation</span>
+
+                        <div class="icon-animated">
+                            <i class="isax isax-arrow-right-34"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-container">
+                        {{ $sortedPages := sort (where .Site.RegularPages "Section" "donation-sb") ".Params.Title" }}
+                        {{ range $sortedPages }}
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
@@ -180,7 +246,12 @@
                     <div class="dropdown-container">
                         {{ $sortedPages := sort (where .Site.RegularPages "Section" "level-sb") ".Params.Title" }}
                         {{ range $sortedPages }}
-                        <a href="{{.Permalink}}">{{.Title}}</a>
+                        <div class="menuoption">
+                            <div class="garismenu"></div>
+                            <div class="menu">
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </li>
