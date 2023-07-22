@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="wrapper-main">
+    <div class="wrapper">
+        <main id="main">
+            <div class="single-container">
+                <h1>Riwayat Komit GitHub</h1>
+                <ul id="commit-list">
+                </ul>
+
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                    $(document).ready(function() {
+                        const owner = 'iyansanjaya'; // Ganti dengan nama pengguna GitHub Anda
+                        const repo = 'wlcwiki'; // Ganti dengan nama repositori yang ingin Anda tampilkan
+                        const perPage = 100; // Jumlah komit yang ingin ditampilkan
+              
+                        // Ganti 'token-anda' dengan GitHub Personal Access Token yang telah Anda buat
+                        const accessToken = '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';
+              
+                        // Endpoint API GitHub untuk mendapatkan riwayat komit
+                        const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=${perPage}`;
+              
+                        // Membuat permintaan GET ke API GitHub menggunakan jQuery
+                        $.ajax({
+                            url: apiUrl,
+                            headers: {
+                                'Authorization': `Bearer ${accessToken}`
+                            },
+                            success: function(data) {
+                                displayCommits(data);
+                            },
+                            error: function(error) {
+                                console.log('Error fetching commit data:', error);
+                            }
+                        });
+              
+                        // Fungsi untuk menampilkan daftar komit di halaman HTML
+                        function displayCommits(commits) {
+                            const commitList = $('#commit-list');
+                            commits.forEach(commit => {
+                                const commitMessage = commit.commit.message;
+                                const commitAuthor = commit.commit.author.name;
+                                const commitDate = new Date(commit.commit.author.date).toLocaleDateString();
+                                const commitUrl = commit.html_url;
+                                const diffUrl = commitUrl + '/diff'; // Tautan untuk melihat perubahan kode pada komit
+              
+                                const commitItem = `<li><strong>${commitAuthor}</strong> - ${commitMessage} (${commitDate}) <a href="${commitUrl}" target="_blank">Lihat komit</a></li>`;
+                                commitList.append(commitItem);
+                            });
+                        }
+                    });
+                </script>
+            </div>
+        </main>
+    </div>
+</div>
+{{ end }}
