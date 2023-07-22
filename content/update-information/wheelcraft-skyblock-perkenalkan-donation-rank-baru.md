@@ -1,5 +1,5 @@
 ---
-title: Wheelcraft Skyblock - Perkenalkan Donation Rank Baru
+title: Skyblock - Perkenalkan Donation Rank Baru
 author: poromaru
 date: 2023-07-18T15:45:36.240Z
 draft: false
