@@ -51,4 +51,4 @@ HUGO_ENABLEGITINFO = "true"
   to = "/noaccess/"
   status = 302
   force = true
-  conditions = { Role = { ne = "staff" } }
+  conditions = {Role = ["staff"]}
