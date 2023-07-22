@@ -3,9 +3,8 @@ title: Skyblock - Perkenalkan Donation Rank Baru
 author: poromaru
 date: 2023-07-18T15:45:36.240Z
 draft: false
-description: "Kami dengan bangga mengumumkan adanya **Donation Rank** baru yang
-  dapat memberikanmu keuntungan eksklusif dan pengalaman bermain yang lebih
-  seru. Jadi, jangan lewatkan kesempatan untuk memperoleh rank-rank berikut:"
+description: Kami dengan bangga mengumumkan adanya Donation Rank baru yang dapat
+  memberikanmu keuntungan eksklusif dan pengalaman bermain yang lebih seru.
 ---
 Halo pemain Wheelcraft Skyblock!
 
