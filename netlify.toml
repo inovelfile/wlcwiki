@@ -51,5 +51,4 @@ HUGO_ENABLEGITINFO = "true"
   to = "/log/noaccess/"
   status = 302
   force = true
-  [redirects.conditions]
-    Role = { eq = "staff" }
+  conditions = { Role = { eq = "staff" } }
