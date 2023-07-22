@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log Change</title>
+<style>
+    * {
+        font-family: 'Archivo', sans-serif;
+    }
+
+    body {
+        background-color: #181818;
+        color: #F2F2F2;
+        padding-right: 320px;
+        padding-left: 320px;
+    }
+
+    ul {
+        padding: 20px;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    a {
+        color: bisque;
+    }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Log Change</h1>
+<p><a href="/">Back to wiki</a></p>
+<ul id="commit-list">
+
+</ul>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+      const owner = 'iyansanjaya'; // Ganti dengan nama pengguna GitHub Anda
+      const repo = 'wlcwiki'; // Ganti dengan nama repositori yang ingin Anda tampilkan
+      const perPage = 100; // Jumlah komit yang ingin ditampilkan
+
+      // Ganti 'token-anda' dengan GitHub Personal Access Token yang telah Anda buat
+      const accessToken = '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';
+
+      // Endpoint API GitHub untuk mendapatkan riwayat komit
+      const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=${perPage}`;
+
+      // Membuat permintaan GET ke API GitHub menggunakan jQuery
+      $.ajax({
+          url: apiUrl,
+          headers: {
+              'Authorization': `Bearer ${accessToken}`
+          },
+          success: function(data) {
+              displayCommits(data);
+          },
+          error: function(error) {
+              console.log('Error fetching commit data:', error);
+          }
+      });
+
+      // Fungsi untuk menampilkan daftar komit di halaman HTML
+      function displayCommits(commits) {
+          const commitList = $('#commit-list');
+          commits.forEach(commit => {
+              const commitMessage = commit.commit.message;
+              const commitAuthor = commit.commit.author.name;
+              const commitDate = new Date(commit.commit.author.date).toLocaleDateString();
+              const commitUrl = commit.html_url;
+              const diffUrl = commitUrl + '/diff'; // Tautan untuk melihat perubahan kode pada komit
+
+              const commitItem = `<li><strong>${commitAuthor}</strong> - ${commitMessage} (${commitDate})</li>`;
+              commitList.append(commitItem);
+          });
+      }
+  });
+</script>
+</body>
+</html>
