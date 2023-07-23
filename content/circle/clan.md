@@ -1,5 +1,6 @@
 ---
 title: Clan
+author: SoulGuard07
 date: 2023-04-24T06:28:16.854Z
 draft: false
 description: Buat atau gabung dengan Clan untuk meningkatkan produktifitas
@@ -25,6 +26,6 @@ Buat atau gabung dengan Clan untuk meningkatkan produktifitas bermain! bagi tuga
 
    {{< alert-danger >}} WARNING! Anda TIDAK bisa mengubahnya lagi jadi pikirkan matang matang Nama Clan dan TAG-nya bersama teman anda sebelum membuat. {{< /alert-danger >}}
 
-   {{< alert-info >}} TAG hanya terdiri dari 3 digit, hanya bisa berisikan huruf alfabet dan angka {{< /alert-info >}}
+   {{< alert-info >}} TAG maksimal terdiri dari 5 digit, hanya bisa berisikan huruf alfabet dan angka {{< /alert-info >}}
 
    ![](/img/uploads/contoh-bikin-clan.png)
