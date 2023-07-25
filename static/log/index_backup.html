@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>History Change</title>
+<style>
+    * {
+        font-family: 'Archivo', sans-serif;
+    }
+
+    body {
+        background-color: #181818;
+        color: #F2F2F2;
+    }
+
+    ul {
+        padding: 20px;
+    }
+
+    li {
+        padding: 5px;
+        line-height: 150%;
+    }
+
+    a {
+        color: bisque;
+    }
+
+    .container {
+        padding-right: 320px;
+        padding-left: 320px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .container {
+            padding: 20px 20px 20px 20px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+    }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>History Change</h1>
+        <p><a href="/">Back to wiki</a></p>
+        <ul id="commit-list">
+            <!-- isi history -->
+        </ul>
+    </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    const owner = 'iyansanjaya'; // Ganti dengan nama pengguna GitHub Anda
+    const repo = 'wlcwiki'; // Ganti dengan nama repositori yang ingin Anda tampilkan
+    const perPage = 75; // Jumlah komit yang ingin ditampilkan (maksimal 100)
+
+    // Ganti 'token-anda' dengan GitHub Personal Access Token yang telah Anda buat
+    const accessToken = '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';
+
+    // Endpoint API GitHub untuk mendapatkan riwayat komit
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits`;
+
+    // Membuat permintaan GET ke API GitHub menggunakan jQuery untuk 100 komit pertama
+    $.ajax({
+        url: `${apiUrl}?per_page=${perPage}`,
+        headers: {
+            'Authorization': `Bearer ${accessToken}`
+        },
+        success: function(data) {
+            displayCommits(data);
+            // Membuat permintaan GET untuk 100 komit berikutnya jika ada
+            if (data.length === perPage) {
+                $.ajax({
+                    url: `${apiUrl}?per_page=${perPage}&page=4`,
+                    headers: {
+                        'Authorization': `Bearer ${accessToken}`
+                    },
+                    success: function(data2) {
+                        displayCommits(data2);
+                    },
+                    error: function(error) {
+                        console.log('Error fetching commit data:', error);
+                    }
+                });
+            }
+        },
+        error: function(error) {
+            console.log('Error fetching commit data:', error);
+        }
+    });
+
+    // Fungsi untuk menampilkan daftar komit di halaman HTML
+    function displayCommits(commits) {
+        const commitList = $('#commit-list');
+        commits.forEach(commit => {
+            const commitMessage = commit.commit.message;
+            const commitAuthor = commit.commit.author.name;
+
+            // Mengambil informasi tanggal dan jam dari objek Date
+            const commitDateObj = new Date(commit.commit.author.date);
+            const commitDate = commitDateObj.toLocaleDateString();
+            const commitTime = commitDateObj.toLocaleTimeString();
+
+            const commitUrl = commit.html_url;
+            const diffUrl = commitUrl + '/diff'; // Tautan untuk melihat perubahan kode pada komit
+
+            // Menambahkan tanggal dan jam ke dalam informasi komit yang ditampilkan
+            const commitItem = `<li><strong>${commitAuthor}</strong> - ${commitMessage} (${commitDate} ${commitTime})</li>`;
+            commitList.append(commitItem);
+        });
+    }
+});
+</script>
+</body>
+</html>
