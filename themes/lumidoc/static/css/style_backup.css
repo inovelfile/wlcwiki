@@ -285,7 +285,7 @@ body.dark-mode .nav-menu .active {
     font-size: 16px;
     height: 100%;
     align-items: center;
-    transition: 0.3s;
+    /* transition: 0.3s; */
     cursor: pointer;
 }
 
