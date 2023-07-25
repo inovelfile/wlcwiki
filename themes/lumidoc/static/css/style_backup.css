@@ -336,7 +336,7 @@ body.dark-mode .sidenav li a {
 
 .sidenav .menuoption .garismenu {
     border-left: 2px solid #F2F2F2;
-    height: 32px;
+    height: 35px;
 }
 
 body.dark-mode .sidenav li .menuoption .menu a:hover {
@@ -632,7 +632,7 @@ body.dark-mode .right-menu .darkmode:hover {
     cursor: pointer;
     color: #424242;
     background-color: #fff;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
 
 .right-menu  button:hover {
