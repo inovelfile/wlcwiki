@@ -1,9 +1,11 @@
 backend:
   name: github
   repo: iyansanjaya/wlcwiki
+  auth_scope: repo
+  publish_mode: editorial_workflow
+  open_authoring: true
   preview_context: my-provider/deployment
   branch: master # Branch to update (optional; defaults to master)
-  publish_mode: editorial_workflow
   
 logo_url: https://cdn.discordapp.com/attachments/610140115649560599/1122222495823573032/wlc-logo-login.png
 media_folder: "static/img/uploads"
