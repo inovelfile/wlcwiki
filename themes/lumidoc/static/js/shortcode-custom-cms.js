@@ -184,9 +184,9 @@ CMS.registerEditorComponent({
     },
 });
 
-cms.registerEventListener({
-    name: "preSave",
-    handler: ({ author, entry }) => {
-      return entry.get("data").set("author", author);
-    },
-});
+// cms.registerEventListener({
+//     name: "preSave",
+//     handler: ({ author, entry }) => {
+//       return entry.get("data").set("author", author);
+//     },
+// });

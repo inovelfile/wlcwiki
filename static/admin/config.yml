@@ -3,7 +3,6 @@ backend:
   repo: iyansanjaya/wlcwiki
   auth_scope: repo
   open_authoring: true
-  # preview_context: my-provider/deployment
   branch: master # Branch to update (optional; defaults to master)
   
 logo_url: https://cdn.discordapp.com/attachments/610140115649560599/1122222495823573032/wlc-logo-login.png
@@ -34,8 +33,8 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      # - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
-      - {label: "Author", name: "author", widget: "hidden", default: ""}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", value_field: "name", display_fields: [ "name" ], search_fields: [ "name" ]}
+      # - {label: "Author", name: "author", widget: "hidden", default: ""}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Description", name: "description", widget: "text"}
