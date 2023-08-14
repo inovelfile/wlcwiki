@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: iyansanjaya/wlcwiki
+  preview_context: my-provider/deployment
   branch: master # Branch to update (optional; defaults to master)
   
 logo_url: https://cdn.discordapp.com/attachments/610140115649560599/1122222495823573032/wlc-logo-login.png
