@@ -183,3 +183,10 @@ CMS.registerEditorComponent({
         return `{{< youtube >}}${obj.videoid}{{< /youtube >}}`;
     },
 });
+
+cms.registerEventListener({
+    name: "preSave",
+    handler: ({ author, entry }) => {
+      return entry.get("data").set("author", author);
+    },
+});
